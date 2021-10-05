@@ -29,5 +29,5 @@ void XFMutex::unlock()
 
 bool XFMutex::tryLock(int32_t timeout)
 {
-
+    return false;
 }

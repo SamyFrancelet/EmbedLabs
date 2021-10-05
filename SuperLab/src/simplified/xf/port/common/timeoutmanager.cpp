@@ -27,12 +27,18 @@ XFTimeoutManager::XFTimeoutManager()
 
 void XFTimeoutManager::addTimeout(XFTimeout *pNewTimeout)
 {
+    /*if(timeouts_.empty()) { // First timeout
+        pNewTimeout->setRelTicks(pNewTimeout->)
+        timeouts_.push_back(pNewTimeout);
+    } else {
 
+    }*/
+    timeouts_.push_back(pNewTimeout);
 }
 
 void XFTimeoutManager::returnTimeout(XFTimeout *pTimeout)
 {
-
+    pTimeout->getBehavior()->pushEvent(pTimeout);
 }
 
 XFTimeoutManager::~XFTimeoutManager()
@@ -42,20 +48,30 @@ XFTimeoutManager::~XFTimeoutManager()
 
 void XFTimeoutManager::start(std::function<void (uint32_t)> startTimeoutManagerTimer)
 {
-
+    startTimeoutManagerTimer(tickInterval_);
 }
 
 void XFTimeoutManager::scheduleTimeout(int32_t timeoutId, int32_t interval, interface::XFBehavior *pBehavior)
 {
-
+    addTimeout(new XFTimeout(timeoutId, interval, pBehavior));
 }
 
 void XFTimeoutManager::unscheduleTimeout(int32_t timeoutId, interface::XFBehavior *pBehavior)
 {
-
+    for(XFTimeout* timeout : timeouts_) {
+        if (timeout->getId() == timeoutId && timeout->getBehavior() == pBehavior) {
+            timeouts_.remove(timeout);
+        }
+    }
 }
 
 void XFTimeoutManager::tick()
 {
-
+    for(XFTimeout* timeout : timeouts_) {
+        timeout->substractFromRelTicks(tickInterval_);
+        if (timeout->getRelTicks() <= 0) {
+            returnTimeout(timeout);
+            timeouts_.remove(timeout);
+        }
+    }
 }

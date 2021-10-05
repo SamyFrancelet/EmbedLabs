@@ -37,7 +37,7 @@ XFDispatcher::~XFDispatcher()
 
 void XFDispatcher::pushEvent(XFEvent *pEvent, bool fromISR)
 {
-
+    _events.push(pEvent, fromISR);
 }
 
 void XFDispatcher::scheduleTimeout(int timeoutId, int interval, interface::XFBehavior *pBehavior)
@@ -53,6 +53,10 @@ void XFDispatcher::unscheduleTimeout(int timeoutId, interface::XFBehavior *pBeha
 void XFDispatcher::executeOnce()
 {
     // Pops an event, and dispatches it to every stateMachine
+    if (!_events.empty()) {
+        dispatchEvent(_events.front());
+        _events.pop();      // Deletes it from Queue
+    }
 }
 
 int XFDispatcher::execute(const void *param)
@@ -64,5 +68,5 @@ int XFDispatcher::execute(const void *param)
 
 void XFDispatcher::dispatchEvent(const XFEvent *pEvent) const
 {
-
+    pEvent->getBehavior()->process(pEvent);
 }
