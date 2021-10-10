@@ -19,15 +19,15 @@ interface::XFMutex * interface::XFMutex::create()
 
 void XFMutex::lock()
 {
-
+    mutex_.lock();
 }
 
 void XFMutex::unlock()
 {
-
+    mutex_.unlock();
 }
 
 bool XFMutex::tryLock(int32_t timeout)
 {
-    return false;
+    return mutex_.tryLock(timeout);
 }

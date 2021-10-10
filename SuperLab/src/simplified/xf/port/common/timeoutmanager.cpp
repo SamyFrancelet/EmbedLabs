@@ -27,13 +27,27 @@ XFTimeoutManager::XFTimeoutManager()
 
 void XFTimeoutManager::addTimeout(XFTimeout *pNewTimeout)
 {
-    /*if(timeouts_.empty()) { // First timeout
-        pNewTimeout->setRelTicks(pNewTimeout->)
+    if(timeouts_.empty()) {
         timeouts_.push_back(pNewTimeout);
     } else {
+        std::list<XFTimeout*>::iterator it;
+        bool insert = false;
+        for(it = timeouts_.begin(); it != timeouts_.end(); it++) {
+            if(pNewTimeout->getRelTicks() < (*it)->getRelTicks()) {
+                (*it)->substractFromRelTicks(pNewTimeout->getRelTicks());
+                insert = true;
+                break;
+            } else {
+                pNewTimeout->substractFromRelTicks((*it)->getRelTicks());
+            }
+        }
 
-    }*/
-    timeouts_.push_back(pNewTimeout);
+        if (insert) {
+            timeouts_.insert(it, pNewTimeout);
+        } else {
+            timeouts_.push_back(pNewTimeout);
+        }
+    }
 }
 
 void XFTimeoutManager::returnTimeout(XFTimeout *pTimeout)
@@ -43,7 +57,9 @@ void XFTimeoutManager::returnTimeout(XFTimeout *pTimeout)
 
 XFTimeoutManager::~XFTimeoutManager()
 {
-
+    for(XFTimeout* timeout : timeouts_) {
+        delete timeout;
+    }
 }
 
 void XFTimeoutManager::start(std::function<void (uint32_t)> startTimeoutManagerTimer)
@@ -67,11 +83,16 @@ void XFTimeoutManager::unscheduleTimeout(int32_t timeoutId, interface::XFBehavio
 
 void XFTimeoutManager::tick()
 {
-    for(XFTimeout* timeout : timeouts_) {
+    /*for(XFTimeout* timeout : timeouts_) {
         timeout->substractFromRelTicks(tickInterval_);
         if (timeout->getRelTicks() <= 0) {
             returnTimeout(timeout);
             timeouts_.remove(timeout);
         }
+    }*/
+    timeouts_.front()->substractFromRelTicks(tickInterval_);
+    if(timeouts_.front()->getRelTicks() <= 0) {
+        returnTimeout(timeouts_.front());
+        timeouts_.pop_front();
     }
 }
