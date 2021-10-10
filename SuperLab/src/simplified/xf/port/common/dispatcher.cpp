@@ -68,5 +68,9 @@ int XFDispatcher::execute(const void *param)
 
 void XFDispatcher::dispatchEvent(const XFEvent *pEvent) const
 {
-    pEvent->getBehavior()->process(pEvent);
+    bool killBehavior;
+    killBehavior = pEvent->getBehavior()->process(pEvent);
+    if (killBehavior) {
+        delete pEvent->getBehavior();
+    }
 }

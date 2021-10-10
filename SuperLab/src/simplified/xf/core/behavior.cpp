@@ -60,7 +60,6 @@ void XFBehavior::setCurrentEvent(const XFEvent *pEvent)
 XFBehavior::TerminateBehavior XFBehavior::process(const XFEvent *pEvent)
 {
     setCurrentEvent(pEvent);
-    processEvent();
-    // pEvent must prolly be deleted
-    return false;
+    XFEventStatus evStatus = processEvent();
+    return (deleteOnTerminate() && evStatus == XFEventStatus::Terminate);
 }

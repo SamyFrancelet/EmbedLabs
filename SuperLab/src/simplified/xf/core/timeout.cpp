@@ -17,6 +17,5 @@ bool XFTimeout::operator ==(const XFTimeout &timeout) const
 
 bool XFTimeout::deleteAfterConsume() const
 {
-    // ToDo
-    return false;
+    return true;
 }
