@@ -83,13 +83,6 @@ void XFTimeoutManager::unscheduleTimeout(int32_t timeoutId, interface::XFBehavio
 
 void XFTimeoutManager::tick()
 {
-    /*for(XFTimeout* timeout : timeouts_) {
-        timeout->substractFromRelTicks(tickInterval_);
-        if (timeout->getRelTicks() <= 0) {
-            returnTimeout(timeout);
-            timeouts_.remove(timeout);
-        }
-    }*/
     timeouts_.front()->substractFromRelTicks(tickInterval_);
     if(timeouts_.front()->getRelTicks() <= 0) {
         returnTimeout(timeouts_.front());
