@@ -49,7 +49,8 @@ interface::XFDispatcher *XFBehavior::getDispatcher()
 
 const XFTimeout *XFBehavior::getCurrentTimeout()
 {
-    return dynamic_cast<const XFTimeout*>(pCurrentEvent_);
+    //return dynamic_cast<const XFTimeout*>(pCurrentEvent_);
+	return reinterpret_cast<const XFTimeout*>(pCurrentEvent_);
 }
 
 void XFBehavior::setCurrentEvent(const XFEvent *pEvent)
@@ -61,5 +62,9 @@ XFBehavior::TerminateBehavior XFBehavior::process(const XFEvent *pEvent)
 {
     setCurrentEvent(pEvent);
     XFEventStatus evStatus = processEvent();
+    if(pEvent->deleteAfterConsume() &&
+    		(evStatus == XFEventStatus::Consumed || evStatus == XFEventStatus::Terminate)) {
+    	delete pEvent;
+    }
     return (deleteOnTerminate() && evStatus == XFEventStatus::Terminate);
 }

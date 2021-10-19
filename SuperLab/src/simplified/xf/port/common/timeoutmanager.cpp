@@ -22,7 +22,7 @@ interface::XFTimeoutManager * interface::XFTimeoutManager::getInstance()
 
 XFTimeoutManager::XFTimeoutManager()
 {
-
+    pMutex_ = interface::XFMutex::create();
 }
 
 void XFTimeoutManager::addTimeout(XFTimeout *pNewTimeout)
@@ -30,7 +30,7 @@ void XFTimeoutManager::addTimeout(XFTimeout *pNewTimeout)
     if(timeouts_.empty()) {
         timeouts_.push_back(pNewTimeout);
     } else {
-        std::list<XFTimeout*>::iterator it;
+        TimeoutList::iterator it;
         bool insert = false;
         for(it = timeouts_.begin(); it != timeouts_.end(); it++) {
             if(pNewTimeout->getRelTicks() < (*it)->getRelTicks()) {
@@ -52,7 +52,7 @@ void XFTimeoutManager::addTimeout(XFTimeout *pNewTimeout)
 
 void XFTimeoutManager::returnTimeout(XFTimeout *pTimeout)
 {
-    pTimeout->getBehavior()->pushEvent(pTimeout);
+    pTimeout->getBehavior()->pushEvent(pTimeout, true);
 }
 
 XFTimeoutManager::~XFTimeoutManager()
@@ -64,28 +64,43 @@ XFTimeoutManager::~XFTimeoutManager()
 
 void XFTimeoutManager::start(std::function<void (uint32_t)> startTimeoutManagerTimer)
 {
-    startTimeoutManagerTimer(tickInterval_);
+    if (startTimeoutManagerTimer != nullptr) {
+        startTimeoutManagerTimer(tickInterval_);
+    }
 }
 
 void XFTimeoutManager::scheduleTimeout(int32_t timeoutId, int32_t interval, interface::XFBehavior *pBehavior)
 {
+    pMutex_->lock();
     addTimeout(new XFTimeout(timeoutId, interval, pBehavior));
+    pMutex_->unlock();
 }
 
 void XFTimeoutManager::unscheduleTimeout(int32_t timeoutId, interface::XFBehavior *pBehavior)
 {
-    for(XFTimeout* timeout : timeouts_) {
-        if (timeout->getId() == timeoutId && timeout->getBehavior() == pBehavior) {
-            timeouts_.remove(timeout);
-        }
+    int relTicksToAdd = 0;
+
+    pMutex_->lock();
+    for(TimeoutList::iterator it = timeouts_.begin(); it != timeouts_.end(); it++) {
+    	while ((*it)->getId() == timeoutId && (*it)->getBehavior() == pBehavior) {
+    		relTicksToAdd = (*it)->getRelTicks();
+    		it = timeouts_.erase(it);
+    		(*it)->addToRelTicks(relTicksToAdd);
+    	}
     }
+    pMutex_->unlock();
 }
 
 void XFTimeoutManager::tick()
 {
-    timeouts_.front()->substractFromRelTicks(tickInterval_);
-    if(timeouts_.front()->getRelTicks() <= 0) {
-        returnTimeout(timeouts_.front());
-        timeouts_.pop_front();
+    //pMutex_->lock();
+    if(!timeouts_.empty()) {
+        timeouts_.front()->substractFromRelTicks(tickInterval_);
+        while(timeouts_.front()->getRelTicks() <= 0) {
+            returnTimeout(timeouts_.front());
+            timeouts_.pop_front();
+            if(timeouts_.empty()) { break; }
+        }
     }
+    //pMutex_->unlock();
 }

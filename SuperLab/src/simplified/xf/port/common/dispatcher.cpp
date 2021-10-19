@@ -53,7 +53,8 @@ void XFDispatcher::unscheduleTimeout(int timeoutId, interface::XFBehavior *pBeha
 void XFDispatcher::executeOnce()
 {
     // Pops an event, and dispatches it to every stateMachine
-    if (!_events.empty()) {
+	bool isEmpty = _events.empty();
+    if (!isEmpty) {
         dispatchEvent(_events.front());
         _events.pop();      // Deletes it from Queue
     }
@@ -68,8 +69,7 @@ int XFDispatcher::execute(const void *param)
 
 void XFDispatcher::dispatchEvent(const XFEvent *pEvent) const
 {
-    bool killBehavior;
-    killBehavior = pEvent->getBehavior()->process(pEvent);
+    bool killBehavior = pEvent->getBehavior()->process(pEvent);
     if (killBehavior) {
         delete pEvent->getBehavior();
     }

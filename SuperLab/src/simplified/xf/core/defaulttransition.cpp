@@ -10,5 +10,5 @@ XFDefaultTransition::XFDefaultTransition(interface::XFBehavior *pBehavior)
 
 bool XFDefaultTransition::deleteAfterConsume() const
 {
-    return false;
+    return true;
 }
