@@ -85,7 +85,12 @@ void XFTimeoutManager::unscheduleTimeout(int32_t timeoutId, interface::XFBehavio
     	while ((*it)->getId() == timeoutId && (*it)->getBehavior() == pBehavior) {
     		relTicksToAdd = (*it)->getRelTicks();
     		it = timeouts_.erase(it);
-    		(*it)->addToRelTicks(relTicksToAdd);
+            if(it != timeouts_.end()) {
+                (*it)->addToRelTicks(relTicksToAdd);
+            } else {
+                break; // Stops looping to avoid SEGFAULT
+            }
+    		
     	}
     }
     pMutex_->unlock();
