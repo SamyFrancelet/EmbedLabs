@@ -98,7 +98,7 @@ void XFTimeoutManager::unscheduleTimeout(int32_t timeoutId, interface::XFBehavio
 
 void XFTimeoutManager::tick()
 {
-    //pMutex_->lock();
+    pMutex_->lock();
     if(!timeouts_.empty()) {
         timeouts_.front()->substractFromRelTicks(tickInterval_);
         while(timeouts_.front()->getRelTicks() <= 0) {
@@ -107,5 +107,5 @@ void XFTimeoutManager::tick()
             if(timeouts_.empty()) { break; }
         }
     }
-    //pMutex_->unlock();
+    pMutex_->unlock();
 }

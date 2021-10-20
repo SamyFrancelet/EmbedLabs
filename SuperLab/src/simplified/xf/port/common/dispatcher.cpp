@@ -72,5 +72,6 @@ void XFDispatcher::dispatchEvent(const XFEvent *pEvent) const
     bool killBehavior = pEvent->getBehavior()->process(pEvent);
     if (killBehavior) {
         delete pEvent->getBehavior();
+        delete pEvent;
     }
 }
