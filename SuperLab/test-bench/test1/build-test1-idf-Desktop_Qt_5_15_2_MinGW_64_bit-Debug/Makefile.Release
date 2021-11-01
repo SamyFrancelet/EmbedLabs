@@ -827,6 +827,8 @@ release/trace.o: ../../../src/platform/qt/board/trace.cpp ../ide-qtcreator-test1
 		C:/Qt/5.15.2/mingw81_64/include/QtCore/qcontiguouscache.h \
 		C:/Qt/5.15.2/mingw81_64/include/QtCore/qsharedpointer.h \
 		C:/Qt/5.15.2/mingw81_64/include/QtCore/qsharedpointer_impl.h \
+		C:/Qt/5.15.2/mingw81_64/include/QtCore/QTime \
+		C:/Qt/5.15.2/mingw81_64/include/QtCore/qdatetime.h \
 		../../../src/mdw/trace/trace.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\trace.o ..\..\..\src\platform\qt\board\trace.cpp
 

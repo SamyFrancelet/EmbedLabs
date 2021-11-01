@@ -1,0 +1,31 @@
+15:22:39.196: Wait
+15:22:41.165: Wait restart
+15:22:41.166: Wait
+15:22:43.134: Wait restart
+15:22:43.135: Wait
+15:22:45.122: Wait restart
+15:22:45.122: Wait
+15:22:47.076: Wait restart
+15:22:47.076: Wait
+15:22:49.056: Wait restart
+15:22:49.056: Wait
+15:22:51.021: Wait restart
+15:22:51.021: Wait
+15:22:52.996: Wait restart
+15:22:52.996: Wait
+15:22:54.962: Wait restart
+15:22:54.962: Wait
+15:22:56.946: Wait restart
+15:22:56.946: Wait
+15:22:58.892: Wait restart
+15:22:58.892: Wait
+15:23:00.851: Wait restart
+15:23:00.852: Wait
+15:23:02.822: Wait restart
+15:23:02.823: Wait
+15:23:04.767: Wait restart
+15:23:04.768: Wait
+15:23:06.729: Wait restart
+15:23:06.730: Wait
+15:23:08.695: Wait restart
+15:23:08.696: Wait

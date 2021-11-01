@@ -1736,8 +1736,8 @@ void Error_Handler(void)
  8000d12:	f000 f8c5 	bl	8000ea0 <HAL_Init>
   SystemClock_Config();
  8000d16:	f7ff ff9b 	bl	8000c50 <SystemClock_Config>
-  XF_initialize(2);
- 8000d1a:	2002      	movs	r0, #2
+  XF_initialize(20);
+ 8000d1a:	2014      	movs	r0, #20
  8000d1c:	f002 fbd2 	bl	80034c4 <XF_initialize>
   Factory_initialize();
  8000d20:	f001 fd51 	bl	80027c6 <Factory_initialize>

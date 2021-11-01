@@ -3,6 +3,7 @@
 #if (USE_PLATFORM_QT_TRACE != 0)
 
 #include <QDebug>
+#include <QTime>
 #include "trace/trace.h"
 
 #define ADD_CRLF_SEQU 	0
@@ -15,7 +16,10 @@ void Trace::initialize()
 
 void Trace::out(string str)
 {
-    qDebug(str.data());
+    QTime outTime = QTime::currentTime();
+    string out = outTime.toString("HH:mm:ss.zzz").toStdString() + " : " + str;
+
+    qDebug(out.data());
 }
 
 void Trace::out(const char * format, ...)
