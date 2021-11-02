@@ -1,63 +1,51 @@
-15:25:14.689: Starting test4...
-15:25:14.689: ---------------------
-15:25:14.690: SM04a: Wait
-15:25:15.666: SM04b: Timeout 1
-15:25:16.649: SM04b: Timeout 2
-15:25:17.636: SM04b: Timeout 3
-15:25:18.611: SM04b: Timeout 4
-15:25:19.105: SM04a: Send restart to SM04b
-15:25:19.105: SM04a: Wait
-15:25:20.097: SM04b: Timeout 1
-15:25:21.082: SM04b: Timeout 2
-15:25:22.056: SM04b: Timeout 3
-15:25:23.038: SM04b: Timeout 4
-15:25:23.544: SM04a: Send restart to SM04b
-15:25:23.545: SM04a: Wait
-15:25:24.517: SM04b: Timeout 1
-15:25:25.498: SM04b: Timeout 2
-15:25:26.493: SM04b: Timeout 3
-15:25:27.459: SM04b: Timeout 4
-15:25:27.952: SM04a: Send restart to SM04b
-15:25:27.952: SM04a: Wait
-15:25:28.944: SM04b: Timeout 1
-15:25:29.920: SM04b: Timeout 2
-15:25:30.914: SM04b: Timeout 3
-15:25:31.892: SM04b: Timeout 4
-15:25:32.394: SM04a: Send restart to SM04b
-15:25:32.394: SM04a: Wait
-15:25:33.374: SM04b: Timeout 1
-15:25:34.349: SM04b: Timeout 2
-15:25:35.324: SM04b: Timeout 3
-15:25:36.322: SM04b: Timeout 4
-15:25:36.813: SM04a: Send restart to SM04b
-15:25:36.813: SM04a: Wait
-15:25:37.789: SM04b: Timeout 1
-15:25:38.776: SM04b: Timeout 2
-15:25:39.756: SM04b: Timeout 3
-15:25:40.738: SM04b: Timeout 4
-15:25:41.243: SM04a: Send restart to SM04b
-15:25:41.243: SM04a: Wait
-15:25:42.221: SM04b: Timeout 1
-15:25:43.191: SM04b: Timeout 2
-15:25:44.194: SM04b: Timeout 3
-15:25:45.167: SM04b: Timeout 4
-15:25:45.670: SM04a: Send restart to SM04b
-15:25:45.670: SM04a: Wait
-15:25:46.644: SM04b: Timeout 1
-15:25:47.634: SM04b: Timeout 2
-15:25:48.632: SM04b: Timeout 3
-15:25:49.608: SM04b: Timeout 4
-15:25:50.091: SM04a: Send restart to SM04b
-15:25:50.091: SM04a: Wait
-15:25:51.097: SM04b: Timeout 1
-15:25:52.080: SM04b: Timeout 2
-15:25:53.063: SM04b: Timeout 3
-15:25:54.045: SM04b: Timeout 4
-15:25:54.519: SM04a: Send restart to SM04b
-15:25:54.520: SM04a: Wait
-15:25:55.493: SM04b: Timeout 1
-15:25:56.480: SM04b: Timeout 2
-15:25:57.474: SM04b: Timeout 3
-15:25:58.441: SM04b: Timeout 4
-15:25:58.946: SM04a: Send restart to SM04b
-15:25:58.946: SM04a: Wait
+10:57:41.260 :  Starting test4...
+10:57:41.265 :  ---------------------
+10:57:41.265 :  SM04a: Wait
+10:57:42.267 :  SM04b: Timeout 1
+10:57:43.267 :  SM04b: Timeout 2
+10:57:44.267 :  SM04b: Timeout 3
+10:57:45.267 :  SM04b: Timeout 4
+10:57:45.767 :  SM04a: Send restart to SM04b
+10:57:45.767 :  SM04a: Wait
+10:57:46.767 :  SM04b: Timeout 1
+10:57:47.766 :  SM04b: Timeout 2
+10:57:48.766 :  SM04b: Timeout 3
+10:57:49.767 :  SM04b: Timeout 4
+10:57:50.267 :  SM04a: Send restart to SM04b
+10:57:50.267 :  SM04a: Wait
+10:57:51.267 :  SM04b: Timeout 1
+10:57:52.266 :  SM04b: Timeout 2
+10:57:53.267 :  SM04b: Timeout 3
+10:57:54.267 :  SM04b: Timeout 4
+10:57:54.767 :  SM04a: Send restart to SM04b
+10:57:54.767 :  SM04a: Wait
+10:57:55.767 :  SM04b: Timeout 1
+10:57:56.767 :  SM04b: Timeout 2
+10:57:57.767 :  SM04b: Timeout 3
+10:57:58.766 :  SM04b: Timeout 4
+10:57:59.267 :  SM04a: Send restart to SM04b
+10:57:59.267 :  SM04a: Wait
+10:58:00.267 :  SM04b: Timeout 1
+10:58:01.267 :  SM04b: Timeout 2
+10:58:02.267 :  SM04b: Timeout 3
+10:58:03.267 :  SM04b: Timeout 4
+10:58:03.766 :  SM04a: Send restart to SM04b
+10:58:03.766 :  SM04a: Wait
+10:58:04.766 :  SM04b: Timeout 1
+10:58:05.767 :  SM04b: Timeout 2
+10:58:06.766 :  SM04b: Timeout 3
+10:58:07.767 :  SM04b: Timeout 4
+10:58:08.267 :  SM04a: Send restart to SM04b
+10:58:08.267 :  SM04a: Wait
+10:58:09.266 :  SM04b: Timeout 1
+10:58:10.266 :  SM04b: Timeout 2
+10:58:11.267 :  SM04b: Timeout 3
+10:58:12.267 :  SM04b: Timeout 4
+10:58:12.767 :  SM04a: Send restart to SM04b
+10:58:12.767 :  SM04a: Wait
+10:58:13.767 :  SM04b: Timeout 1
+10:58:14.767 :  SM04b: Timeout 2
+10:58:15.766 :  SM04b: Timeout 3
+10:58:16.766 :  SM04b: Timeout 4
+10:58:17.267 :  SM04a: Send restart to SM04b
+10:58:17.267 :  SM04a: Wait

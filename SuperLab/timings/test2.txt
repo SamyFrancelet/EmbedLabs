@@ -1,0 +1,17 @@
+10:55:22.962 :  Called constructor of StateMachine02 object '1' (obj01)
+10:55:22.971 :  Called constructor of StateMachine02 object '2' (obj02)
+10:55:22.979 :  Starting test2...
+10:55:22.981 :  ---------------------
+10:55:22.983 :  obj01: counter 5
+10:55:22.989 :  obj02: counter 5
+10:55:23.987 :  obj01: counter 4
+10:55:23.989 :  obj02: counter 4
+10:55:24.986 :  obj01: counter 3
+10:55:24.991 :  obj02: counter 3
+10:55:25.986 :  obj01: counter 2
+10:55:25.988 :  obj02: counter 2
+10:55:26.987 :  obj01: counter 1
+10:55:26.989 :  obj02: counter 1
+10:55:27.987 :  obj01: Terminating State Machine
+10:55:27.990 :  obj02: Terminating State Machine
+10:55:27.993 :  obj02: Called destructor

@@ -1,31 +1,37 @@
-15:22:39.196: Wait
-15:22:41.165: Wait restart
-15:22:41.166: Wait
-15:22:43.134: Wait restart
-15:22:43.135: Wait
-15:22:45.122: Wait restart
-15:22:45.122: Wait
-15:22:47.076: Wait restart
-15:22:47.076: Wait
-15:22:49.056: Wait restart
-15:22:49.056: Wait
-15:22:51.021: Wait restart
-15:22:51.021: Wait
-15:22:52.996: Wait restart
-15:22:52.996: Wait
-15:22:54.962: Wait restart
-15:22:54.962: Wait
-15:22:56.946: Wait restart
-15:22:56.946: Wait
-15:22:58.892: Wait restart
-15:22:58.892: Wait
-15:23:00.851: Wait restart
-15:23:00.852: Wait
-15:23:02.822: Wait restart
-15:23:02.823: Wait
-15:23:04.767: Wait restart
-15:23:04.768: Wait
-15:23:06.729: Wait restart
-15:23:06.730: Wait
-15:23:08.695: Wait restart
-15:23:08.696: Wait
+10:55:57.171 :  Starting test3...
+10:55:57.175 :  ---------------------
+10:55:57.177 :  Wait
+10:55:59.179 :  Wait restart
+10:55:59.179 :  Wait
+10:56:01.180 :  Wait restart
+10:56:01.180 :  Wait
+10:56:03.180 :  Wait restart
+10:56:03.180 :  Wait
+10:56:05.179 :  Wait restart
+10:56:05.179 :  Wait
+10:56:07.180 :  Wait restart
+10:56:07.180 :  Wait
+10:56:09.180 :  Wait restart
+10:56:09.180 :  Wait
+10:56:11.180 :  Wait restart
+10:56:11.180 :  Wait
+10:56:13.180 :  Wait restart
+10:56:13.180 :  Wait
+10:56:15.180 :  Wait restart
+10:56:15.180 :  Wait
+10:56:17.179 :  Wait restart
+10:56:17.179 :  Wait
+10:56:19.180 :  Wait restart
+10:56:19.180 :  Wait
+10:56:21.180 :  Wait restart
+10:56:21.180 :  Wait
+10:56:23.180 :  Wait restart
+10:56:23.180 :  Wait
+10:56:25.179 :  Wait restart
+10:56:25.179 :  Wait
+10:56:27.180 :  Wait restart
+10:56:27.180 :  Wait
+10:56:29.179 :  Wait restart
+10:56:29.179 :  Wait
+10:56:31.179 :  Wait restart
+10:56:31.179 :  Wait

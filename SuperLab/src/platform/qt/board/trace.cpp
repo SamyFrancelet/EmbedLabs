@@ -32,7 +32,10 @@ void Trace::out(const char * format, ...)
     vsprintf(str, format, args);
     va_end(args);
 
-    qDebug(str);
+    QTime outTime = QTime::currentTime();
+    string time = outTime.toString("HH:mm:ss.zzz").toStdString() + " : ";
+
+    qDebug() << time.data() << str;
 }
 
 #endif // USE_PLATFORM_QT_TRACE
