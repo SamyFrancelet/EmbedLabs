@@ -1,0 +1,53 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{documentation}{online}{}
+      \name{author}{1}{}{%
+        {{hash=aae3975d131e7f7b70e51a62e79c59fe}{%
+           family={Médard},
+           familyi={M\bibinitperiod},
+           given={Rieder},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{aae3975d131e7f7b70e51a62e79c59fe}
+      \strng{fullhash}{aae3975d131e7f7b70e51a62e79c59fe}
+      \strng{bibnamehash}{aae3975d131e7f7b70e51a62e79c59fe}
+      \strng{authorbibnamehash}{aae3975d131e7f7b70e51a62e79c59fe}
+      \strng{authornamehash}{aae3975d131e7f7b70e51a62e79c59fe}
+      \strng{authorfullhash}{aae3975d131e7f7b70e51a62e79c59fe}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{(accessed: october 2021)}
+      \field{title}{Simplified XF 1.0.0}
+      \verb{urlraw}
+      \verb https://cyberlearn.hes-so.ch/course/view.php?id=19260
+      \endverb
+      \verb{url}
+      \verb https://cyberlearn.hes-so.ch/course/view.php?id=19260
+      \endverb
+      \keyw{xf,documentation}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
