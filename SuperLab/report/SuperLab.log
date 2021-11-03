@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.2)  2 NOV 2021 16:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.2)  3 NOV 2021 16:13
 entering extended mode
 **d:/work/EmbedLabs/SuperLab/report/SuperLab.tex
 (d:/work/EmbedLabs/SuperLab/report/SuperLab.tex
@@ -1039,35 +1039,135 @@ Package pdftex.def Info: Images//hes/hei.png  used on input line 10.
 Chapitre 1.
 (1-Introduction.tex
 Package mdframed Info: mdframed inside float 
- mdframed uses option nobreak mdframed on input line 11.
+ mdframed uses option nobreak mdframed on input line 10.
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 11.
-<Images/xf/comp-simple-xf.png, id=16, 1144.275pt x 602.25pt>
+ mdframed uses option nobreak mdframed on input line 10.
+<Images/xf/IDF.PNG, id=16, 535.2497pt x 208.52907pt>
+File: Images/xf/IDF.PNG Graphic file (type png)
+<use Images/xf/IDF.PNG>
+Package pdftex.def Info: Images/xf/IDF.PNG  used on input line 18.
+(pdftex.def)             Requested size: 341.43307pt x 133.0254pt.
+<Images/xf/comp-simple-xf.png, id=17, 1144.275pt x 602.25pt>
 File: Images/xf/comp-simple-xf.png Graphic file (type png)
 <use Images/xf/comp-simple-xf.png>
-Package pdftex.def Info: Images/xf/comp-simple-xf.png  used on input line 18.
+Package pdftex.def Info: Images/xf/comp-simple-xf.png  used on input line 29.
 (pdftex.def)             Requested size: 455.24411pt x 239.59999pt.
- [2
-
-]
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 23.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 33.
  (C:\Users\Samy Francelet\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)) [3 <./Images/xf/comp-simple-xf.png (PNG copy)>]
-Chapitre 2.
-(2-Methods.tex) [4
+) [2
 
-]
+ <./Images/xf/IDF.PNG>]) [3 <./Images/xf/comp-simple-xf.png (PNG copy)>]
+Chapitre 2.
+(2-Methods.tex
+<Images/xf/xfevent.PNG, id=27, 566.86781pt x 506.6428pt>
+File: Images/xf/xfevent.PNG Graphic file (type png)
+<use Images/xf/xfevent.PNG>
+Package pdftex.def Info: Images/xf/xfevent.PNG  used on input line 6.
+(pdftex.def)             Requested size: 227.62206pt x 203.43433pt.
+ [4
+
+ <./Images/xf/xfevent.PNG>]
+<Images/xf/XFBehavior.PNG, id=32, 274.77657pt x 316.18124pt>
+File: Images/xf/XFBehavior.PNG Graphic file (type png)
+<use Images/xf/XFBehavior.PNG>
+Package pdftex.def Info: Images/xf/XFBehavior.PNG  used on input line 22.
+(pdftex.def)             Requested size: 227.62206pt x 261.9286pt.
+ [5 <./Images/xf/XFBehavior.PNG>]
+<Images/xf/XFDispatcherInterface.PNG, id=37, 391.4625pt x 187.45032pt>
+File: Images/xf/XFDispatcherInterface.PNG Graphic file (type png)
+<use Images/xf/XFDispatcherInterface.PNG>
+Package pdftex.def Info: Images/xf/XFDispatcherInterface.PNG  used on input line 37.
+(pdftex.def)             Requested size: 273.14923pt x 130.80243pt.
+<Images/xf/XFTimeoutManagerInterface.PNG, id=38, 382.42876pt x 170.13562pt>
+File: Images/xf/XFTimeoutManagerInterface.PNG Graphic file (type png)
+<use Images/xf/XFTimeoutManagerInterface.PNG>
+Package pdftex.def Info: Images/xf/XFTimeoutManagerInterface.PNG  used on input line 38.
+(pdftex.def)             Requested size: 273.14923pt x 121.52402pt.
+ [6 <./Images/xf/XFDispatcherInterface.PNG> <./Images/xf/XFTimeoutManagerInterface.PNG>]
+<Images/xf/XFPorts.PNG, id=45, 801.74532pt x 582.67688pt>
+File: Images/xf/XFPorts.PNG Graphic file (type png)
+<use Images/xf/XFPorts.PNG>
+Package pdftex.def Info: Images/xf/XFPorts.PNG  used on input line 51.
+(pdftex.def)             Requested size: 455.24411pt x 330.85786pt.
+<Images/xf/timeoutList.PNG, id=46, 3232.075pt x 260.975pt>
+File: Images/xf/timeoutList.PNG Graphic file (type png)
+<use Images/xf/timeoutList.PNG>
+Package pdftex.def Info: Images/xf/timeoutList.PNG  used on input line 86.
+(pdftex.def)             Requested size: 386.96027pt x 31.24396pt.
+ [7 <./Images/xf/XFPorts.PNG>]
+<Images/xf/timeoutSmartList.png, id=51, 4115.375pt x 903.375pt>
+File: Images/xf/timeoutSmartList.png Graphic file (type png)
+<use Images/xf/timeoutSmartList.png>
+Package pdftex.def Info: Images/xf/timeoutSmartList.png  used on input line 93.
+(pdftex.def)             Requested size: 455.24411pt x 99.92293pt.
+) [8 <./Images/xf/timeoutList.PNG> <./Images/xf/timeoutSmartList.png>]
 Chapitre 3.
-(3-Results.tex) [5
+(3-Results.tex) [9
 
 ]
 Chapitre 4.
-(4-Discussion.tex) [6
+(5-Conclusion.tex
+Package mdframed Info: mdframed inside float 
+ mdframed uses option nobreak mdframed on input line 20.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 20.
+) [10
 
 ]
-Chapitre 5.
-(5-Conclusion.tex) [7
+Annexe A.
+File: Images/xf/comp-simple-xf.png Graphic file (type png)
+<use Images/xf/comp-simple-xf.png>
+Package pdftex.def Info: Images/xf/comp-simple-xf.png  used on input line 41.
+(pdftex.def)             Requested size: 1144.2722pt x 602.24852pt.
+<Images/xf/cmd-simple-xf.png, id=63, 1626.075pt x 973.6375pt>
+File: Images/xf/cmd-simple-xf.png Graphic file (type png)
+<use Images/xf/cmd-simple-xf.png>
+Package pdftex.def Info: Images/xf/cmd-simple-xf.png  used on input line 46.
+(pdftex.def)             Requested size: 1626.07104pt x 973.63512pt.
+[11
+
+] [12 <./Images/xf/cmd-simple-xf.png (PNG copy)>]
+Annexe B.
+<Images/tests/test1.PNG, id=71, 153.57375pt x 472.76625pt>
+File: Images/tests/test1.PNG Graphic file (type png)
+<use Images/tests/test1.PNG>
+Package pdftex.def Info: Images/tests/test1.PNG  used on input line 53.
+(pdftex.def)             Requested size: 153.57336pt x 472.76509pt.
+[13
+
+]
+Overfull \vbox (14.9407pt too high) has occurred while \output is active []
+
+ [14 <./Images/tests/test1.PNG>]
+<Images/tests/test2.PNG, id=79, 432.86719pt x 229.60782pt>
+File: Images/tests/test2.PNG Graphic file (type png)
+<use Images/tests/test2.PNG>
+Package pdftex.def Info: Images/tests/test2.PNG  used on input line 59.
+(pdftex.def)             Requested size: 432.86612pt x 229.60725pt.
+<Images/tests/test3.PNG, id=80, 227.34938pt x 474.27188pt>
+File: Images/tests/test3.PNG Graphic file (type png)
+<use Images/tests/test3.PNG>
+Package pdftex.def Info: Images/tests/test3.PNG  used on input line 65.
+(pdftex.def)             Requested size: 227.34882pt x 474.27072pt.
+ [15 <./Images/tests/test2.PNG>]
+<Images/tests/test4.PNG, id=85, 280.04625pt x 432.86719pt>
+File: Images/tests/test4.PNG Graphic file (type png)
+<use Images/tests/test4.PNG>
+Package pdftex.def Info: Images/tests/test4.PNG  used on input line 71.
+(pdftex.def)             Requested size: 280.04555pt x 432.86612pt.
+ [16 <./Images/tests/test3.PNG>]
+<Images/tests/test5.PNG, id=90, 225.09094pt x 485.56406pt>
+File: Images/tests/test5.PNG Graphic file (type png)
+<use Images/tests/test5.PNG>
+Package pdftex.def Info: Images/tests/test5.PNG  used on input line 77.
+(pdftex.def)             Requested size: 225.09038pt x 485.56287pt.
+ [17 <./Images/tests/test4.PNG>] [18 <./Images/tests/test5.PNG>]
+Overfull \hbox (7.07034pt too wide) in paragraph at lines 81--81
+[][][]\T1/ptm/m/sc/10.95 Rieder.[]\T1/ptm/m/n/10.95 , Mé-dard et Tho-mas []\T1/ptm/m/sc/10.95 Sterren. []\T1/ptm/m/n/10.95    Sim-pli-fied XF 1.0.0 . In : (). \T1/ptm/m/sc/10.95 url \T1/ptm/m/n/10.95 : $\T1/pcr/m/n/10.95 https : / / cyberlearn .
+ []
+
+[19
 
 ] (SuperLab.aux)
 Package logreq Info: Writing requests to 'SuperLab.run.xml'.
@@ -1075,17 +1175,17 @@ Package logreq Info: Writing requests to 'SuperLab.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28464 strings out of 478907
- 552826 string characters out of 2847590
- 1360116 words of memory out of 3000000
- 45840 multiletter control sequences out of 15000+600000
- 466905 words of font info for 79 fonts, out of 8000000 for 9000
+ 28583 strings out of 478907
+ 555869 string characters out of 2847590
+ 1368313 words of memory out of 3000000
+ 45944 multiletter control sequences out of 15000+600000
+ 471973 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  119i,12n,119p,775b,1794s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/Samy Francelet/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Samy Francelet/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/Samy Francelet/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Samy Francelet/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Samy Francelet/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on SuperLab.pdf (8 pages, 158642 bytes).
+Output written on SuperLab.pdf (20 pages, 639837 bytes).
 PDF statistics:
- 57 PDF objects out of 1000 (max. 8388607)
+ 122 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 93 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,20 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>220</x><y>370</y><w>140</w><h>60</h></coordinates><panel_attributes>Timeout 1
+--
+- Interval : 5
+- relTicks : 5
+bg=green</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>350</x><y>380</y><w>110</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+next</panel_attributes><additional_attributes>90;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>440</x><y>370</y><w>140</w><h>60</h></coordinates><panel_attributes>Timeout 2
+--
+- Interval : 12
+- relTicks : 7 (12-5)
+bg=green</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>570</x><y>380</y><w>110</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+next</panel_attributes><additional_attributes>90;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>660</x><y>370</y><w>140</w><h>60</h></coordinates><panel_attributes>Timeout 3
+--
+- Interval : 24
+- relTicks : 12 (24-7-5)
+bg=green</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>790</x><y>380</y><w>110</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+next</panel_attributes><additional_attributes>90;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>880</x><y>370</y><w>140</w><h>60</h></coordinates><panel_attributes>Timeout 4
+--
+- Interval : 59
+- relTicks : 35 (59-12-7-5)
+bg=green</panel_attributes><additional_attributes></additional_attributes></element></diagram>

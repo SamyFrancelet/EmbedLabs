@@ -1092,6 +1092,18 @@ INPUT .\1-Introduction.tex
 INPUT 1-Introduction.tex
 INPUT C:\Users\Samy Francelet\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
 INPUT C:\Users\Samy Francelet\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8t.tfm
+INPUT .\Images\xf\IDF.PNG
+INPUT .\Images\xf\IDF.PNG
+INPUT Images\xf\IDF.PNG
+INPUT .\Images\xf\IDF.PNG
+INPUT .\Images\xf\IDF.PNG
+INPUT .\Images\xf\IDF.PNG
+INPUT .\Images\xf\IDF.PNG
+INPUT C:\Users\Samy Francelet\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8t.tfm
+INPUT C:\Users\Samy Francelet\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
+INPUT C:\Users\Samy Francelet\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
+INPUT C:\Users\Samy Francelet\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmrc8t.tfm
+INPUT C:\Users\Samy Francelet\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8t.tfm
 INPUT .\Images\xf\comp-simple-xf.png
 INPUT .\Images\xf\comp-simple-xf.png
 INPUT Images\xf\comp-simple-xf.png
@@ -1099,15 +1111,6 @@ INPUT .\Images\xf\comp-simple-xf.png
 INPUT .\Images\xf\comp-simple-xf.png
 INPUT .\Images\xf\comp-simple-xf.png
 INPUT .\Images\xf\comp-simple-xf.png
-INPUT C:\Users\Samy Francelet\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8t.tfm
-INPUT C:\Users\Samy Francelet\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
-INPUT C:\Users\Samy Francelet\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
-INPUT C:\Users\Samy Francelet\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
-INPUT C:\Users\Samy Francelet\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
-INPUT C:\Users\Samy Francelet\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
-INPUT C:\Users\Samy Francelet\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
-INPUT C:\Users\Samy Francelet\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmrc8t.tfm
-INPUT C:\Users\Samy Francelet\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8t.tfm
 INPUT C:\Users\Samy Francelet\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1pcr.fd
 INPUT C:\Users\Samy Francelet\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1pcr.fd
 INPUT C:\Users\Samy Francelet\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1pcr.fd
@@ -1118,6 +1121,10 @@ INPUT C:\Users\Samy Francelet\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\
 INPUT C:\Users\Samy Francelet\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy9.tfm
 INPUT C:\Users\Samy Francelet\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex9.tfm
 INPUT C:\Users\Samy Francelet\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\Samy Francelet\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
+INPUT C:\Users\Samy Francelet\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT C:\Users\Samy Francelet\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
+INPUT C:\Users\Samy Francelet\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Users\Samy Francelet\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmrc8t.vf
 INPUT C:\Users\Samy Francelet\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\Samy Francelet\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmri8t.vf
@@ -1139,6 +1146,59 @@ INPUT 2-Methods.tex
 INPUT .\2-Methods.tex
 INPUT .\2-Methods.tex
 INPUT 2-Methods.tex
+INPUT C:\Users\Samy Francelet\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
+INPUT C:\Users\Samy Francelet\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8t.tfm
+INPUT .\Images\xf\xfevent.PNG
+INPUT .\Images\xf\xfevent.PNG
+INPUT Images\xf\xfevent.PNG
+INPUT .\Images\xf\xfevent.PNG
+INPUT .\Images\xf\xfevent.PNG
+INPUT .\Images\xf\xfevent.PNG
+INPUT .\Images\xf\xfevent.PNG
+INPUT C:\Users\Samy Francelet\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
+INPUT C:\Users\Samy Francelet\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT .\Images\xf\XFBehavior.PNG
+INPUT .\Images\xf\XFBehavior.PNG
+INPUT Images\xf\XFBehavior.PNG
+INPUT .\Images\xf\XFBehavior.PNG
+INPUT .\Images\xf\XFBehavior.PNG
+INPUT .\Images\xf\XFBehavior.PNG
+INPUT .\Images\xf\XFBehavior.PNG
+INPUT .\Images\xf\XFDispatcherInterface.PNG
+INPUT .\Images\xf\XFDispatcherInterface.PNG
+INPUT Images\xf\XFDispatcherInterface.PNG
+INPUT .\Images\xf\XFDispatcherInterface.PNG
+INPUT .\Images\xf\XFDispatcherInterface.PNG
+INPUT .\Images\xf\XFDispatcherInterface.PNG
+INPUT .\Images\xf\XFDispatcherInterface.PNG
+INPUT .\Images\xf\XFTimeoutManagerInterface.PNG
+INPUT .\Images\xf\XFTimeoutManagerInterface.PNG
+INPUT Images\xf\XFTimeoutManagerInterface.PNG
+INPUT .\Images\xf\XFTimeoutManagerInterface.PNG
+INPUT .\Images\xf\XFTimeoutManagerInterface.PNG
+INPUT .\Images\xf\XFTimeoutManagerInterface.PNG
+INPUT .\Images\xf\XFTimeoutManagerInterface.PNG
+INPUT .\Images\xf\XFPorts.PNG
+INPUT .\Images\xf\XFPorts.PNG
+INPUT Images\xf\XFPorts.PNG
+INPUT .\Images\xf\XFPorts.PNG
+INPUT .\Images\xf\XFPorts.PNG
+INPUT .\Images\xf\XFPorts.PNG
+INPUT .\Images\xf\XFPorts.PNG
+INPUT .\Images\xf\timeoutList.PNG
+INPUT .\Images\xf\timeoutList.PNG
+INPUT Images\xf\timeoutList.PNG
+INPUT .\Images\xf\timeoutList.PNG
+INPUT .\Images\xf\timeoutList.PNG
+INPUT .\Images\xf\timeoutList.PNG
+INPUT .\Images\xf\timeoutList.PNG
+INPUT .\Images\xf\timeoutSmartList.png
+INPUT .\Images\xf\timeoutSmartList.png
+INPUT Images\xf\timeoutSmartList.png
+INPUT .\Images\xf\timeoutSmartList.png
+INPUT .\Images\xf\timeoutSmartList.png
+INPUT .\Images\xf\timeoutSmartList.png
+INPUT .\Images\xf\timeoutSmartList.png
 INPUT .\3-Results.tex
 INPUT .\3-Results.tex
 INPUT .\3-Results.tex
@@ -1146,13 +1206,6 @@ INPUT 3-Results.tex
 INPUT .\3-Results.tex
 INPUT .\3-Results.tex
 INPUT 3-Results.tex
-INPUT .\4-Discussion.tex
-INPUT .\4-Discussion.tex
-INPUT .\4-Discussion.tex
-INPUT 4-Discussion.tex
-INPUT .\4-Discussion.tex
-INPUT .\4-Discussion.tex
-INPUT 4-Discussion.tex
 INPUT .\5-Conclusion.tex
 INPUT .\5-Conclusion.tex
 INPUT .\5-Conclusion.tex
@@ -1160,6 +1213,55 @@ INPUT 5-Conclusion.tex
 INPUT .\5-Conclusion.tex
 INPUT .\5-Conclusion.tex
 INPUT 5-Conclusion.tex
+INPUT .\Images\xf\comp-simple-xf.png
+INPUT .\Images\xf\comp-simple-xf.png
+INPUT Images\xf\comp-simple-xf.png
+INPUT .\Images\xf\comp-simple-xf.png
+INPUT .\Images\xf\cmd-simple-xf.png
+INPUT .\Images\xf\cmd-simple-xf.png
+INPUT Images\xf\cmd-simple-xf.png
+INPUT .\Images\xf\cmd-simple-xf.png
+INPUT .\Images\xf\cmd-simple-xf.png
+INPUT .\Images\xf\cmd-simple-xf.png
+INPUT .\Images\xf\cmd-simple-xf.png
+INPUT .\Images\tests\test1.PNG
+INPUT .\Images\tests\test1.PNG
+INPUT Images\tests\test1.PNG
+INPUT .\Images\tests\test1.PNG
+INPUT .\Images\tests\test1.PNG
+INPUT .\Images\tests\test1.PNG
+INPUT .\Images\tests\test1.PNG
+INPUT .\Images\tests\test2.PNG
+INPUT .\Images\tests\test2.PNG
+INPUT Images\tests\test2.PNG
+INPUT .\Images\tests\test2.PNG
+INPUT .\Images\tests\test2.PNG
+INPUT .\Images\tests\test2.PNG
+INPUT .\Images\tests\test2.PNG
+INPUT .\Images\tests\test3.PNG
+INPUT .\Images\tests\test3.PNG
+INPUT Images\tests\test3.PNG
+INPUT .\Images\tests\test3.PNG
+INPUT .\Images\tests\test3.PNG
+INPUT .\Images\tests\test3.PNG
+INPUT .\Images\tests\test3.PNG
+INPUT .\Images\tests\test4.PNG
+INPUT .\Images\tests\test4.PNG
+INPUT Images\tests\test4.PNG
+INPUT .\Images\tests\test4.PNG
+INPUT .\Images\tests\test4.PNG
+INPUT .\Images\tests\test4.PNG
+INPUT .\Images\tests\test4.PNG
+INPUT .\Images\tests\test5.PNG
+INPUT .\Images\tests\test5.PNG
+INPUT Images\tests\test5.PNG
+INPUT .\Images\tests\test5.PNG
+INPUT .\Images\tests\test5.PNG
+INPUT .\Images\tests\test5.PNG
+INPUT .\Images\tests\test5.PNG
+INPUT C:\Users\Samy Francelet\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr8t.tfm
+INPUT C:\Users\Samy Francelet\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\courier\pcrr8t.vf
+INPUT C:\Users\Samy Francelet\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr8r.tfm
 INPUT SuperLab.aux
 INPUT SuperLab.run.xml
 OUTPUT SuperLab.run.xml

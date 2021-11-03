@@ -1,15 +1,15 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'SuperLab.blg'
-[207] biber-MSWIN64:340> INFO - === 
-[282] Biber.pm:415> INFO - Reading 'SuperLab.bcf'
-[473] Biber.pm:952> INFO - Found 1 citekeys in bib section 0
-[498] Biber.pm:4340> INFO - Processing section 0
-[516] Biber.pm:4531> INFO - Looking for bibtex format file 'ref.bib' for section 0
-[594] bibtex.pm:1689> INFO - LaTeX decoding ...
-[601] bibtex.pm:1494> INFO - Found BibTeX data source 'ref.bib'
-[625] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[625] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
-[625] Biber.pm:4168> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'fr-FR'
-[625] Biber.pm:4174> INFO - No sort tailoring available for locale 'fr-FR'
-[635] bbl.pm:654> INFO - Writing 'SuperLab.bbl' with encoding 'UTF-8'
-[636] bbl.pm:757> INFO - Output to SuperLab.bbl
+[163] biber-MSWIN64:340> INFO - === 
+[223] Biber.pm:415> INFO - Reading 'SuperLab.bcf'
+[390] Biber.pm:952> INFO - Found 3 citekeys in bib section 0
+[411] Biber.pm:4340> INFO - Processing section 0
+[430] Biber.pm:4531> INFO - Looking for bibtex format file 'ref.bib' for section 0
+[522] bibtex.pm:1689> INFO - LaTeX decoding ...
+[532] bibtex.pm:1494> INFO - Found BibTeX data source 'ref.bib'
+[564] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[564] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[564] Biber.pm:4168> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'fr-FR'
+[564] Biber.pm:4174> INFO - No sort tailoring available for locale 'fr-FR'
+[574] bbl.pm:654> INFO - Writing 'SuperLab.bbl' with encoding 'UTF-8'
+[576] bbl.pm:757> INFO - Output to SuperLab.bbl

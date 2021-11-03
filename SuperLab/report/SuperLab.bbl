@@ -19,22 +19,47 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
-    \entry{documentation}{online}{}
+    \entry{coursXF}{manual}{}
       \name{author}{1}{}{%
-        {{hash=aae3975d131e7f7b70e51a62e79c59fe}{%
-           family={Médard},
-           familyi={M\bibinitperiod},
-           given={Rieder},
-           giveni={R\bibinitperiod}}}%
+        {{hash=344dc8377cec375b3a11849f9a5d0b66}{%
+           family={Rieder.},
+           familyi={R\bibinitperiod},
+           given={Médard},
+           giveni={M\bibinitperiod}}}%
       }
-      \strng{namehash}{aae3975d131e7f7b70e51a62e79c59fe}
-      \strng{fullhash}{aae3975d131e7f7b70e51a62e79c59fe}
-      \strng{bibnamehash}{aae3975d131e7f7b70e51a62e79c59fe}
-      \strng{authorbibnamehash}{aae3975d131e7f7b70e51a62e79c59fe}
-      \strng{authornamehash}{aae3975d131e7f7b70e51a62e79c59fe}
-      \strng{authorfullhash}{aae3975d131e7f7b70e51a62e79c59fe}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \strng{namehash}{344dc8377cec375b3a11849f9a5d0b66}
+      \strng{fullhash}{344dc8377cec375b3a11849f9a5d0b66}
+      \strng{bibnamehash}{344dc8377cec375b3a11849f9a5d0b66}
+      \strng{authorbibnamehash}{344dc8377cec375b3a11849f9a5d0b66}
+      \strng{authornamehash}{344dc8377cec375b3a11849f9a5d0b66}
+      \strng{authorfullhash}{344dc8377cec375b3a11849f9a5d0b66}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Script XF 2021}
+    \endentry
+    \entry{documentation}{article}{}
+      \name{author}{2}{}{%
+        {{hash=344dc8377cec375b3a11849f9a5d0b66}{%
+           family={Rieder.},
+           familyi={R\bibinitperiod},
+           given={Médard},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e48307bd20b0f7d4ff0dee8b28abac55}{%
+           family={Sterren.},
+           familyi={S\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{1ae96be4ad4ba4a9b93954ed0efc6e43}
+      \strng{fullhash}{1ae96be4ad4ba4a9b93954ed0efc6e43}
+      \strng{bibnamehash}{1ae96be4ad4ba4a9b93954ed0efc6e43}
+      \strng{authorbibnamehash}{1ae96be4ad4ba4a9b93954ed0efc6e43}
+      \strng{authornamehash}{1ae96be4ad4ba4a9b93954ed0efc6e43}
+      \strng{authorfullhash}{1ae96be4ad4ba4a9b93954ed0efc6e43}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{addendum}{(accessed: october 2021)}
@@ -46,6 +71,35 @@
       \verb https://cyberlearn.hes-so.ch/course/view.php?id=19260
       \endverb
       \keyw{xf,documentation}
+    \endentry
+    \entry{mutex}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b19bc2c4cf3dca5f790c5ad6b15e0bc0}{%
+           family={Xetius.},
+           familyi={X\bibinitperiod}}}%
+        {{hash=d4bd1f96954e758f236c623bc97120ff}{%
+           family={iwasrobbed},
+           familyi={i\bibinitperiod}}}%
+      }
+      \strng{namehash}{7d06b713af7682f516d737cdd0fe24cf}
+      \strng{fullhash}{7d06b713af7682f516d737cdd0fe24cf}
+      \strng{bibnamehash}{7d06b713af7682f516d737cdd0fe24cf}
+      \strng{authorbibnamehash}{7d06b713af7682f516d737cdd0fe24cf}
+      \strng{authornamehash}{7d06b713af7682f516d737cdd0fe24cf}
+      \strng{authorfullhash}{7d06b713af7682f516d737cdd0fe24cf}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{(accessed: 3 november 2021)}
+      \field{title}{What is a mutex?}
+      \verb{urlraw}
+      \verb https://stackoverflow.com/questions/34524/what-is-a-mutex#34558
+      \endverb
+      \verb{url}
+      \verb https://stackoverflow.com/questions/34524/what-is-a-mutex#34558
+      \endverb
+      \keyw{mutex}
     \endentry
   \enddatalist
 \endrefsection

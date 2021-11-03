@@ -1,0 +1,1 @@
+{"rule":"FR_SPELLING_RULE","sentence":"^\\QLe XF (execution framework) est un framework servant à piloter plusieurs machines d'états finies en pseudo-parallèle.\\E$"}

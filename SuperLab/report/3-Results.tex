@@ -1,0 +1,34 @@
+\section{Description des test}
+5 bancs de test ont été définis pour tester différents comportement du XF.
+Ces 5 bancs de tests sont disponibles sous Qt, et sous STM32 avec STM32CubeIDE.
+\subsection{Test-bench 1}
+Le premier test instancie 2 machines d'états générant des timeouts, puis
+transmettant une phrase à chaque timeout : un premier transmet "Say Hello" chaque
+seconde, le second: "Echo" chaque 500ms.
+
+\subsection{Test-bench 2}
+Le second test instancie deux machines d'état identique, à l'exception qu'une
+est un objet dynamique (et donc destructible).
+Les deux objets vont passé un décompte de 5, avant d'être terminé. L'objet dynamique
+devra être détruit et son destructeur devrait afficher "Called destructor".
+
+\subsection{Test-bench 3}
+Ce test check la gestion basique des événement dans les machines d'état.
+Une machine d'état s'envoie périodiquement à elle même un "evRestart" pour
+passer d'un état à l'autre.
+
+\subsection{Test-bench 4}
+Génère plusieurs timeout, puis crée un restart, qui devra unschedule des timeouts.
+Si ce test n'est pas réussi, la liste des timeouts devrait se remplir, et on
+aurait des comportements étranges.
+
+\subsection{Test-bench 5}
+Transmets plusieurs timeout en même temps au Timeout Manager pour stress-test l'ajout
+intelligent de timeouts.
+
+\section{Discussion des résultats}
+Tous les tests ont été validés sur les deux systèmes. Le timing du système embarqué
+est compliqué à mesurer. Nous utilisons le port série pour communiquer les
+textes au PC, qui va stocker dans un buffer les données et les sortir quand il
+pourra, donnant des timings étant parfois 20ms en avance, des fois 20ms en retard.
+Les timings fournis en Annexe B seront donc uniquement les timings mesurer avec Qt.
