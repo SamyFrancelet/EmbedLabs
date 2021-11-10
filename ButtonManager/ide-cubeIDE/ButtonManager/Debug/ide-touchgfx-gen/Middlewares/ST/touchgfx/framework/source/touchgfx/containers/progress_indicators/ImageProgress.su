@@ -1,0 +1,22 @@
+Drawable.hpp:271:18:virtual void touchgfx::Drawable::setX(int16_t)	0	static
+Drawable.hpp:283:18:virtual void touchgfx::Drawable::setY(int16_t)	0	static
+Drawable.hpp:312:18:virtual void touchgfx::Drawable::setWidth(int16_t)	0	static
+Drawable.hpp:324:18:virtual void touchgfx::Drawable::setHeight(int16_t)	0	static
+Drawable.hpp:334:18:virtual void touchgfx::Drawable::childGeometryChanged()	0	static
+Drawable.hpp:345:18:virtual void touchgfx::Drawable::handleClickEvent(const touchgfx::ClickEvent&)	0	static
+Drawable.hpp:356:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	0	static
+Drawable.hpp:444:18:virtual void touchgfx::Drawable::handleDragEvent(const touchgfx::DragEvent&)	0	static
+Drawable.hpp:541:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	16	static
+Container.hpp:154:23:virtual touchgfx::Drawable* touchgfx::Container::getFirstChild()	0	static
+ImageProgress.cpp:34:6:virtual void touchgfx::ImageProgress::setAnchorAtZero(bool)	16	static
+ImageProgress.cpp:40:6:virtual bool touchgfx::ImageProgress::getAnchorAtZero() const	0	static
+ImageProgress.cpp:55:6:virtual void touchgfx::ImageProgress::setAlpha(uint8_t)	0	static
+ImageProgress.cpp:60:9:virtual uint8_t touchgfx::ImageProgress::getAlpha() const	0	static
+ImageProgress.hpp:36:7:touchgfx::ImageProgress::~ImageProgress()	0	static
+ImageProgress.hpp:36:7:virtual touchgfx::ImageProgress::~ImageProgress()	8	static
+ImageProgress.cpp:45:6:virtual void touchgfx::ImageProgress::setBitmap(touchgfx::BitmapId)	16	static
+ImageProgress.cpp:50:10:virtual touchgfx::BitmapId touchgfx::ImageProgress::getBitmap() const	8	static
+ImageProgress.cpp:27:6:virtual void touchgfx::ImageProgress::setProgressIndicatorPosition(int16_t, int16_t, int16_t, int16_t)	40	static
+ImageProgress.cpp:20:1:touchgfx::ImageProgress::ImageProgress()	32	static
+Utils.hpp:115:3:T touchgfx::abs(T) [with T = int]	0	static
+ImageProgress.cpp:65:6:virtual void touchgfx::ImageProgress::setValue(int)	40	static

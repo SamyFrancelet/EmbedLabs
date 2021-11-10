@@ -1,0 +1,61 @@
+Drawable.hpp:271:18:virtual void touchgfx::Drawable::setX(int16_t)	0	static
+Drawable.hpp:283:18:virtual void touchgfx::Drawable::setY(int16_t)	0	static
+Drawable.hpp:312:18:virtual void touchgfx::Drawable::setWidth(int16_t)	0	static
+Drawable.hpp:324:18:virtual void touchgfx::Drawable::setHeight(int16_t)	0	static
+Drawable.hpp:334:18:virtual void touchgfx::Drawable::childGeometryChanged()	0	static
+Drawable.hpp:345:18:virtual void touchgfx::Drawable::handleClickEvent(const touchgfx::ClickEvent&)	0	static
+Drawable.hpp:356:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	0	static
+Drawable.hpp:444:18:virtual void touchgfx::Drawable::handleDragEvent(const touchgfx::DragEvent&)	0	static
+Drawable.hpp:541:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	16	static
+Container.hpp:154:23:virtual touchgfx::Drawable* touchgfx::Container::getFirstChild()	0	static
+SlideMenu.cpp:144:6:virtual void touchgfx::SlideMenu::setExpandDirection(touchgfx::SlideMenu::ExpandDirection)	8	static
+SlideMenu.cpp:151:28:virtual touchgfx::SlideMenu::ExpandDirection touchgfx::SlideMenu::getExpandDirection() const	0	static
+SlideMenu.cpp:156:6:virtual void touchgfx::SlideMenu::setVisiblePixelsWhenCollapsed(int16_t)	8	static
+SlideMenu.cpp:163:9:virtual int16_t touchgfx::SlideMenu::getVisiblePixelsWhenCollapsed() const	0	static
+SlideMenu.cpp:168:6:virtual void touchgfx::SlideMenu::setHiddenPixelsWhenExpanded(int16_t)	8	static
+SlideMenu.cpp:175:9:virtual int16_t touchgfx::SlideMenu::getHiddenPixelsWhenExpanded() const	0	static
+SlideMenu.cpp:180:6:virtual void touchgfx::SlideMenu::setExpandedStateTimeout(uint16_t)	0	static
+SlideMenu.cpp:185:10:virtual uint16_t touchgfx::SlideMenu::getExpandedStateTimeout() const	0	static
+SlideMenu.cpp:190:6:virtual void touchgfx::SlideMenu::setAnimationDuration(uint16_t)	0	static
+SlideMenu.cpp:195:10:virtual uint16_t touchgfx::SlideMenu::getAnimationDuration() const	0	static
+SlideMenu.cpp:200:6:virtual void touchgfx::SlideMenu::setAnimationEasingEquation(touchgfx::EasingEquation)	0	static
+SlideMenu.cpp:205:16:virtual int16_t (* touchgfx::SlideMenu::getAnimationEasingEquation() const)(uint16_t, int16_t, int16_t, uint16_t)	0	static
+SlideMenu.cpp:210:6:virtual void touchgfx::SlideMenu::setState(touchgfx::SlideMenu::State)	24	static
+SlideMenu.cpp:247:18:virtual touchgfx::SlideMenu::State touchgfx::SlideMenu::getState()	0	static
+SlideMenu.cpp:252:6:virtual void touchgfx::SlideMenu::resetExpandedStateTimer()	0	static
+SlideMenu.cpp:257:10:virtual uint16_t touchgfx::SlideMenu::getExpandedStateTimer() const	0	static
+SlideMenu.cpp:262:9:virtual int16_t touchgfx::SlideMenu::getBackgroundX() const	0	static
+SlideMenu.cpp:267:9:virtual int16_t touchgfx::SlideMenu::getBackgroundY() const	0	static
+SlideMenu.cpp:272:9:virtual int16_t touchgfx::SlideMenu::getStateChangeButtonX() const	0	static
+SlideMenu.cpp:277:9:virtual int16_t touchgfx::SlideMenu::getStateChangeButtonY() const	0	static
+SlideMenu.cpp:282:6:virtual void touchgfx::SlideMenu::setStateChangedCallback(touchgfx::GenericCallback<const touchgfx::SlideMenu&>&)	0	static
+SlideMenu.cpp:287:6:virtual void touchgfx::SlideMenu::setStateChangedAnimationEndedCallback(touchgfx::GenericCallback<const touchgfx::SlideMenu&>&)	0	static
+SlideMenu.cpp:292:6:virtual void touchgfx::SlideMenu::handleTickEvent()	8	static
+SlideMenu.cpp:315:6:void touchgfx::SlideMenu::stateChangeButtonClickedHandler(const touchgfx::AbstractButton&)	8	static
+SlideMenu.cpp:332:6:void touchgfx::SlideMenu::animationEndedHandler(const touchgfx::MoveAnimator<touchgfx::Container>&)	8	static
+SlideMenu.cpp:343:9:virtual int16_t touchgfx::SlideMenu::getCollapsedXCoordinate()	0	static
+SlideMenu.cpp:358:9:virtual int16_t touchgfx::SlideMenu::getCollapsedYCoordinate()	0	static
+SlideMenu.cpp:373:9:virtual int16_t touchgfx::SlideMenu::getExpandedXCoordinate()	0	static
+SlideMenu.cpp:388:9:virtual int16_t touchgfx::SlideMenu::getExpandedYCoordinate()	0	static
+Callback.hpp:362:8:touchgfx::Callback<touchgfx::SlideMenu, const touchgfx::MoveAnimator<touchgfx::Container>&>::~Callback()	0	static
+Callback.hpp:362:8:touchgfx::Callback<touchgfx::SlideMenu, const touchgfx::AbstractButton&>::~Callback()	0	static
+MoveAnimator.hpp:39:7:touchgfx::MoveAnimator<touchgfx::Container>::~MoveAnimator()	0	static
+Callback.hpp:392:18:void touchgfx::Callback<dest_type, T1, void, void>::execute(T1) [with dest_type = touchgfx::SlideMenu; T1 = const touchgfx::MoveAnimator<touchgfx::Container>&]	16	static
+Callback.hpp:402:18:bool touchgfx::Callback<dest_type, T1, void, void>::isValid() const [with dest_type = touchgfx::SlideMenu; T1 = const touchgfx::MoveAnimator<touchgfx::Container>&]	0	static
+Callback.hpp:392:18:void touchgfx::Callback<dest_type, T1, void, void>::execute(T1) [with dest_type = touchgfx::SlideMenu; T1 = const touchgfx::AbstractButton&]	16	static
+Callback.hpp:402:18:bool touchgfx::Callback<dest_type, T1, void, void>::isValid() const [with dest_type = touchgfx::SlideMenu; T1 = const touchgfx::AbstractButton&]	0	static
+MoveAnimator.hpp:83:18:void touchgfx::MoveAnimator<T>::setMoveAnimationDelay(uint16_t) [with T = touchgfx::Container]	0	static
+MoveAnimator.hpp:95:22:uint16_t touchgfx::MoveAnimator<T>::getMoveAnimationDelay() const [with T = touchgfx::Container]	0	static
+SlideMenu.cpp:305:6:virtual void touchgfx::SlideMenu::add(touchgfx::Drawable&)	8	static
+SlideMenu.cpp:310:6:virtual void touchgfx::SlideMenu::remove(touchgfx::Drawable&)	8	static
+MoveAnimator.hpp:39:7:virtual touchgfx::MoveAnimator<touchgfx::Container>::~MoveAnimator()	8	static
+Callback.hpp:362:8:virtual touchgfx::Callback<touchgfx::SlideMenu, const touchgfx::AbstractButton&>::~Callback()	8	static
+Callback.hpp:362:8:virtual touchgfx::Callback<touchgfx::SlideMenu, const touchgfx::MoveAnimator<touchgfx::Container>&>::~Callback()	8	static
+SlideMenu.cpp:45:1:touchgfx::SlideMenu::~SlideMenu()	8	static
+SlideMenu.cpp:45:1:virtual touchgfx::SlideMenu::~SlideMenu()	8	static
+SlideMenu.cpp:98:6:virtual void touchgfx::SlideMenu::setup(touchgfx::SlideMenu::ExpandDirection, const touchgfx::Bitmap&, int16_t, int16_t)	32	static
+SlideMenu.cpp:50:6:virtual void touchgfx::SlideMenu::setup(touchgfx::SlideMenu::ExpandDirection, const touchgfx::Bitmap&, const touchgfx::Bitmap&, const touchgfx::Bitmap&)	72	static
+SlideMenu.cpp:119:6:virtual void touchgfx::SlideMenu::setup(touchgfx::SlideMenu::ExpandDirection, const touchgfx::Bitmap&, const touchgfx::Bitmap&, const touchgfx::Bitmap&, int16_t, int16_t, int16_t, int16_t)	32	static
+MoveAnimator.hpp:164:18:void touchgfx::MoveAnimator<T>::handleTickEvent() [with T = touchgfx::Container]	24	static
+SlideMenu.cpp:223:6:virtual void touchgfx::SlideMenu::animateToState(touchgfx::SlideMenu::State)	32	static
+SlideMenu.cpp:20:1:touchgfx::SlideMenu::SlideMenu()	48	static

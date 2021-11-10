@@ -1,0 +1,31 @@
+Drawable.hpp:271:18:virtual void touchgfx::Drawable::setX(int16_t)	0	static
+Drawable.hpp:283:18:virtual void touchgfx::Drawable::setY(int16_t)	0	static
+Drawable.hpp:312:18:virtual void touchgfx::Drawable::setWidth(int16_t)	0	static
+Drawable.hpp:324:18:virtual void touchgfx::Drawable::setHeight(int16_t)	0	static
+Drawable.hpp:334:18:virtual void touchgfx::Drawable::childGeometryChanged()	0	static
+Drawable.hpp:356:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	0	static
+Drawable.hpp:454:18:virtual void touchgfx::Drawable::handleTickEvent()	0	static
+Drawable.hpp:541:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	16	static
+Container.hpp:154:23:virtual touchgfx::Drawable* touchgfx::Container::getFirstChild()	0	static
+Slider.hpp:178:22:virtual uint16_t touchgfx::Slider::getIndicatorMin() const	0	static
+Slider.hpp:191:22:virtual uint16_t touchgfx::Slider::getIndicatorMax() const	0	static
+Slider.hpp:218:22:virtual uint16_t touchgfx::Slider::getMinValue() const	0	static
+Slider.hpp:230:22:virtual uint16_t touchgfx::Slider::getMaxValue() const	0	static
+Slider.cpp:117:6:virtual void touchgfx::Slider::setValue(int)	16	static
+Slider.cpp:122:6:virtual void touchgfx::Slider::handleClickEvent(const touchgfx::ClickEvent&)	24	static
+Slider.cpp:149:6:virtual void touchgfx::Slider::handleDragEvent(const touchgfx::DragEvent&)	16	static
+Slider.cpp:161:9:virtual int16_t touchgfx::Slider::valueToPosition(int) const	16	static
+Slider.cpp:179:5:virtual int touchgfx::Slider::positionToValue(int16_t) const	16	static
+Slider.cpp:244:10:virtual uint16_t touchgfx::Slider::getIndicatorRadius() const	0	static
+Slider.cpp:270:6:virtual void touchgfx::Slider::setValueRange(int, int)	8	static
+Slider.cpp:286:5:virtual int touchgfx::Slider::getIndicatorPositionRangeSize() const	0	static
+Slider.cpp:291:5:virtual int touchgfx::Slider::getValueRangeSize() const	0	static
+Slider.hpp:38:7:touchgfx::Slider::~Slider()	0	static
+Slider.cpp:210:6:virtual void touchgfx::Slider::updateIndicatorPosition(int16_t)	40	static
+Slider.hpp:38:7:virtual touchgfx::Slider::~Slider()	8	static
+Slider.cpp:260:6:virtual void touchgfx::Slider::setValueRange(int, int, int)	8	static
+Slider.cpp:64:6:virtual void touchgfx::Slider::setupHorizontalSlider(uint16_t, uint16_t, uint16_t, uint16_t, uint16_t)	48	static
+Slider.cpp:91:6:virtual void touchgfx::Slider::setupVerticalSlider(uint16_t, uint16_t, uint16_t, uint16_t, uint16_t)	48	static
+Slider.cpp:20:1:touchgfx::Slider::Slider()	56	static
+Slider.cpp:47:6:void touchgfx::Slider::setBitmaps(const touchgfx::Bitmap&, const touchgfx::Bitmap&, const touchgfx::Bitmap&)	24	static
+Slider.cpp:59:6:void touchgfx::Slider::setBitmaps(touchgfx::BitmapId, touchgfx::BitmapId, touchgfx::BitmapId)	24	static

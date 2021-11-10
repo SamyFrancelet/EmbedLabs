@@ -1,0 +1,26 @@
+Drawable.hpp:271:18:virtual void touchgfx::Drawable::setX(int16_t)	0	static
+Drawable.hpp:283:18:virtual void touchgfx::Drawable::setY(int16_t)	0	static
+Drawable.hpp:312:18:virtual void touchgfx::Drawable::setWidth(int16_t)	0	static
+Drawable.hpp:324:18:virtual void touchgfx::Drawable::setHeight(int16_t)	0	static
+Drawable.hpp:334:18:virtual void touchgfx::Drawable::childGeometryChanged()	0	static
+Drawable.hpp:345:18:virtual void touchgfx::Drawable::handleClickEvent(const touchgfx::ClickEvent&)	0	static
+Drawable.hpp:356:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	0	static
+Drawable.hpp:444:18:virtual void touchgfx::Drawable::handleDragEvent(const touchgfx::DragEvent&)	0	static
+Drawable.hpp:454:18:virtual void touchgfx::Drawable::handleTickEvent()	0	static
+Drawable.hpp:541:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	16	static
+Container.hpp:154:23:virtual touchgfx::Drawable* touchgfx::Container::getFirstChild()	0	static
+ModalWindow.cpp:48:6:virtual void touchgfx::ModalWindow::setBackground(const BitmapId&, int16_t, int16_t)	24	static
+ModalWindow.cpp:54:10:virtual uint16_t touchgfx::ModalWindow::getBackgroundWidth() const	0	static
+ModalWindow.cpp:59:10:virtual uint16_t touchgfx::ModalWindow::getBackgroundHeight() const	0	static
+ModalWindow.cpp:80:9:virtual uint8_t touchgfx::ModalWindow::getShadeAlpha() const	0	static
+ModalWindow.cpp:91:11:virtual touchgfx::colortype touchgfx::ModalWindow::getShadeColor() const	0	static
+ModalWindow.cpp:96:6:virtual void touchgfx::ModalWindow::show()	8	static
+ModalWindow.cpp:102:6:virtual void touchgfx::ModalWindow::hide()	8	static
+ModalWindow.hpp:49:7:touchgfx::ModalWindow::~ModalWindow()	0	static
+ModalWindow.cpp:64:6:virtual void touchgfx::ModalWindow::add(touchgfx::Drawable&)	8	static
+ModalWindow.cpp:85:6:virtual void touchgfx::ModalWindow::setShadeColor(touchgfx::colortype)	8	static
+ModalWindow.cpp:74:6:virtual void touchgfx::ModalWindow::setShadeAlpha(uint8_t)	8	static
+ModalWindow.cpp:69:6:virtual void touchgfx::ModalWindow::remove(touchgfx::Drawable&)	8	static
+ModalWindow.hpp:49:7:virtual touchgfx::ModalWindow::~ModalWindow()	8	static
+ModalWindow.cpp:39:6:virtual void touchgfx::ModalWindow::setBackground(const BitmapId&)	32	static
+ModalWindow.cpp:21:1:touchgfx::ModalWindow::ModalWindow()	40	static

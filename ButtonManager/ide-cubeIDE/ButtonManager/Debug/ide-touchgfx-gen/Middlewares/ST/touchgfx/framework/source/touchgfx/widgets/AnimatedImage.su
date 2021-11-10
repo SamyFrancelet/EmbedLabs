@@ -1,0 +1,22 @@
+Drawable.hpp:134:23:virtual touchgfx::Drawable* touchgfx::Drawable::getFirstChild()	0	static
+Drawable.hpp:271:18:virtual void touchgfx::Drawable::setX(int16_t)	0	static
+Drawable.hpp:283:18:virtual void touchgfx::Drawable::setY(int16_t)	0	static
+Drawable.hpp:312:18:virtual void touchgfx::Drawable::setWidth(int16_t)	0	static
+Drawable.hpp:324:18:virtual void touchgfx::Drawable::setHeight(int16_t)	0	static
+Drawable.hpp:334:18:virtual void touchgfx::Drawable::childGeometryChanged()	0	static
+Drawable.hpp:345:18:virtual void touchgfx::Drawable::handleClickEvent(const touchgfx::ClickEvent&)	0	static
+Drawable.hpp:356:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	0	static
+Drawable.hpp:444:18:virtual void touchgfx::Drawable::handleDragEvent(const touchgfx::DragEvent&)	0	static
+Drawable.hpp:541:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	16	static
+Drawable.hpp:656:18:virtual void touchgfx::Drawable::setupDrawChain(const touchgfx::Rect&, touchgfx::Drawable**)	0	static
+Widget.hpp:50:18:virtual void touchgfx::Widget::getLastChild(int16_t, int16_t, touchgfx::Drawable**)	0	static
+AnimatedImage.hpp:33:7:touchgfx::AnimatedImage::~AnimatedImage()	0	static
+AnimatedImage.cpp:96:6:virtual void touchgfx::AnimatedImage::stopAnimation()	16	static
+AnimatedImage.cpp:128:6:virtual void touchgfx::AnimatedImage::setBitmap(const touchgfx::Bitmap&)	8	static
+AnimatedImage.cpp:134:6:virtual void touchgfx::AnimatedImage::setBitmapEnd(const touchgfx::Bitmap&)	8	static
+AnimatedImage.cpp:20:6:virtual void touchgfx::AnimatedImage::handleTickEvent()	24	static
+AnimatedImage.cpp:114:6:virtual void touchgfx::AnimatedImage::pauseAnimation()	8	static
+AnimatedImage.cpp:75:6:virtual void touchgfx::AnimatedImage::startAnimation(bool, bool, bool)	24	static
+AnimatedImage.hpp:33:7:virtual touchgfx::AnimatedImage::~AnimatedImage()	8	static
+AnimatedImage.cpp:139:6:void touchgfx::AnimatedImage::setBitmaps(touchgfx::BitmapId, touchgfx::BitmapId)	24	static
+AnimatedImage.cpp:145:6:void touchgfx::AnimatedImage::setUpdateTicksInterval(uint8_t)	0	static

@@ -1,0 +1,4 @@
+customevent.h:37:10:virtual bool XFCustomEvent::deleteAfterConsume() const	0	static
+evbuttonpressed.h:12:7:evButtonPressed::~evButtonPressed()	0	static
+evbuttonpressed.h:12:7:virtual evButtonPressed::~evButtonPressed()	8	static
+evbuttonpressed.cpp:4:1:evButtonPressed::evButtonPressed()	8	static

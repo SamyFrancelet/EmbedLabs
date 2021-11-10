@@ -1,0 +1,20 @@
+Drawable.hpp:271:18:virtual void touchgfx::Drawable::setX(int16_t)	0	static
+Drawable.hpp:283:18:virtual void touchgfx::Drawable::setY(int16_t)	0	static
+Drawable.hpp:312:18:virtual void touchgfx::Drawable::setWidth(int16_t)	0	static
+Drawable.hpp:324:18:virtual void touchgfx::Drawable::setHeight(int16_t)	0	static
+Drawable.hpp:334:18:virtual void touchgfx::Drawable::childGeometryChanged()	0	static
+Drawable.hpp:345:18:virtual void touchgfx::Drawable::handleClickEvent(const touchgfx::ClickEvent&)	0	static
+Drawable.hpp:356:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	0	static
+Drawable.hpp:444:18:virtual void touchgfx::Drawable::handleDragEvent(const touchgfx::DragEvent&)	0	static
+Drawable.hpp:454:18:virtual void touchgfx::Drawable::handleTickEvent()	0	static
+Drawable.hpp:541:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	16	static
+Container.hpp:154:23:virtual touchgfx::Drawable* touchgfx::Container::getFirstChild()	0	static
+AbstractClock.cpp:28:6:virtual void touchgfx::AbstractClock::setTime24Hour(uint8_t, uint8_t, uint8_t)	16	static
+AbstractClock.cpp:37:6:virtual void touchgfx::AbstractClock::setTime12Hour(uint8_t, uint8_t, uint8_t, bool)	16	static
+AbstractClock.cpp:20:1:touchgfx::AbstractClock::AbstractClock()	0	static
+AbstractClock.cpp:42:9:uint8_t touchgfx::AbstractClock::getCurrentHour() const	0	static
+AbstractClock.cpp:47:9:uint8_t touchgfx::AbstractClock::getCurrentHour24() const	0	static
+AbstractClock.cpp:52:9:uint8_t touchgfx::AbstractClock::getCurrentHour12() const	0	static
+AbstractClock.cpp:57:6:bool touchgfx::AbstractClock::getCurrentAM() const	0	static
+AbstractClock.cpp:62:9:uint8_t touchgfx::AbstractClock::getCurrentMinute() const	0	static
+AbstractClock.cpp:67:9:uint8_t touchgfx::AbstractClock::getCurrentSecond() const	0	static

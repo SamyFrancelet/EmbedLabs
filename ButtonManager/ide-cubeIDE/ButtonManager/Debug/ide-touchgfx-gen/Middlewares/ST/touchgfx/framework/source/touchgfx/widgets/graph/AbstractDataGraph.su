@@ -1,0 +1,102 @@
+Drawable.hpp:271:18:virtual void touchgfx::Drawable::setX(int16_t)	0	static
+Drawable.hpp:283:18:virtual void touchgfx::Drawable::setY(int16_t)	0	static
+Drawable.hpp:334:18:virtual void touchgfx::Drawable::childGeometryChanged()	0	static
+Drawable.hpp:356:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	0	static
+Drawable.hpp:454:18:virtual void touchgfx::Drawable::handleTickEvent()	0	static
+Drawable.hpp:541:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	16	static
+Container.hpp:154:23:virtual touchgfx::Drawable* touchgfx::Container::getFirstChild()	0	static
+AbstractDataGraph.cpp:38:6:virtual void touchgfx::AbstractDataGraph::setScale(int)	0	static
+AbstractDataGraph.cpp:168:6:virtual void touchgfx::AbstractDataGraph::clear()	0	static
+AbstractDataGraph.cpp:289:9:virtual int32_t touchgfx::AbstractDataGraph::indexToGlobalIndex(int16_t) const	0	static
+AbstractDataGraph.cpp:304:6:virtual void touchgfx::AbstractDataGraph::handleClickEvent(const touchgfx::ClickEvent&)	32	static
+AbstractDataGraph.cpp:325:6:virtual void touchgfx::AbstractDataGraph::handleDragEvent(const touchgfx::DragEvent&)	32	static
+AbstractDataGraph.cpp:447:5:virtual int touchgfx::AbstractDataGraph::getXAxisScaleScaled() const	0	static
+AbstractDataGraph.cpp:452:5:virtual int touchgfx::AbstractDataGraph::getXAxisOffsetScaled() const	0	static
+AbstractDataGraph.cpp:494:6:virtual void touchgfx::AbstractDataGraphWithY::setGraphRangeY(int, int)	8	static
+AbstractDataGraph.cpp:499:6:virtual void touchgfx::AbstractDataGraphWithY::setGraphRangeY(float, float)	8	static
+AbstractDataGraph.cpp:504:5:virtual int touchgfx::AbstractDataGraphWithY::getGraphRangeXMin() const	0	static
+AbstractDataGraph.cpp:509:5:virtual int touchgfx::AbstractDataGraphWithY::getGraphRangeXMax() const	0	static
+AbstractDataGraph.cpp:514:5:virtual int touchgfx::AbstractDataGraphWithY::getGraphRangeYMinAsInt() const	0	static
+AbstractDataGraph.cpp:519:7:virtual float touchgfx::AbstractDataGraphWithY::getGraphRangeYMinAsFloat() const	0	static
+AbstractDataGraph.cpp:524:5:virtual int touchgfx::AbstractDataGraphWithY::getGraphRangeYMaxAsInt() const	0	static
+AbstractDataGraph.cpp:529:7:virtual float touchgfx::AbstractDataGraphWithY::getGraphRangeYMaxAsFloat() const	0	static
+AbstractDataGraph.cpp:582:6:virtual void touchgfx::AbstractDataGraphWithY::setXAxisScale(int)	8	static
+AbstractDataGraph.cpp:587:6:virtual void touchgfx::AbstractDataGraphWithY::setXAxisScale(float)	8	static
+AbstractDataGraph.cpp:592:5:virtual int touchgfx::AbstractDataGraphWithY::getXAxisScaleAsInt() const	8	static
+AbstractDataGraph.cpp:597:7:virtual float touchgfx::AbstractDataGraphWithY::getXAxisScaleAsFloat() const	8	static
+AbstractDataGraph.cpp:602:6:virtual void touchgfx::AbstractDataGraphWithY::setXAxisOffset(int)	8	static
+AbstractDataGraph.cpp:607:6:virtual void touchgfx::AbstractDataGraphWithY::setXAxisOffset(float)	8	static
+AbstractDataGraph.cpp:612:5:virtual int touchgfx::AbstractDataGraphWithY::getXAxisOffsetAsInt() const	8	static
+AbstractDataGraph.cpp:617:7:virtual float touchgfx::AbstractDataGraphWithY::getXAxisOffsetAsFloat() const	8	static
+AbstractDataGraph.cpp:629:6:virtual void touchgfx::AbstractDataGraphWithY::beforeAddValue()	0	static
+AbstractDataGraph.cpp:633:9:virtual int16_t touchgfx::AbstractDataGraphWithY::realIndex(int16_t) const	0	static
+AbstractDataGraph.cpp:638:5:virtual int touchgfx::AbstractDataGraphWithY::indexToDataPointXScaled(int16_t) const	16	static
+AbstractDataGraph.cpp:643:5:virtual int touchgfx::AbstractDataGraphWithY::indexToDataPointYScaled(int16_t) const	8	static
+AbstractDataGraph.cpp:688:6:virtual void touchgfx::AbstractDataGraphWithY::setXAxisScaleScaled(int)	0	static
+AbstractDataGraph.cpp:693:5:virtual int touchgfx::AbstractDataGraphWithY::getXAxisScaleScaled() const	0	static
+AbstractDataGraph.cpp:717:5:virtual int touchgfx::AbstractDataGraphWithY::getGraphRangeYMinScaled() const	0	static
+AbstractDataGraph.cpp:722:5:virtual int touchgfx::AbstractDataGraphWithY::getGraphRangeYMaxScaled() const	0	static
+AbstractDataGraph.cpp:727:6:virtual void touchgfx::AbstractDataGraphWithY::setXAxisOffsetScaled(int)	0	static
+AbstractDataGraph.cpp:732:5:virtual int touchgfx::AbstractDataGraphWithY::getXAxisOffsetScaled() const	0	static
+AbstractDataGraph.cpp:747:13:virtual touchgfx::CWRUtil::Q5 touchgfx::AbstractDataGraphWithY::indexToScreenXQ5(int16_t) const	8	static
+AbstractDataGraph.cpp:752:13:virtual touchgfx::CWRUtil::Q5 touchgfx::AbstractDataGraphWithY::indexToScreenYQ5(int16_t) const	16	static
+AbstractDataGraph.cpp:475:6:virtual void touchgfx::AbstractDataGraphWithY::setGraphRangeX(int, int)	8	static
+AbstractDataGraph.cpp:698:6:virtual void touchgfx::AbstractDataGraphWithY::setGraphRangeYScaled(int, int)	8	static
+AbstractDataGraph.cpp:43:5:int touchgfx::AbstractDataGraph::getScale() const	0	static
+AbstractDataGraph.cpp:48:6:void touchgfx::AbstractDataGraph::setAlpha(uint8_t)	0	static
+AbstractDataGraph.cpp:53:9:uint8_t touchgfx::AbstractDataGraph::getAlpha() const	0	static
+AbstractDataGraph.cpp:88:9:int16_t touchgfx::AbstractDataGraph::getGraphAreaMarginTop() const	0	static
+AbstractDataGraph.cpp:93:9:int16_t touchgfx::AbstractDataGraph::getGraphAreaMarginLeft() const	0	static
+AbstractDataGraph.cpp:98:9:int16_t touchgfx::AbstractDataGraph::getGraphAreaMarginRight() const	0	static
+AbstractDataGraph.cpp:103:9:int16_t touchgfx::AbstractDataGraph::getGraphAreaMarginBottom() const	0	static
+AbstractDataGraph.cpp:108:6:void touchgfx::AbstractDataGraph::setGraphAreaPadding(int16_t, int16_t, int16_t, int16_t)	0	static
+AbstractDataGraph.cpp:116:9:int16_t touchgfx::AbstractDataGraph::getGraphAreaPaddingTop() const	0	static
+AbstractDataGraph.cpp:121:9:int16_t touchgfx::AbstractDataGraph::getGraphAreaPaddingLeft() const	0	static
+AbstractDataGraph.cpp:126:9:int16_t touchgfx::AbstractDataGraph::getGraphAreaPaddingRight() const	0	static
+AbstractDataGraph.cpp:131:9:int16_t touchgfx::AbstractDataGraph::getGraphAreaPaddingBottom() const	0	static
+AbstractDataGraph.cpp:136:9:int16_t touchgfx::AbstractDataGraph::getGraphAreaWidth() const	0	static
+AbstractDataGraph.cpp:648:6:virtual bool touchgfx::AbstractDataGraphWithY::xScreenRangeToIndexRange(int16_t, int16_t, int16_t&, int16_t&) const	32	static
+AbstractDataGraph.cpp:737:13:virtual touchgfx::CWRUtil::Q5 touchgfx::AbstractDataGraphWithY::valueToScreenXQ5(int) const	32	static
+AbstractDataGraph.cpp:141:9:int16_t touchgfx::AbstractDataGraph::getGraphAreaWidthIncludingPadding() const	0	static
+AbstractDataGraph.cpp:146:9:int16_t touchgfx::AbstractDataGraph::getGraphAreaHeight() const	0	static
+AbstractDataGraph.cpp:742:13:virtual touchgfx::CWRUtil::Q5 touchgfx::AbstractDataGraphWithY::valueToScreenYQ5(int) const	32	static
+AbstractDataGraph.cpp:151:9:int16_t touchgfx::AbstractDataGraph::getGraphAreaHeightIncludingPadding() const	0	static
+AbstractDataGraph.cpp:156:6:void touchgfx::AbstractDataGraph::setGraphRange(int, int, int, int)	16	static
+AbstractDataGraph.cpp:162:6:void touchgfx::AbstractDataGraph::setGraphRange(int, int, float, float)	16	static
+AbstractDataGraph.cpp:173:6:void touchgfx::AbstractDataGraph::setGapBeforeIndex(int16_t)	0	static
+AbstractDataGraph.cpp:178:9:int16_t touchgfx::AbstractDataGraph::getGapBeforeIndex() const	0	static
+AbstractDataGraph.cpp:183:6:void touchgfx::AbstractDataGraph::addGraphElement(touchgfx::AbstractGraphElement&)	16	static
+AbstractDataGraph.cpp:189:6:void touchgfx::AbstractDataGraph::addTopElement(touchgfx::AbstractGraphDecoration&)	16	static
+AbstractDataGraph.cpp:195:6:void touchgfx::AbstractDataGraph::addLeftElement(touchgfx::AbstractGraphDecoration&)	16	static
+AbstractDataGraph.cpp:201:6:void touchgfx::AbstractDataGraph::addRightElement(touchgfx::AbstractGraphDecoration&)	16	static
+AbstractDataGraph.cpp:207:6:void touchgfx::AbstractDataGraph::addBottomElement(touchgfx::AbstractGraphDecoration&)	16	static
+AbstractDataGraph.cpp:213:9:int16_t touchgfx::AbstractDataGraph::getUsedCapacity() const	0	static
+AbstractDataGraph.cpp:218:9:int16_t touchgfx::AbstractDataGraph::getMaxCapacity() const	0	static
+AbstractDataGraph.cpp:259:9:int16_t touchgfx::AbstractDataGraph::indexToScreenX(int16_t) const	8	static
+AbstractDataGraph.cpp:264:9:int16_t touchgfx::AbstractDataGraph::indexToScreenY(int16_t) const	8	static
+AbstractDataGraph.cpp:269:5:int touchgfx::AbstractDataGraph::indexToDataPointXAsInt(int16_t) const	8	static
+AbstractDataGraph.cpp:274:7:float touchgfx::AbstractDataGraph::indexToDataPointXAsFloat(int16_t) const	8	static
+AbstractDataGraph.cpp:279:5:int touchgfx::AbstractDataGraph::indexToDataPointYAsInt(int16_t) const	8	static
+AbstractDataGraph.cpp:284:7:float touchgfx::AbstractDataGraph::indexToDataPointYAsFloat(int16_t) const	8	static
+AbstractDataGraph.cpp:294:6:void touchgfx::AbstractDataGraph::setClickAction(touchgfx::GenericCallback<const touchgfx::AbstractDataGraph&, const touchgfx::AbstractDataGraph::GraphClickEvent&>&)	0	static
+AbstractDataGraph.cpp:299:6:void touchgfx::AbstractDataGraph::setDragAction(touchgfx::GenericCallback<const touchgfx::AbstractDataGraph&, const touchgfx::AbstractDataGraph::GraphDragEvent&>&)	0	static
+AbstractDataGraph.cpp:342:6:void touchgfx::AbstractDataGraph::invalidateGraphPointAt(int16_t)	16	static
+AbstractDataGraph.cpp:355:6:void touchgfx::AbstractDataGraph::invalidateGraphArea()	8	static
+AbstractDataGraph.cpp:360:6:void touchgfx::AbstractDataGraph::invalidateXAxisPointAt(int16_t)	16	static
+AbstractDataGraph.cpp:376:6:void touchgfx::AbstractDataGraph::invalidateAllXAxisPoints()	16	static
+AbstractDataGraph.cpp:392:6:void touchgfx::AbstractDataGraph::updateAreasPosition()	24	static
+AbstractDataGraph.cpp:58:6:virtual void touchgfx::AbstractDataGraph::setWidth(int16_t)	16	static
+AbstractDataGraph.cpp:68:6:virtual void touchgfx::AbstractDataGraph::setHeight(int16_t)	16	static
+AbstractDataGraph.cpp:78:6:void touchgfx::AbstractDataGraph::setGraphAreaMargin(int16_t, int16_t, int16_t, int16_t)	48	static
+AbstractDataGraph.cpp:22:1:touchgfx::AbstractDataGraph::AbstractDataGraph(int16_t)	24	static
+AbstractDataGraph.cpp:432:6:void touchgfx::AbstractDataGraph::setGraphRangeScaled(int, int, int, int)	16	static
+AbstractDataGraph.cpp:438:5:int touchgfx::AbstractDataGraph::convertToGraphScale(int, int) const	8	static
+AbstractDataGraph.cpp:574:6:virtual void touchgfx::AbstractDataGraphWithY::setScale(int)	16	static
+AbstractDataGraph.cpp:457:1:touchgfx::AbstractDataGraphWithY::AbstractDataGraphWithY(int16_t, int*)	16	static
+AbstractDataGraph.cpp:534:6:void touchgfx::AbstractDataGraphWithY::setGraphRangeYAuto(bool, int)	24	static
+AbstractDataGraph.cpp:622:9:int16_t touchgfx::AbstractDataGraphWithY::addDataPointScaled(int)	16	static
+AbstractDataGraph.cpp:465:9:int16_t touchgfx::AbstractDataGraphWithY::addDataPoint(int)	8	static
+AbstractDataGraph.cpp:470:9:int16_t touchgfx::AbstractDataGraphWithY::addDataPoint(float)	8	static
+Utils.hpp:115:3:T touchgfx::abs(T) [with T = int]	0	static
+AbstractDataGraph.cpp:223:6:virtual bool touchgfx::AbstractDataGraph::getNearestIndexForScreenXY(int16_t, int16_t, int16_t&)	32	static
+AbstractDataGraph.cpp:244:6:virtual bool touchgfx::AbstractDataGraph::getNearestIndexForScreenX(int16_t, int16_t&) const	40	static

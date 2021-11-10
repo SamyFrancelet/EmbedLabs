@@ -1,0 +1,4 @@
+port-functions.cpp:27:6:void XF_startTimeoutManagerTimer(uint32_t)	0	static
+port-functions.cpp:40:6:void XF_tick()	8	static
+port-functions.cpp:53:9:int32_t XF_tickIntervalInMilliseconds()	8	static
+port-functions.cpp:58:6:bool XF_isRunning()	8	static

@@ -1,0 +1,20 @@
+Drawable.hpp:134:23:virtual touchgfx::Drawable* touchgfx::Drawable::getFirstChild()	0	static
+Drawable.hpp:271:18:virtual void touchgfx::Drawable::setX(int16_t)	0	static
+Drawable.hpp:283:18:virtual void touchgfx::Drawable::setY(int16_t)	0	static
+Drawable.hpp:312:18:virtual void touchgfx::Drawable::setWidth(int16_t)	0	static
+Drawable.hpp:324:18:virtual void touchgfx::Drawable::setHeight(int16_t)	0	static
+Drawable.hpp:334:18:virtual void touchgfx::Drawable::childGeometryChanged()	0	static
+Drawable.hpp:345:18:virtual void touchgfx::Drawable::handleClickEvent(const touchgfx::ClickEvent&)	0	static
+Drawable.hpp:356:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	0	static
+Drawable.hpp:444:18:virtual void touchgfx::Drawable::handleDragEvent(const touchgfx::DragEvent&)	0	static
+Drawable.hpp:454:18:virtual void touchgfx::Drawable::handleTickEvent()	0	static
+Drawable.hpp:541:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	16	static
+Drawable.hpp:656:18:virtual void touchgfx::Drawable::setupDrawChain(const touchgfx::Rect&, touchgfx::Drawable**)	0	static
+Widget.hpp:50:18:virtual void touchgfx::Widget::getLastChild(int16_t, int16_t, touchgfx::Drawable**)	0	static
+SnapshotWidget.cpp:38:6:virtual touchgfx::Rect touchgfx::SnapshotWidget::getSolidRect() const	4	static
+SnapshotWidget.cpp:50:6:virtual void touchgfx::SnapshotWidget::makeSnapshot()	8	static
+SnapshotWidget.hpp:34:7:touchgfx::SnapshotWidget::~SnapshotWidget()	0	static
+SnapshotWidget.cpp:26:6:virtual void touchgfx::SnapshotWidget::draw(const touchgfx::Rect&) const	48	static
+SnapshotWidget.cpp:55:6:virtual void touchgfx::SnapshotWidget::makeSnapshot(touchgfx::BitmapId)	32	static
+SnapshotWidget.hpp:34:7:virtual touchgfx::SnapshotWidget::~SnapshotWidget()	8	static
+SnapshotWidget.cpp:21:1:touchgfx::SnapshotWidget::SnapshotWidget()	0	static

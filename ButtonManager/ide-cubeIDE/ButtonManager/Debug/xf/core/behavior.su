@@ -1,0 +1,12 @@
+behavior.cpp:61:6:virtual bool XFBehavior::deleteOnTerminate() const	0	static
+behavior.cpp:66:6:virtual void XFBehavior::setDeleteOnTerminate(bool)	0	static
+behavior.cpp:11:1:XFBehavior::XFBehavior(bool)	16	static
+behavior.cpp:36:1:XFBehavior::~XFBehavior()	0	static
+behavior.cpp:36:1:virtual XFBehavior::~XFBehavior()	8	static
+behavior.cpp:84:27:interface::XFDispatcher* XFBehavior::getDispatcher()	0	static
+behavior.cpp:41:6:virtual void XFBehavior::startBehavior()	16	static
+behavior.cpp:53:6:virtual void XFBehavior::pushEvent(XFEvent*, bool)	16	static
+behavior.cpp:89:6:void XFBehavior::setCurrentEvent(const XFEvent*)	0	static
+behavior.cpp:71:31:virtual interface::XFReactive::TerminateBehavior XFBehavior::process(const XFEvent*)	16	static
+behavior.cpp:94:17:const XFEvent* XFBehavior::getCurrentEvent() const	0	static
+behavior.cpp:99:19:const XFTimeout* XFBehavior::getCurrentTimeout()	8	static

@@ -1,0 +1,124 @@
+Drawable.hpp:134:23:virtual touchgfx::Drawable* touchgfx::Drawable::getFirstChild()	0	static
+Drawable.hpp:271:18:virtual void touchgfx::Drawable::setX(int16_t)	0	static
+Drawable.hpp:283:18:virtual void touchgfx::Drawable::setY(int16_t)	0	static
+Drawable.hpp:312:18:virtual void touchgfx::Drawable::setWidth(int16_t)	0	static
+Drawable.hpp:324:18:virtual void touchgfx::Drawable::setHeight(int16_t)	0	static
+Drawable.hpp:334:18:virtual void touchgfx::Drawable::childGeometryChanged()	0	static
+Drawable.hpp:345:18:virtual void touchgfx::Drawable::handleClickEvent(const touchgfx::ClickEvent&)	0	static
+Drawable.hpp:356:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	0	static
+Drawable.hpp:444:18:virtual void touchgfx::Drawable::handleDragEvent(const touchgfx::DragEvent&)	0	static
+Drawable.hpp:454:18:virtual void touchgfx::Drawable::handleTickEvent()	0	static
+Drawable.hpp:541:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	16	static
+Drawable.hpp:656:18:virtual void touchgfx::Drawable::setupDrawChain(const touchgfx::Rect&, touchgfx::Drawable**)	0	static
+Widget.hpp:50:18:virtual void touchgfx::Widget::getLastChild(int16_t, int16_t, touchgfx::Drawable**)	0	static
+CanvasWidget.hpp:67:18:virtual void touchgfx::CanvasWidget::setAlpha(uint8_t)	0	static
+CanvasWidget.hpp:73:21:virtual uint8_t touchgfx::CanvasWidget::getAlpha() const	0	static
+GraphElements.hpp:251:18:virtual void touchgfx::AbstractGraphElementNoCWR::setPainter(touchgfx::AbstractPainter&)	0	static
+GraphElements.cpp:137:6:virtual void touchgfx::AbstractGraphElementNoCWR::setColor(touchgfx::colortype)	0	static
+GraphElements.cpp:142:11:virtual touchgfx::colortype touchgfx::AbstractGraphElementNoCWR::getColor() const	0	static
+GraphElements.cpp:147:6:virtual bool touchgfx::AbstractGraphElementNoCWR::drawCanvasWidget(const touchgfx::Rect&) const	0	static
+GraphElements.cpp:223:6:virtual void touchgfx::GraphElementGridBase::invalidateGraphPointAt(int16_t)	0	static
+GraphElements.hpp:727:7:touchgfx::GraphElementDiamonds::~GraphElementDiamonds()	0	static
+GraphElements.hpp:689:7:touchgfx::GraphElementDots::~GraphElementDots()	0	static
+GraphElements.hpp:652:7:touchgfx::GraphElementBoxes::~GraphElementBoxes()	0	static
+GraphElements.hpp:549:7:touchgfx::GraphElementHistogram::~GraphElementHistogram()	0	static
+GraphElements.hpp:514:7:touchgfx::GraphElementVerticalGapLine::~GraphElementVerticalGapLine()	0	static
+GraphElements.hpp:466:7:touchgfx::GraphElementLine::~GraphElementLine()	0	static
+GraphElements.hpp:405:7:touchgfx::GraphElementArea::~GraphElementArea()	0	static
+GraphElements.hpp:257:7:touchgfx::GraphElementGridBase::~GraphElementGridBase()	0	static
+GraphElements.hpp:379:7:touchgfx::GraphElementGridY::~GraphElementGridY()	0	static
+GraphElements.hpp:353:7:touchgfx::GraphElementGridX::~GraphElementGridX()	0	static
+GraphElements.hpp:727:7:virtual touchgfx::GraphElementDiamonds::~GraphElementDiamonds()	8	static
+GraphElements.hpp:689:7:virtual touchgfx::GraphElementDots::~GraphElementDots()	8	static
+GraphElements.hpp:466:7:virtual touchgfx::GraphElementLine::~GraphElementLine()	8	static
+GraphElements.hpp:405:7:virtual touchgfx::GraphElementArea::~GraphElementArea()	8	static
+GraphElements.hpp:652:7:virtual touchgfx::GraphElementBoxes::~GraphElementBoxes()	8	static
+GraphElements.hpp:549:7:virtual touchgfx::GraphElementHistogram::~GraphElementHistogram()	8	static
+GraphElements.hpp:514:7:virtual touchgfx::GraphElementVerticalGapLine::~GraphElementVerticalGapLine()	8	static
+GraphElements.hpp:257:7:virtual touchgfx::GraphElementGridBase::~GraphElementGridBase()	8	static
+GraphElements.hpp:379:7:virtual touchgfx::GraphElementGridY::~GraphElementGridY()	8	static
+GraphElements.hpp:353:7:virtual touchgfx::GraphElementGridX::~GraphElementGridX()	8	static
+GraphElements.cpp:20:1:touchgfx::AbstractGraphElement::AbstractGraphElement()	8	static
+GraphElements.cpp:25:6:void touchgfx::AbstractGraphElement::setScale(int)	0	static
+GraphElements.cpp:30:5:int touchgfx::AbstractGraphElement::getScale() const	0	static
+GraphElements.cpp:35:20:touchgfx::AbstractDataGraph* touchgfx::AbstractGraphElement::getGraph() const	0	static
+GraphElements.cpp:40:13:touchgfx::CWRUtil::Q5 touchgfx::AbstractGraphElement::valueToScreenXQ5(const touchgfx::AbstractDataGraph*, int) const	8	static
+GraphElements.cpp:45:13:touchgfx::CWRUtil::Q5 touchgfx::AbstractGraphElement::valueToScreenYQ5(const touchgfx::AbstractDataGraph*, int) const	8	static
+GraphElements.cpp:50:13:touchgfx::CWRUtil::Q5 touchgfx::AbstractGraphElement::indexToScreenXQ5(const touchgfx::AbstractDataGraph*, int16_t) const	8	static
+GraphElements.cpp:55:13:touchgfx::CWRUtil::Q5 touchgfx::AbstractGraphElement::indexToScreenYQ5(const touchgfx::AbstractDataGraph*, int16_t) const	8	static
+GraphElements.cpp:60:6:bool touchgfx::AbstractGraphElement::xScreenRangeToIndexRange(int16_t, int16_t, int16_t&, int16_t&) const	32	static
+GraphElements.cpp:65:6:touchgfx::Rect touchgfx::AbstractGraphElement::rectFromQ5Coordinates(touchgfx::CWRUtil::Q5, touchgfx::CWRUtil::Q5, touchgfx::CWRUtil::Q5, touchgfx::CWRUtil::Q5) const	16	static
+GraphElements.cpp:86:6:touchgfx::Rect touchgfx::AbstractGraphElement::rectAround(touchgfx::CWRUtil::Q5, touchgfx::CWRUtil::Q5, touchgfx::CWRUtil::Q5) const	24	static
+GraphElements.cpp:622:6:virtual void touchgfx::GraphElementLine::invalidateGraphPointAt(int16_t)	80	static
+GraphElements.cpp:92:13:touchgfx::CWRUtil::Q5 touchgfx::AbstractGraphElement::roundQ5(touchgfx::CWRUtil::Q5) const	0	static
+GraphElements.cpp:97:5:int touchgfx::AbstractGraphElement::convertToGraphScale(const touchgfx::AbstractDataGraph*, int, int) const	8	static
+GraphElements.cpp:544:6:virtual void touchgfx::GraphElementArea::invalidateGraphPointAt(int16_t)	80	static
+GraphElements.cpp:829:6:virtual void touchgfx::GraphElementHistogram::invalidateGraphPointAt(int16_t)	72	static
+GraphElements.cpp:102:5:int touchgfx::AbstractGraphElement::getGraphXAxisScaleScaled(const touchgfx::AbstractDataGraph*) const	8	static
+GraphElements.cpp:107:5:int touchgfx::AbstractGraphElement::getGraphXAxisOffsetScaled(const touchgfx::AbstractDataGraph*) const	8	static
+GraphElements.cpp:112:5:int touchgfx::AbstractGraphElement::getGraphRangeYMinScaled(const touchgfx::AbstractDataGraph*) const	8	static
+GraphElements.cpp:117:5:int touchgfx::AbstractGraphElement::getGraphRangeYMaxScaled(const touchgfx::AbstractDataGraph*) const	8	static
+GraphElements.cpp:122:6:bool touchgfx::AbstractGraphElement::isCenterInvisible(const touchgfx::AbstractDataGraph*, int16_t) const	24	static
+GraphElements.cpp:1001:6:virtual void touchgfx::GraphElementDots::invalidateGraphPointAt(int16_t)	56	static
+GraphElements.cpp:1067:6:virtual void touchgfx::GraphElementDiamonds::invalidateGraphPointAt(int16_t)	40	static
+GraphElements.cpp:856:6:virtual void touchgfx::GraphElementBoxes::draw(const touchgfx::Rect&) const	88	static
+GraphElements.cpp:893:6:virtual void touchgfx::GraphElementBoxes::invalidateGraphPointAt(int16_t)	32	static
+GraphElements.cpp:132:1:touchgfx::AbstractGraphElementNoCWR::AbstractGraphElementNoCWR()	8	static
+GraphElements.cpp:152:6:void touchgfx::AbstractGraphElementNoCWR::normalizeRect(touchgfx::Rect&) const	0	static
+GraphElements.cpp:689:6:virtual void touchgfx::GraphElementVerticalGapLine::draw(const touchgfx::Rect&) const	56	static
+GraphElements.cpp:715:6:virtual void touchgfx::GraphElementVerticalGapLine::invalidateGraphPointAt(int16_t)	40	static
+GraphElements.cpp:791:6:virtual void touchgfx::GraphElementHistogram::draw(const touchgfx::Rect&) const	112	static
+GraphElements.cpp:166:1:touchgfx::GraphElementGridBase::GraphElementGridBase()	8	static
+GraphElements.cpp:193:5:int touchgfx::GraphElementGridBase::getIntervalScaled() const	0	static
+GraphElements.cpp:173:5:int touchgfx::GraphElementGridBase::getCorrectlyScaledMajorInterval(const touchgfx::AbstractDataGraph*) const	24	static
+GraphElements.cpp:198:5:int touchgfx::GraphElementGridBase::getIntervalAsInt() const	8	static
+GraphElements.cpp:203:7:float touchgfx::GraphElementGridBase::getIntervalAsFloat() const	8	static
+GraphElements.cpp:208:6:void touchgfx::GraphElementGridBase::setMajorGrid(const touchgfx::GraphElementGridBase&)	0	static
+GraphElements.cpp:213:6:void touchgfx::GraphElementGridBase::setLineWidth(uint8_t)	0	static
+GraphElements.cpp:218:9:uint8_t touchgfx::GraphElementGridBase::getLineWidth() const	0	static
+GraphElements.cpp:330:6:void touchgfx::GraphElementGridX::drawLine(const touchgfx::Rect&, int16_t, int16_t, int16_t, int16_t, touchgfx::colortype, uint8_t) const	48	static
+GraphElements.cpp:444:6:void touchgfx::GraphElementGridY::drawLine(const touchgfx::Rect&, int16_t, int16_t, int16_t, int16_t, touchgfx::colortype, uint8_t) const	48	static
+GraphElements.cpp:456:1:touchgfx::GraphElementArea::GraphElementArea()	8	static
+GraphElements.cpp:461:6:void touchgfx::GraphElementArea::setBaselineScaled(int)	8	static
+GraphElements.cpp:467:6:void touchgfx::GraphElementArea::setBaseline(int)	8	static
+GraphElements.cpp:472:6:void touchgfx::GraphElementArea::setBaseline(float)	8	static
+GraphElements.cpp:477:5:int touchgfx::GraphElementArea::getBaselineScaled() const	0	static
+GraphElements.cpp:482:5:int touchgfx::GraphElementArea::getBaselineAsInt() const	8	static
+GraphElements.cpp:487:7:float touchgfx::GraphElementArea::getBaselineAsFloat() const	8	static
+GraphElements.cpp:575:1:touchgfx::GraphElementLine::GraphElementLine()	8	static
+GraphElements.cpp:580:6:void touchgfx::GraphElementLine::setLineWidth(uint8_t)	0	static
+GraphElements.cpp:585:9:uint8_t touchgfx::GraphElementLine::getLineWidth() const	0	static
+GraphElements.cpp:641:6:void touchgfx::GraphElementLine::drawIndexRange(touchgfx::Canvas&, const touchgfx::AbstractDataGraph*, int16_t, int16_t) const	72	static
+GraphElements.cpp:679:6:void touchgfx::GraphElementVerticalGapLine::setGapLineWidth(uint16_t)	0	static
+GraphElements.cpp:684:10:uint16_t touchgfx::GraphElementVerticalGapLine::getGapLineWidth() const	0	static
+GraphElements.cpp:733:1:touchgfx::GraphElementHistogram::GraphElementHistogram()	8	static
+GraphElements.cpp:740:6:void touchgfx::GraphElementHistogram::setBaselineScaled(int)	8	static
+GraphElements.cpp:746:6:void touchgfx::GraphElementHistogram::setBaseline(int)	8	static
+GraphElements.cpp:751:6:void touchgfx::GraphElementHistogram::setBaseline(float)	8	static
+GraphElements.cpp:756:5:int touchgfx::GraphElementHistogram::getBaselineScaled() const	0	static
+GraphElements.cpp:761:5:int touchgfx::GraphElementHistogram::getBaselineAsInt() const	8	static
+GraphElements.cpp:766:7:float touchgfx::GraphElementHistogram::getBaselineAsFloat() const	8	static
+GraphElements.cpp:771:6:void touchgfx::GraphElementHistogram::setBarWidth(uint16_t)	0	static
+GraphElements.cpp:776:10:uint16_t touchgfx::GraphElementHistogram::getBarWidth() const	0	static
+GraphElements.cpp:781:6:void touchgfx::GraphElementHistogram::setBarOffset(int16_t)	0	static
+GraphElements.cpp:786:9:int16_t touchgfx::GraphElementHistogram::getBarOffset() const	0	static
+GraphElements.cpp:841:1:touchgfx::GraphElementBoxes::GraphElementBoxes()	8	static
+GraphElements.cpp:846:6:void touchgfx::GraphElementBoxes::setBoxWidth(uint16_t)	0	static
+GraphElements.cpp:851:10:uint16_t touchgfx::GraphElementBoxes::getBoxWidth() const	0	static
+GraphElements.cpp:908:1:touchgfx::GraphElementDots::GraphElementDots()	8	static
+GraphElements.cpp:913:6:void touchgfx::GraphElementDots::setDotWidth(uint8_t)	0	static
+GraphElements.cpp:918:9:uint8_t touchgfx::GraphElementDots::getDotWidth() const	0	static
+GraphElements.cpp:1013:1:touchgfx::GraphElementDiamonds::GraphElementDiamonds()	8	static
+GraphElements.cpp:1018:6:void touchgfx::GraphElementDiamonds::setDiamondWidth(uint8_t)	0	static
+GraphElements.cpp:1023:9:uint8_t touchgfx::GraphElementDiamonds::getDiamondWidth() const	0	static
+Utils.hpp:115:3:T touchgfx::abs(T) [with T = int]	0	static
+GraphElements.cpp:178:6:void touchgfx::GraphElementGridBase::setIntervalScaled(int)	8	static
+GraphElements.cpp:183:6:void touchgfx::GraphElementGridBase::setInterval(int)	8	static
+GraphElements.cpp:227:6:virtual void touchgfx::GraphElementGridX::draw(const touchgfx::Rect&) const	112	static
+GraphElements.cpp:342:6:virtual void touchgfx::GraphElementGridY::draw(const touchgfx::Rect&) const	112	static
+Utils.hpp:115:3:T touchgfx::abs(T) [with T = float]	0	static
+GraphElements.cpp:188:6:void touchgfx::GraphElementGridBase::setInterval(float)	8	static
+GraphElements.cpp:492:6:virtual bool touchgfx::GraphElementArea::drawCanvasWidget(const touchgfx::Rect&) const	272	static
+GraphElements.cpp:590:6:virtual bool touchgfx::GraphElementLine::drawCanvasWidget(const touchgfx::Rect&) const	248	static
+GraphElements.cpp:923:6:virtual bool touchgfx::GraphElementDots::drawCanvasWidget(const touchgfx::Rect&) const	312	static
+GraphElements.cpp:1028:6:virtual bool touchgfx::GraphElementDiamonds::drawCanvasWidget(const touchgfx::Rect&) const	280	static

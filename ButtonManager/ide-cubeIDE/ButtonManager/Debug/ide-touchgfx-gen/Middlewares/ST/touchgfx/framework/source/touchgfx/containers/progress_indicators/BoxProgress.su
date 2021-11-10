@@ -1,0 +1,20 @@
+Drawable.hpp:271:18:virtual void touchgfx::Drawable::setX(int16_t)	0	static
+Drawable.hpp:283:18:virtual void touchgfx::Drawable::setY(int16_t)	0	static
+Drawable.hpp:312:18:virtual void touchgfx::Drawable::setWidth(int16_t)	0	static
+Drawable.hpp:324:18:virtual void touchgfx::Drawable::setHeight(int16_t)	0	static
+Drawable.hpp:334:18:virtual void touchgfx::Drawable::childGeometryChanged()	0	static
+Drawable.hpp:345:18:virtual void touchgfx::Drawable::handleClickEvent(const touchgfx::ClickEvent&)	0	static
+Drawable.hpp:356:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	0	static
+Drawable.hpp:444:18:virtual void touchgfx::Drawable::handleDragEvent(const touchgfx::DragEvent&)	0	static
+Drawable.hpp:541:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	16	static
+Container.hpp:154:23:virtual touchgfx::Drawable* touchgfx::Container::getFirstChild()	0	static
+BoxProgress.cpp:33:6:virtual void touchgfx::BoxProgress::setColor(touchgfx::colortype)	0	static
+BoxProgress.cpp:38:11:virtual touchgfx::colortype touchgfx::BoxProgress::getColor() const	0	static
+BoxProgress.cpp:43:6:virtual void touchgfx::BoxProgress::setAlpha(uint8_t)	0	static
+BoxProgress.cpp:48:9:virtual uint8_t touchgfx::BoxProgress::getAlpha() const	0	static
+BoxProgress.hpp:34:7:touchgfx::BoxProgress::~BoxProgress()	0	static
+BoxProgress.hpp:34:7:virtual touchgfx::BoxProgress::~BoxProgress()	8	static
+BoxProgress.cpp:26:6:virtual void touchgfx::BoxProgress::setProgressIndicatorPosition(int16_t, int16_t, int16_t, int16_t)	40	static
+BoxProgress.cpp:20:1:touchgfx::BoxProgress::BoxProgress()	8	static
+Utils.hpp:115:3:T touchgfx::abs(T) [with T = int]	0	static
+BoxProgress.cpp:53:6:virtual void touchgfx::BoxProgress::setValue(int)	40	static

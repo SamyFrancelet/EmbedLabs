@@ -1,0 +1,22 @@
+Drawable.hpp:134:23:virtual touchgfx::Drawable* touchgfx::Drawable::getFirstChild()	0	static
+Drawable.hpp:271:18:virtual void touchgfx::Drawable::setX(int16_t)	0	static
+Drawable.hpp:283:18:virtual void touchgfx::Drawable::setY(int16_t)	0	static
+Drawable.hpp:312:18:virtual void touchgfx::Drawable::setWidth(int16_t)	0	static
+Drawable.hpp:324:18:virtual void touchgfx::Drawable::setHeight(int16_t)	0	static
+Drawable.hpp:334:18:virtual void touchgfx::Drawable::childGeometryChanged()	0	static
+Drawable.hpp:345:18:virtual void touchgfx::Drawable::handleClickEvent(const touchgfx::ClickEvent&)	0	static
+Drawable.hpp:356:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	0	static
+Drawable.hpp:444:18:virtual void touchgfx::Drawable::handleDragEvent(const touchgfx::DragEvent&)	0	static
+Drawable.hpp:454:18:virtual void touchgfx::Drawable::handleTickEvent()	0	static
+Drawable.hpp:541:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	16	static
+Drawable.hpp:656:18:virtual void touchgfx::Drawable::setupDrawChain(const touchgfx::Rect&, touchgfx::Drawable**)	0	static
+Widget.hpp:50:18:virtual void touchgfx::Widget::getLastChild(int16_t, int16_t, touchgfx::Drawable**)	0	static
+PixelDataWidget.cpp:60:6:virtual touchgfx::Rect touchgfx::PixelDataWidget::getSolidRect() const	0	static
+PixelDataWidget.hpp:38:7:touchgfx::PixelDataWidget::~PixelDataWidget()	0	static
+PixelDataWidget.cpp:49:6:virtual void touchgfx::PixelDataWidget::draw(const touchgfx::Rect&) const	40	static
+PixelDataWidget.hpp:38:7:virtual touchgfx::PixelDataWidget::~PixelDataWidget()	8	static
+PixelDataWidget.cpp:21:1:touchgfx::PixelDataWidget::PixelDataWidget()	4	static
+PixelDataWidget.cpp:29:6:void touchgfx::PixelDataWidget::setPixelData(uint8_t*)	0	static
+PixelDataWidget.cpp:34:6:void touchgfx::PixelDataWidget::setBitmapFormat(touchgfx::Bitmap::BitmapFormat)	0	static
+PixelDataWidget.cpp:39:6:void touchgfx::PixelDataWidget::setAlpha(uint8_t)	0	static
+PixelDataWidget.cpp:44:9:uint8_t touchgfx::PixelDataWidget::getAlpha() const	0	static

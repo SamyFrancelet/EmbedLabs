@@ -1,0 +1,61 @@
+Drawable.hpp:134:23:virtual touchgfx::Drawable* touchgfx::Drawable::getFirstChild()	0	static
+Drawable.hpp:271:18:virtual void touchgfx::Drawable::setX(int16_t)	0	static
+Drawable.hpp:283:18:virtual void touchgfx::Drawable::setY(int16_t)	0	static
+Drawable.hpp:312:18:virtual void touchgfx::Drawable::setWidth(int16_t)	0	static
+Drawable.hpp:324:18:virtual void touchgfx::Drawable::setHeight(int16_t)	0	static
+Drawable.hpp:334:18:virtual void touchgfx::Drawable::childGeometryChanged()	0	static
+Drawable.hpp:345:18:virtual void touchgfx::Drawable::handleClickEvent(const touchgfx::ClickEvent&)	0	static
+Drawable.hpp:356:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	0	static
+Drawable.hpp:444:18:virtual void touchgfx::Drawable::handleDragEvent(const touchgfx::DragEvent&)	0	static
+Drawable.hpp:454:18:virtual void touchgfx::Drawable::handleTickEvent()	0	static
+Drawable.hpp:541:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	16	static
+Drawable.hpp:656:18:virtual void touchgfx::Drawable::setupDrawChain(const touchgfx::Rect&, touchgfx::Drawable**)	0	static
+TypedText.hpp:68:13:touchgfx::TypedText::~TypedText()	0	static
+Widget.hpp:50:18:virtual void touchgfx::Widget::getLastChild(int16_t, int16_t, touchgfx::Drawable**)	0	static
+CanvasWidget.hpp:67:18:virtual void touchgfx::CanvasWidget::setAlpha(uint8_t)	0	static
+CanvasWidget.hpp:73:21:virtual uint8_t touchgfx::CanvasWidget::getAlpha() const	0	static
+GraphElements.hpp:251:18:virtual void touchgfx::AbstractGraphElementNoCWR::setPainter(touchgfx::AbstractPainter&)	0	static
+GraphLabels.cpp:106:6:virtual void touchgfx::GraphLabelsBase::invalidateGraphPointAt(int16_t)	0	static
+GraphLabels.cpp:542:6:virtual bool touchgfx::GraphTitle::drawCanvasWidget(const touchgfx::Rect&) const	0	static
+GraphLabels.cpp:547:6:virtual void touchgfx::GraphTitle::invalidateGraphPointAt(int16_t)	0	static
+GraphLabels.hpp:264:7:touchgfx::GraphTitle::~GraphTitle()	0	static
+GraphLabels.hpp:39:7:touchgfx::GraphLabelsBase::~GraphLabelsBase()	0	static
+GraphLabels.hpp:240:7:touchgfx::GraphLabelsY::~GraphLabelsY()	0	static
+GraphLabels.hpp:203:7:touchgfx::GraphLabelsX::~GraphLabelsX()	0	static
+TypedText.hpp:68:13:virtual touchgfx::TypedText::~TypedText()	8	static
+GraphLabels.hpp:264:7:virtual touchgfx::GraphTitle::~GraphTitle()	8	static
+GraphLabels.hpp:39:7:virtual touchgfx::GraphLabelsBase::~GraphLabelsBase()	8	static
+GraphLabels.hpp:240:7:virtual touchgfx::GraphLabelsY::~GraphLabelsY()	8	static
+GraphLabels.hpp:203:7:virtual touchgfx::GraphLabelsX::~GraphLabelsX()	8	static
+GraphLabels.cpp:497:6:virtual void touchgfx::GraphTitle::draw(const touchgfx::Rect&) const	96	static
+GraphLabels.cpp:20:1:touchgfx::GraphLabelsBase::GraphLabelsBase()	8	static
+GraphLabels.cpp:46:5:int touchgfx::GraphLabelsBase::getIntervalScaled() const	0	static
+GraphLabels.cpp:26:5:int touchgfx::GraphLabelsBase::getCorrectlyScaledMajorInterval(const touchgfx::AbstractDataGraph*) const	24	static
+GraphLabels.cpp:51:5:int touchgfx::GraphLabelsBase::getIntervalAsInt() const	8	static
+GraphLabels.cpp:56:7:float touchgfx::GraphLabelsBase::getIntervalAsFloat() const	8	static
+GraphLabels.cpp:61:6:void touchgfx::GraphLabelsBase::setMajorLabel(const touchgfx::GraphLabelsBase&)	0	static
+GraphLabels.cpp:66:6:void touchgfx::GraphLabelsBase::setLabelTypedText(const touchgfx::TypedText&)	0	static
+GraphLabels.cpp:71:11:touchgfx::TypedText touchgfx::GraphLabelsBase::getLabelTypedText() const	0	static
+GraphLabels.cpp:76:6:void touchgfx::GraphLabelsBase::setLabelRotation(touchgfx::TextRotation)	0	static
+GraphLabels.cpp:81:14:touchgfx::TextRotation touchgfx::GraphLabelsBase::getLabelRotation() const	0	static
+GraphLabels.cpp:86:6:void touchgfx::GraphLabelsBase::setLabelDecimals(uint16_t)	0	static
+GraphLabels.cpp:91:10:uint16_t touchgfx::GraphLabelsBase::getLabelDecimals() const	0	static
+GraphLabels.cpp:96:6:void touchgfx::GraphLabelsBase::setLabelDecimalPoint(touchgfx::Unicode::UnicodeChar)	0	static
+GraphLabels.cpp:101:22:touchgfx::Unicode::UnicodeChar touchgfx::GraphLabelsBase::getLabelDecimalPoint() const	0	static
+GraphLabels.cpp:110:6:void touchgfx::GraphLabelsBase::formatLabel(touchgfx::Unicode::UnicodeChar*, int16_t, int, int, touchgfx::Unicode::UnicodeChar, int) const	24	static
+GraphLabels.cpp:196:6:virtual void touchgfx::GraphLabelsX::invalidateGraphPointAt(int16_t)	96	static
+GraphLabels.cpp:315:6:void touchgfx::GraphLabelsX::drawString(const touchgfx::Rect&, const touchgfx::Font*, const touchgfx::AbstractDataGraph*, int, uint8_t) const	136	static
+GraphLabels.cpp:438:6:void touchgfx::GraphLabelsY::drawString(const touchgfx::Rect&, const touchgfx::Font*, const touchgfx::AbstractDataGraph*, int, int, uint8_t) const	128	static
+GraphLabels.cpp:472:1:touchgfx::GraphTitle::GraphTitle()	8	static
+GraphLabels.cpp:477:6:void touchgfx::GraphTitle::setTitleTypedText(const touchgfx::TypedText&)	0	static
+GraphLabels.cpp:482:11:touchgfx::TypedText touchgfx::GraphTitle::getTitleTypedText() const	0	static
+GraphLabels.cpp:487:6:void touchgfx::GraphTitle::setTitleRotation(touchgfx::TextRotation)	0	static
+GraphLabels.cpp:492:14:touchgfx::TextRotation touchgfx::GraphTitle::getTitleRotation() const	0	static
+Utils.hpp:115:3:T touchgfx::abs(T) [with T = int]	0	static
+GraphLabels.cpp:31:6:void touchgfx::GraphLabelsBase::setIntervalScaled(int)	8	static
+GraphLabels.cpp:36:6:void touchgfx::GraphLabelsBase::setInterval(int)	8	static
+GraphLabels.cpp:239:6:void touchgfx::GraphLabelsX::drawIndexRange(const touchgfx::Rect&, const touchgfx::Font*, const touchgfx::AbstractDataGraph*, int, int, uint8_t) const	72	static
+GraphLabels.cpp:146:6:virtual void touchgfx::GraphLabelsX::draw(const touchgfx::Rect&) const	56	static
+GraphLabels.cpp:349:6:virtual void touchgfx::GraphLabelsY::draw(const touchgfx::Rect&) const	72	static
+Utils.hpp:115:3:T touchgfx::abs(T) [with T = float]	0	static
+GraphLabels.cpp:41:6:void touchgfx::GraphLabelsBase::setInterval(float)	8	static

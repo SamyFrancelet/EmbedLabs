@@ -1,0 +1,19 @@
+Drawable.hpp:134:23:virtual touchgfx::Drawable* touchgfx::Drawable::getFirstChild()	0	static
+Drawable.hpp:271:18:virtual void touchgfx::Drawable::setX(int16_t)	0	static
+Drawable.hpp:283:18:virtual void touchgfx::Drawable::setY(int16_t)	0	static
+Drawable.hpp:312:18:virtual void touchgfx::Drawable::setWidth(int16_t)	0	static
+Drawable.hpp:324:18:virtual void touchgfx::Drawable::setHeight(int16_t)	0	static
+Drawable.hpp:334:18:virtual void touchgfx::Drawable::childGeometryChanged()	0	static
+Drawable.hpp:356:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	0	static
+Drawable.hpp:444:18:virtual void touchgfx::Drawable::handleDragEvent(const touchgfx::DragEvent&)	0	static
+Drawable.hpp:454:18:virtual void touchgfx::Drawable::handleTickEvent()	0	static
+Drawable.hpp:541:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	16	static
+Drawable.hpp:656:18:virtual void touchgfx::Drawable::setupDrawChain(const touchgfx::Rect&, touchgfx::Drawable**)	0	static
+Widget.hpp:50:18:virtual void touchgfx::Widget::getLastChild(int16_t, int16_t, touchgfx::Drawable**)	0	static
+AbstractButton.hpp:75:18:virtual void touchgfx::AbstractButton::executeAction()	8	static
+AbstractButton.hpp:88:18:virtual bool touchgfx::AbstractButton::getPressedState() const	0	static
+ButtonWithIcon.hpp:36:7:touchgfx::ButtonWithIcon::~ButtonWithIcon()	0	static
+ButtonWithIcon.hpp:36:7:virtual touchgfx::ButtonWithIcon::~ButtonWithIcon()	8	static
+ButtonWithIcon.cpp:28:6:virtual void touchgfx::ButtonWithIcon::setBitmaps(const touchgfx::Bitmap&, const touchgfx::Bitmap&, const touchgfx::Bitmap&, const touchgfx::Bitmap&)	16	static
+ButtonWithIcon.cpp:40:6:virtual void touchgfx::ButtonWithIcon::draw(const touchgfx::Rect&) const	72	static
+ButtonWithIcon.cpp:21:1:touchgfx::ButtonWithIcon::ButtonWithIcon()	4	static

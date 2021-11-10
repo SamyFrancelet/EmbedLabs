@@ -1,0 +1,27 @@
+Drawable.hpp:134:23:virtual touchgfx::Drawable* touchgfx::Drawable::getFirstChild()	0	static
+Drawable.hpp:271:18:virtual void touchgfx::Drawable::setX(int16_t)	0	static
+Drawable.hpp:283:18:virtual void touchgfx::Drawable::setY(int16_t)	0	static
+Drawable.hpp:312:18:virtual void touchgfx::Drawable::setWidth(int16_t)	0	static
+Drawable.hpp:324:18:virtual void touchgfx::Drawable::setHeight(int16_t)	0	static
+Drawable.hpp:334:18:virtual void touchgfx::Drawable::childGeometryChanged()	0	static
+Drawable.hpp:345:18:virtual void touchgfx::Drawable::handleClickEvent(const touchgfx::ClickEvent&)	0	static
+Drawable.hpp:356:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	0	static
+Drawable.hpp:444:18:virtual void touchgfx::Drawable::handleDragEvent(const touchgfx::DragEvent&)	0	static
+Drawable.hpp:454:18:virtual void touchgfx::Drawable::handleTickEvent()	0	static
+Drawable.hpp:541:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	16	static
+Drawable.hpp:656:18:virtual void touchgfx::Drawable::setupDrawChain(const touchgfx::Rect&, touchgfx::Drawable**)	0	static
+Widget.hpp:50:18:virtual void touchgfx::Widget::getLastChild(int16_t, int16_t, touchgfx::Drawable**)	0	static
+TextArea.hpp:52:18:virtual touchgfx::Rect touchgfx::TextArea::getSolidRect() const	0	static
+TextArea.hpp:119:18:virtual void touchgfx::TextArea::setXBaselineY(int16_t, int16_t)	16	static
+TextArea.hpp:44:7:touchgfx::TextArea::~TextArea()	0	static
+TextArea.cpp:21:9:virtual int16_t touchgfx::TextArea::getTextHeight()	16	static
+TextArea.cpp:26:10:virtual uint16_t touchgfx::TextArea::getTextWidth() const	24	static
+TextArea.hpp:103:18:virtual void touchgfx::TextArea::setBaselineY(int16_t)	16	static
+TextArea.cpp:31:6:virtual void touchgfx::TextArea::draw(const touchgfx::Rect&) const	72	static
+TextArea.cpp:172:9:) const	124	static
+TextArea.hpp:44:7:virtual touchgfx::TextArea::~TextArea()	8	static
+TextArea.cpp:55:6:void touchgfx::TextArea::resizeToCurrentText()	16	static
+TextArea.cpp:44:6:void touchgfx::TextArea::setTypedText(touchgfx::TypedText)	8	static
+TextArea.cpp:72:6:void touchgfx::TextArea::resizeToCurrentTextWithAlignment()	24	static
+TextArea.cpp:130:6:void touchgfx::TextArea::resizeHeightToCurrentText()	8	static
+TextArea.cpp:146:6:void touchgfx::TextArea::resizeHeightToCurrentTextWithRotation()	16	static

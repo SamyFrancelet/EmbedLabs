@@ -1,0 +1,21 @@
+Drawable.hpp:134:23:virtual touchgfx::Drawable* touchgfx::Drawable::getFirstChild()	0	static
+Drawable.hpp:271:18:virtual void touchgfx::Drawable::setX(int16_t)	0	static
+Drawable.hpp:283:18:virtual void touchgfx::Drawable::setY(int16_t)	0	static
+Drawable.hpp:312:18:virtual void touchgfx::Drawable::setWidth(int16_t)	0	static
+Drawable.hpp:324:18:virtual void touchgfx::Drawable::setHeight(int16_t)	0	static
+Drawable.hpp:334:18:virtual void touchgfx::Drawable::childGeometryChanged()	0	static
+Drawable.hpp:356:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	0	static
+Drawable.hpp:444:18:virtual void touchgfx::Drawable::handleDragEvent(const touchgfx::DragEvent&)	0	static
+Drawable.hpp:454:18:virtual void touchgfx::Drawable::handleTickEvent()	0	static
+Drawable.hpp:541:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	16	static
+Drawable.hpp:656:18:virtual void touchgfx::Drawable::setupDrawChain(const touchgfx::Rect&, touchgfx::Drawable**)	0	static
+Widget.hpp:50:18:virtual void touchgfx::Widget::getLastChild(int16_t, int16_t, touchgfx::Drawable**)	0	static
+AbstractButton.hpp:75:18:virtual void touchgfx::AbstractButton::executeAction()	8	static
+AbstractButton.hpp:88:18:virtual bool touchgfx::AbstractButton::getPressedState() const	0	static
+RadioButton.hpp:38:7:touchgfx::RadioButton::~RadioButton()	0	static
+RadioButton.cpp:60:6:virtual void touchgfx::RadioButton::setBitmaps(const touchgfx::Bitmap&, const touchgfx::Bitmap&, const touchgfx::Bitmap&, const touchgfx::Bitmap&)	16	static
+RadioButton.cpp:21:6:virtual void touchgfx::RadioButton::draw(const touchgfx::Rect&) const	80	static
+RadioButton.cpp:70:6:virtual touchgfx::Rect touchgfx::RadioButton::getSolidRect() const	16	static
+RadioButton.hpp:38:7:virtual touchgfx::RadioButton::~RadioButton()	8	static
+RadioButton.cpp:80:6:void touchgfx::RadioButton::setSelected(bool)	16	static
+RadioButton.cpp:39:6:virtual void touchgfx::RadioButton::handleClickEvent(const touchgfx::ClickEvent&)	16	static

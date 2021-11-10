@@ -1,0 +1,29 @@
+ClickEvent.hpp:137:30:virtual touchgfx::Event::EventType touchgfx::ClickEvent::getEventType()	0	static
+Drawable.hpp:271:18:virtual void touchgfx::Drawable::setX(int16_t)	0	static
+Drawable.hpp:283:18:virtual void touchgfx::Drawable::setY(int16_t)	0	static
+Drawable.hpp:312:18:virtual void touchgfx::Drawable::setWidth(int16_t)	0	static
+Drawable.hpp:324:18:virtual void touchgfx::Drawable::setHeight(int16_t)	0	static
+Drawable.hpp:334:18:virtual void touchgfx::Drawable::childGeometryChanged()	0	static
+Drawable.hpp:356:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	0	static
+Drawable.hpp:454:18:virtual void touchgfx::Drawable::handleTickEvent()	0	static
+Drawable.hpp:541:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	16	static
+Container.hpp:154:23:virtual touchgfx::Drawable* touchgfx::Container::getFirstChild()	0	static
+TypedText.hpp:68:13:touchgfx::TypedText::~TypedText()	0	static
+Keyboard.cpp:247:6:virtual void touchgfx::Keyboard::handleDragEvent(const touchgfx::DragEvent&)	32	static
+Keyboard.hpp:56:7:touchgfx::Keyboard::~Keyboard()	0	static
+ClickEvent.hpp:35:7:touchgfx::ClickEvent::~ClickEvent()	0	static
+Keyboard.cpp:274:6:virtual void touchgfx::Keyboard::setupDrawChain(const touchgfx::Rect&, touchgfx::Drawable**)	16	static
+TypedText.hpp:68:13:virtual touchgfx::TypedText::~TypedText()	8	static
+ClickEvent.hpp:35:7:virtual touchgfx::ClickEvent::~ClickEvent()	8	static
+Keyboard.hpp:56:7:virtual touchgfx::Keyboard::~Keyboard()	8	static
+Keyboard.cpp:21:1:touchgfx::Keyboard::Keyboard()	40	static
+Keyboard.cpp:40:6:void touchgfx::Keyboard::setBuffer(touchgfx::Unicode::UnicodeChar*, uint16_t)	8	static
+Keyboard.cpp:52:6:void touchgfx::Keyboard::setLayout(const touchgfx::Keyboard::Layout*)	48	static
+Keyboard.cpp:67:6:void touchgfx::Keyboard::setTextIndentation()	32	static
+Keyboard.cpp:78:15:touchgfx::Keyboard::Key touchgfx::Keyboard::getKeyForCoordinates(int16_t, int16_t) const	16	static
+Keyboard.cpp:96:24:touchgfx::Keyboard::CallbackArea touchgfx::Keyboard::getCallbackAreaForCoordinates(int16_t, int16_t) const	16	static
+Keyboard.cpp:257:22:touchgfx::Unicode::UnicodeChar touchgfx::Keyboard::getCharForKey(uint8_t) const	4	static
+Keyboard.cpp:114:6:virtual void touchgfx::Keyboard::draw(const touchgfx::Rect&) const	96	static
+Keyboard.cpp:162:6:virtual void touchgfx::Keyboard::handleClickEvent(const touchgfx::ClickEvent&)	72	static
+Keyboard.cpp:285:6:void touchgfx::Keyboard::setBufferPosition(uint16_t)	8	static
+Keyboard.cpp:291:6:void touchgfx::Keyboard::setKeymappingList(const touchgfx::Keyboard::KeyMappingList*)	8	static

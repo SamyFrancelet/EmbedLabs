@@ -1,0 +1,34 @@
+Drawable.hpp:134:23:virtual touchgfx::Drawable* touchgfx::Drawable::getFirstChild()	0	static
+Drawable.hpp:271:18:virtual void touchgfx::Drawable::setX(int16_t)	0	static
+Drawable.hpp:283:18:virtual void touchgfx::Drawable::setY(int16_t)	0	static
+Drawable.hpp:312:18:virtual void touchgfx::Drawable::setWidth(int16_t)	0	static
+Drawable.hpp:324:18:virtual void touchgfx::Drawable::setHeight(int16_t)	0	static
+Drawable.hpp:334:18:virtual void touchgfx::Drawable::childGeometryChanged()	0	static
+Drawable.hpp:345:18:virtual void touchgfx::Drawable::handleClickEvent(const touchgfx::ClickEvent&)	0	static
+Drawable.hpp:356:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	0	static
+Drawable.hpp:444:18:virtual void touchgfx::Drawable::handleDragEvent(const touchgfx::DragEvent&)	0	static
+Drawable.hpp:454:18:virtual void touchgfx::Drawable::handleTickEvent()	0	static
+Drawable.hpp:541:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	16	static
+Drawable.hpp:656:18:virtual void touchgfx::Drawable::setupDrawChain(const touchgfx::Rect&, touchgfx::Drawable**)	0	static
+Widget.hpp:50:18:virtual void touchgfx::Widget::getLastChild(int16_t, int16_t, touchgfx::Drawable**)	0	static
+CanvasWidget.hpp:67:18:virtual void touchgfx::CanvasWidget::setAlpha(uint8_t)	0	static
+CanvasWidget.hpp:73:21:virtual uint8_t touchgfx::CanvasWidget::getAlpha() const	0	static
+Line.cpp:276:6:virtual touchgfx::Rect touchgfx::Line::getMinimalRect() const	0	static
+Line.hpp:55:7:touchgfx::Line::~Line()	0	static
+Line.hpp:55:7:virtual touchgfx::Line::~Line()	8	static
+CWRUtil.hpp:584:19:static int8_t touchgfx::CWRUtil::arcsine(touchgfx::CWRUtil::Q10)	8	static
+CWRUtil.hpp:784:16:static int touchgfx::CWRUtil::_angle(touchgfx::CWRUtil::Q5, touchgfx::CWRUtil::Q5, touchgfx::CWRUtil::Q5&)	32	static
+Line.cpp:20:1:touchgfx::Line::Line()	16	static
+Line.cpp:100:25:touchgfx::Line::LINE_ENDING_STYLE touchgfx::Line::getLineEndingStyle() const	0	static
+Line.cpp:105:6:void touchgfx::Line::setCapPrecision(int)	0	static
+Utils.hpp:115:3:T touchgfx::abs(T) [with T = touchgfx::CWRUtil::Q5]	0	static
+Utils.hpp:115:3:T touchgfx::abs(T) [with T = long int]	0	static
+Utils.hpp:134:3:T touchgfx::gcd(T, T) [with T = long int]	0	static
+Line.cpp:149:6:void touchgfx::Line::updateCachedShape()	40	static
+Line.cpp:30:6:void touchgfx::Line::setStart(touchgfx::CWRUtil::Q5, touchgfx::CWRUtil::Q5)	8	static
+Line.cpp:43:6:void touchgfx::Line::updateStart(touchgfx::CWRUtil::Q5, touchgfx::CWRUtil::Q5)	40	static
+Line.cpp:62:6:void touchgfx::Line::setEnd(touchgfx::CWRUtil::Q5, touchgfx::CWRUtil::Q5)	8	static
+Line.cpp:75:6:void touchgfx::Line::updateEnd(touchgfx::CWRUtil::Q5, touchgfx::CWRUtil::Q5)	40	static
+Line.cpp:281:6:void touchgfx::Line::updateLengthAndAngle(touchgfx::CWRUtil::Q5, touchgfx::CWRUtil::Q5)	32	static
+Line.cpp:94:6:void touchgfx::Line::setLineEndingStyle(touchgfx::Line::LINE_ENDING_STYLE)	8	static
+Line.cpp:118:6:virtual bool touchgfx::Line::drawCanvasWidget(const touchgfx::Rect&) const	224	static

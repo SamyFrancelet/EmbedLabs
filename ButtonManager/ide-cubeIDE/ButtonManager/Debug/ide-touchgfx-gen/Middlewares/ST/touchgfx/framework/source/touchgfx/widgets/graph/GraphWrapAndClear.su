@@ -1,0 +1,13 @@
+Drawable.hpp:271:18:virtual void touchgfx::Drawable::setX(int16_t)	0	static
+Drawable.hpp:283:18:virtual void touchgfx::Drawable::setY(int16_t)	0	static
+Drawable.hpp:334:18:virtual void touchgfx::Drawable::childGeometryChanged()	0	static
+Drawable.hpp:356:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	0	static
+Drawable.hpp:454:18:virtual void touchgfx::Drawable::handleTickEvent()	0	static
+Drawable.hpp:541:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	16	static
+Container.hpp:154:23:virtual touchgfx::Drawable* touchgfx::Container::getFirstChild()	0	static
+GraphWrapAndClear.cpp:25:9:virtual int32_t touchgfx::DataGraphWrapAndClear::indexToGlobalIndex(int16_t) const	0	static
+GraphWrapAndClear.hpp:33:7:touchgfx::DataGraphWrapAndClear::~DataGraphWrapAndClear()	0	static
+GraphWrapAndClear.cpp:30:6:virtual void touchgfx::DataGraphWrapAndClear::beforeAddValue()	8	static
+GraphWrapAndClear.cpp:40:9:virtual int16_t touchgfx::DataGraphWrapAndClear::addValue(int)	24	static
+GraphWrapAndClear.hpp:33:7:virtual touchgfx::DataGraphWrapAndClear::~DataGraphWrapAndClear()	8	static
+GraphWrapAndClear.cpp:20:1:touchgfx::DataGraphWrapAndClear::DataGraphWrapAndClear(int16_t, int*)	8	static

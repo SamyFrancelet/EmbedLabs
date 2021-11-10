@@ -1,0 +1,11 @@
+TerminalPresenter.hpp:29:13:TerminalPresenter::~TerminalPresenter()	0	static
+terminalPresenter.cpp:10:6:virtual void TerminalPresenter::activate()	0	static
+terminalPresenter.cpp:15:6:virtual void TerminalPresenter::deactivate()	0	static
+TerminalPresenter.hpp:29:13:virtual TerminalPresenter::~TerminalPresenter()	8	static
+terminalPresenter.cpp:30:6:virtual void TerminalPresenter::notifyLogTextChanged(const string&)	8	static
+terminalPresenter.cpp:35:6:virtual void TerminalPresenter::notifyClearLogMessages()	8	static
+TerminalPresenter.hpp:29:13:virtual void* TerminalPresenter::_ZThn4_N17TerminalPresenterD1Ev()	0	static
+TerminalPresenter.hpp:29:13:virtual void* TerminalPresenter::_ZThn4_N17TerminalPresenterD0Ev()	8	static
+terminalPresenter.cpp:4:1:TerminalPresenter::TerminalPresenter(TerminalView&)	4	static
+terminalPresenter.cpp:20:6:void TerminalPresenter::clearLogMessages()	8	static
+terminalPresenter.cpp:25:6:void TerminalPresenter::onButtonClearLogTextClicked()	8	static

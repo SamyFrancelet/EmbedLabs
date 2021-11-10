@@ -1,0 +1,4 @@
+customevent.h:37:10:virtual bool XFCustomEvent::deleteAfterConsume() const	0	static
+evbuttonirq.h:12:7:evButtonIrq::~evButtonIrq()	0	static
+evbuttonirq.h:12:7:virtual evButtonIrq::~evButtonIrq()	8	static
+evbuttonirq.cpp:4:1:evButtonIrq::evButtonIrq()	8	static

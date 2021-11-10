@@ -1,0 +1,26 @@
+Drawable.hpp:271:18:virtual void touchgfx::Drawable::setX(int16_t)	0	static
+Drawable.hpp:283:18:virtual void touchgfx::Drawable::setY(int16_t)	0	static
+Drawable.hpp:312:18:virtual void touchgfx::Drawable::setWidth(int16_t)	0	static
+Drawable.hpp:324:18:virtual void touchgfx::Drawable::setHeight(int16_t)	0	static
+Drawable.hpp:334:18:virtual void touchgfx::Drawable::childGeometryChanged()	0	static
+Drawable.hpp:345:18:virtual void touchgfx::Drawable::handleClickEvent(const touchgfx::ClickEvent&)	0	static
+Drawable.hpp:356:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	0	static
+Drawable.hpp:444:18:virtual void touchgfx::Drawable::handleDragEvent(const touchgfx::DragEvent&)	0	static
+Drawable.hpp:454:18:virtual void touchgfx::Drawable::handleTickEvent()	0	static
+Drawable.hpp:541:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	16	static
+Container.hpp:154:23:virtual touchgfx::Drawable* touchgfx::Container::getFirstChild()	0	static
+Container.cpp:21:6:virtual bool touchgfx::Container::contains(const touchgfx::Drawable&)	0	static
+Container.cpp:62:6:virtual void touchgfx::Container::remove(touchgfx::Drawable&)	0	static
+Container.cpp:104:6:virtual void touchgfx::Container::removeAll()	0	static
+Container.cpp:115:6:virtual void touchgfx::Container::unlink()	0	static
+Container.cpp:120:6:virtual void touchgfx::Container::draw(const touchgfx::Rect&) const	48	static
+Container.cpp:151:6:virtual void touchgfx::Container::getLastChild(int16_t, int16_t, touchgfx::Drawable**)	24	static
+Container.cpp:176:6:virtual touchgfx::Rect touchgfx::Container::getSolidRect() const	0	static
+Container.cpp:181:6:virtual touchgfx::Rect touchgfx::Container::getContainedArea() const	28	static
+Container.cpp:193:6:virtual void touchgfx::Container::moveChildrenRelative(int16_t, int16_t)	16	static
+Container.cpp:203:6:virtual void touchgfx::Container::forEachChild(touchgfx::GenericCallback<touchgfx::Drawable&>*)	16	static
+Container.cpp:213:6:virtual void touchgfx::Container::insert(touchgfx::Drawable*, touchgfx::Drawable&)	8	static
+Container.hpp:42:7:touchgfx::Container::~Container()	0	static
+Container.cpp:33:6:virtual void touchgfx::Container::add(touchgfx::Drawable&)	8	static
+Container.hpp:42:7:virtual touchgfx::Container::~Container()	8	static
+Container.cpp:245:6:virtual void touchgfx::Container::setupDrawChain(const touchgfx::Rect&, touchgfx::Drawable**)	48	static

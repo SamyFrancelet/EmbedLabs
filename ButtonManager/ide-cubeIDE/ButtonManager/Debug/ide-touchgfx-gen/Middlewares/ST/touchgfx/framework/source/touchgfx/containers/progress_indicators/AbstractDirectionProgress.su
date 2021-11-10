@@ -1,0 +1,15 @@
+Drawable.hpp:271:18:virtual void touchgfx::Drawable::setX(int16_t)	0	static
+Drawable.hpp:283:18:virtual void touchgfx::Drawable::setY(int16_t)	0	static
+Drawable.hpp:312:18:virtual void touchgfx::Drawable::setWidth(int16_t)	0	static
+Drawable.hpp:324:18:virtual void touchgfx::Drawable::setHeight(int16_t)	0	static
+Drawable.hpp:334:18:virtual void touchgfx::Drawable::childGeometryChanged()	0	static
+Drawable.hpp:345:18:virtual void touchgfx::Drawable::handleClickEvent(const touchgfx::ClickEvent&)	0	static
+Drawable.hpp:356:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	0	static
+Drawable.hpp:444:18:virtual void touchgfx::Drawable::handleDragEvent(const touchgfx::DragEvent&)	0	static
+Drawable.hpp:541:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	16	static
+Container.hpp:154:23:virtual touchgfx::Drawable* touchgfx::Container::getFirstChild()	0	static
+AbstractDirectionProgress.cpp:36:42:virtual touchgfx::AbstractDirectionProgress::DirectionType touchgfx::AbstractDirectionProgress::getDirection() const	0	static
+AbstractDirectionProgress.hpp:32:7:touchgfx::AbstractDirectionProgress::~AbstractDirectionProgress()	0	static
+AbstractDirectionProgress.cpp:26:6:virtual void touchgfx::AbstractDirectionProgress::setDirection(touchgfx::AbstractDirectionProgress::DirectionType)	16	static
+AbstractDirectionProgress.hpp:32:7:virtual touchgfx::AbstractDirectionProgress::~AbstractDirectionProgress()	8	static
+AbstractDirectionProgress.cpp:20:1:touchgfx::AbstractDirectionProgress::AbstractDirectionProgress()	8	static

@@ -1,0 +1,17 @@
+timeoutmanager.h:35:18:virtual void interface::XFTimeoutManager::initialize(int32_t)	0	static
+timeoutmanager.h:43:21:virtual int32_t interface::XFTimeoutManager::getTickInterval() const	0	static
+timeoutmanager-default.cpp:36:6:virtual void XFTimeoutManagerDefault::start()	8	static
+timeoutmanager-default.cpp:47:6:virtual void XFTimeoutManagerDefault::scheduleTimeout(int32_t, int32_t, interface::XFReactive*)	24	static
+timeoutmanager-default.cpp:25:1:XFTimeoutManagerDefault::XFTimeoutManagerDefault()	8	static
+timeoutmanager-default.cpp:19:31:static interface::XFTimeoutManager* XFTimeoutManagerDefault::getInstance()	8	static
+timeoutmanager-default.cpp:14:31:static interface::XFTimeoutManager* interface::XFTimeoutManager::getInstance()	8	static
+timeoutmanager-default.cpp:221:6:void XFTimeoutManagerDefault::returnTimeout(XFTimeout*)	8	static
+list.tcc:150:5:std::__cxx11::list<_Tp, _Alloc>::iterator std::__cxx11::list<_Tp, _Alloc>::erase(std::__cxx11::list<_Tp, _Alloc>::const_iterator) [with _Tp = XFTimeout*; _Alloc = std::allocator<XFTimeout*>]	16	static
+timeoutmanager-default.cpp:95:6:virtual void XFTimeoutManagerDefault::tick()	24	static
+timeoutmanager-default.cpp:57:6:virtual void XFTimeoutManagerDefault::unscheduleTimeout(int32_t, interface::XFReactive*)	48	static
+list.tcc:101:5:std::__cxx11::list<_Tp, _Alloc>::iterator std::__cxx11::list<_Tp, _Alloc>::insert(std::__cxx11::list<_Tp, _Alloc>::const_iterator, const value_type&) [with _Tp = XFTimeout*; _Alloc = std::allocator<XFTimeout*>]	24	static
+timeoutmanager-default.cpp:156:6:virtual void XFTimeoutManagerDefault::addTimeout(XFTimeout*)	32	static
+list.tcc:66:5:void std::__cxx11::_List_base<_Tp, _Alloc>::_M_clear() [with _Tp = XFTimeout*; _Alloc = std::allocator<XFTimeout*>]	16	static
+timeoutmanager-default.cpp:32:1:XFTimeoutManagerDefault::~XFTimeoutManagerDefault()	8	static
+timeoutmanager-default.cpp:21:36:void __tcf_0()	8	static
+timeoutmanager-default.cpp:32:1:virtual XFTimeoutManagerDefault::~XFTimeoutManagerDefault()	8	static

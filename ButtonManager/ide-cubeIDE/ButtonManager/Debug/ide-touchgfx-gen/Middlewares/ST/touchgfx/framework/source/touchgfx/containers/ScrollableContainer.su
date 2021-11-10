@@ -1,0 +1,45 @@
+ClickEvent.hpp:137:30:virtual touchgfx::Event::EventType touchgfx::ClickEvent::getEventType()	0	static
+DragEvent.hpp:133:30:virtual touchgfx::Event::EventType touchgfx::DragEvent::getEventType()	0	static
+Drawable.hpp:271:18:virtual void touchgfx::Drawable::setX(int16_t)	0	static
+Drawable.hpp:283:18:virtual void touchgfx::Drawable::setY(int16_t)	0	static
+Drawable.hpp:312:18:virtual void touchgfx::Drawable::setWidth(int16_t)	0	static
+Drawable.hpp:324:18:virtual void touchgfx::Drawable::setHeight(int16_t)	0	static
+Drawable.hpp:541:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	16	static
+Container.hpp:154:23:virtual touchgfx::Drawable* touchgfx::Container::getFirstChild()	0	static
+ScrollableContainer.hpp:93:18:virtual void touchgfx::ScrollableContainer::isScrollableXY(bool&, bool&)	24	static
+ScrollableContainer.cpp:611:6:virtual void touchgfx::ScrollableContainer::moveChildrenRelative(int16_t, int16_t)	24	static
+ScrollableContainer.hpp:46:7:touchgfx::ScrollableContainer::~ScrollableContainer()	0	static
+DragEvent.hpp:35:7:touchgfx::DragEvent::~DragEvent()	0	static
+ClickEvent.hpp:35:7:touchgfx::ClickEvent::~ClickEvent()	0	static
+ScrollableContainer.hpp:127:18:virtual void touchgfx::ScrollableContainer::getLastChild(int16_t, int16_t, touchgfx::Drawable**)	8	static
+ScrollableContainer.cpp:576:6:virtual void touchgfx::ScrollableContainer::add(touchgfx::Drawable&)	24	static
+ClickEvent.hpp:35:7:virtual touchgfx::ClickEvent::~ClickEvent()	8	static
+DragEvent.hpp:35:7:virtual touchgfx::DragEvent::~DragEvent()	8	static
+ScrollableContainer.hpp:46:7:virtual touchgfx::ScrollableContainer::~ScrollableContainer()	8	static
+ScrollableContainer.cpp:624:6:virtual void touchgfx::ScrollableContainer::handleTickEvent()	32	static
+ScrollableContainer.cpp:586:6:virtual touchgfx::Rect touchgfx::ScrollableContainer::getContainedArea() const	40	static
+ScrollableContainer.cpp:22:1:touchgfx::ScrollableContainer::ScrollableContainer()	16	static
+ScrollableContainer.cpp:356:6:touchgfx::Rect touchgfx::ScrollableContainer::getXScrollbar() const	40	static
+ScrollableContainer.cpp:385:6:touchgfx::Rect touchgfx::ScrollableContainer::getYScrollbar() const	40	static
+ScrollableContainer.cpp:414:6:touchgfx::Rect touchgfx::ScrollableContainer::getXBorder(const touchgfx::Rect&, const touchgfx::Rect&) const	24	static
+ScrollableContainer.cpp:425:6:touchgfx::Rect touchgfx::ScrollableContainer::getYBorder(const touchgfx::Rect&, const touchgfx::Rect&) const	24	static
+ScrollableContainer.cpp:436:6:void touchgfx::ScrollableContainer::invalidateScrollbars()	56	static
+ScrollableContainer.cpp:61:6:virtual void touchgfx::ScrollableContainer::handleClickEvent(const touchgfx::ClickEvent&)	176	static
+ScrollableContainer.cpp:475:6:virtual bool touchgfx::ScrollableContainer::doScroll(int16_t, int16_t)	24	static
+ScrollableContainer.cpp:539:6:virtual void touchgfx::ScrollableContainer::childGeometryChanged()	24	static
+ScrollableContainer.cpp:603:6:void touchgfx::ScrollableContainer::reset()	8	static
+ScrollableContainer.cpp:663:6:void touchgfx::ScrollableContainer::setScrollbarsColor(touchgfx::colortype)	0	static
+ScrollableContainer.cpp:670:6:void touchgfx::ScrollableContainer::setScrollbarsAlpha(uint8_t)	0	static
+ScrollableContainer.cpp:677:6:void touchgfx::ScrollableContainer::setScrollbarPadding(uint8_t)	0	static
+ScrollableContainer.cpp:682:6:void touchgfx::ScrollableContainer::setScrollbarWidth(uint8_t)	0	static
+ScrollableContainer.cpp:687:6:void touchgfx::ScrollableContainer::setScrollbarsVisible(bool)	0	static
+ScrollableContainer.cpp:692:6:void touchgfx::ScrollableContainer::setScrollbarsPermanentlyVisible(bool)	8	static
+ScrollableContainer.cpp:700:9:int16_t touchgfx::ScrollableContainer::getScrolledX() const	0	static
+ScrollableContainer.cpp:705:9:int16_t touchgfx::ScrollableContainer::getScrolledY() const	0	static
+ScrollableContainer.cpp:710:6:void touchgfx::ScrollableContainer::setScrollDurationSpeedup(uint16_t)	0	static
+ScrollableContainer.cpp:715:10:uint16_t touchgfx::ScrollableContainer::getScrollDurationSpeedup() const	0	static
+ScrollableContainer.cpp:720:6:void touchgfx::ScrollableContainer::setScrollDurationSlowdown(uint16_t)	0	static
+ScrollableContainer.cpp:725:10:uint16_t touchgfx::ScrollableContainer::getScrollDurationSlowdown() const	0	static
+Utils.hpp:115:3:T touchgfx::abs(T) [with T = short int]	0	static
+ScrollableContainer.cpp:172:6:virtual void touchgfx::ScrollableContainer::handleDragEvent(const touchgfx::DragEvent&)	80	static
+ScrollableContainer.cpp:315:6:virtual void touchgfx::ScrollableContainer::handleGestureEvent(const touchgfx::GestureEvent&)	48	static

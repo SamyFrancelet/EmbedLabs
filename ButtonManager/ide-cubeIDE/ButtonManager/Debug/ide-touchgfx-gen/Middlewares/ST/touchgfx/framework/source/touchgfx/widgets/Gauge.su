@@ -1,0 +1,32 @@
+Drawable.hpp:271:18:virtual void touchgfx::Drawable::setX(int16_t)	0	static
+Drawable.hpp:283:18:virtual void touchgfx::Drawable::setY(int16_t)	0	static
+Drawable.hpp:334:18:virtual void touchgfx::Drawable::childGeometryChanged()	0	static
+Drawable.hpp:345:18:virtual void touchgfx::Drawable::handleClickEvent(const touchgfx::ClickEvent&)	0	static
+Drawable.hpp:356:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	0	static
+Drawable.hpp:444:18:virtual void touchgfx::Drawable::handleDragEvent(const touchgfx::DragEvent&)	0	static
+Drawable.hpp:541:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	16	static
+Container.hpp:154:23:virtual touchgfx::Drawable* touchgfx::Container::getFirstChild()	0	static
+Gauge.hpp:76:18:virtual void touchgfx::Gauge::getCenter(int&, int&) const	0	static
+Gauge.cpp:37:6:virtual void touchgfx::Gauge::setWidth(int16_t)	0	static
+Gauge.cpp:44:6:virtual void touchgfx::Gauge::setHeight(int16_t)	0	static
+Gauge.cpp:97:5:virtual int touchgfx::Gauge::getStartAngle() const	0	static
+Gauge.cpp:102:5:virtual int touchgfx::Gauge::getEndAngle() const	0	static
+Gauge.cpp:155:6:virtual void touchgfx::Gauge::setAlpha(uint8_t)	0	static
+Gauge.cpp:162:9:virtual uint8_t touchgfx::Gauge::getAlpha() const	0	static
+Gauge.cpp:179:6:virtual void touchgfx::Gauge::setProgressIndicatorPosition(int16_t, int16_t, int16_t, int16_t)	0	static
+Gauge.hpp:37:7:touchgfx::Gauge::~Gauge()	0	static
+Gauge.hpp:37:7:virtual touchgfx::Gauge::~Gauge()	8	static
+Gauge.cpp:20:1:touchgfx::Gauge::Gauge()	32	static
+Gauge.cpp:51:6:void touchgfx::Gauge::setBackgroundOffset(int16_t, int16_t)	16	static
+Gauge.cpp:64:6:void touchgfx::Gauge::setArcPosition(int16_t, int16_t, int16_t, int16_t)	24	static
+Gauge.cpp:78:6:void touchgfx::Gauge::setMovingNeedleRenderingAlgorithm(touchgfx::TextureMapper::RenderingAlgorithm)	0	static
+Gauge.cpp:83:6:void touchgfx::Gauge::setSteadyNeedleRenderingAlgorithm(touchgfx::TextureMapper::RenderingAlgorithm)	0	static
+Gauge.cpp:107:6:void touchgfx::Gauge::setArcVisible(bool)	0	static
+Gauge.cpp:112:6:void touchgfx::Gauge::putArcOnTop(bool)	16	static
+Gauge.cpp:126:19:touchgfx::Circle& touchgfx::Gauge::getArc()	0	static
+Gauge.cpp:167:6:void touchgfx::Gauge::setupNeedleTextureMapper()	16	static
+Gauge.cpp:70:6:void touchgfx::Gauge::setNeedle(touchgfx::BitmapId, int16_t, int16_t)	24	static
+Gauge.cpp:56:6:virtual void touchgfx::Gauge::setCenter(int, int)	16	static
+Utils.hpp:115:3:T touchgfx::abs(T) [with T = int]	0	static
+Gauge.cpp:131:6:virtual void touchgfx::Gauge::setValue(int)	32	static
+Gauge.cpp:88:6:virtual void touchgfx::Gauge::setStartEndAngle(int, int)	8	static

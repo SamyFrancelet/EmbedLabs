@@ -1,0 +1,26 @@
+Drawable.hpp:271:18:virtual void touchgfx::Drawable::setX(int16_t)	0	static
+Drawable.hpp:283:18:virtual void touchgfx::Drawable::setY(int16_t)	0	static
+Drawable.hpp:312:18:virtual void touchgfx::Drawable::setWidth(int16_t)	0	static
+Drawable.hpp:324:18:virtual void touchgfx::Drawable::setHeight(int16_t)	0	static
+Drawable.hpp:334:18:virtual void touchgfx::Drawable::childGeometryChanged()	0	static
+Drawable.hpp:345:18:virtual void touchgfx::Drawable::handleClickEvent(const touchgfx::ClickEvent&)	0	static
+Drawable.hpp:356:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	0	static
+Drawable.hpp:444:18:virtual void touchgfx::Drawable::handleDragEvent(const touchgfx::DragEvent&)	0	static
+Drawable.hpp:541:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	16	static
+Container.hpp:154:23:virtual touchgfx::Drawable* touchgfx::Container::getFirstChild()	0	static
+LineProgress.cpp:46:6:virtual void touchgfx::LineProgress::getStart(int&, int&) const	0	static
+LineProgress.cpp:52:6:virtual void touchgfx::LineProgress::setEnd(int, int)	0	static
+LineProgress.cpp:58:6:virtual void touchgfx::LineProgress::getEnd(int&, int&) const	0	static
+LineProgress.cpp:69:5:virtual int touchgfx::LineProgress::getLineWidth() const	0	static
+LineProgress.cpp:86:6:virtual void touchgfx::LineProgress::setAlpha(uint8_t)	0	static
+LineProgress.cpp:91:9:virtual uint8_t touchgfx::LineProgress::getAlpha() const	0	static
+LineProgress.hpp:38:7:touchgfx::LineProgress::~LineProgress()	0	static
+LineProgress.cpp:34:6:virtual void touchgfx::LineProgress::setPainter(touchgfx::AbstractPainter&)	8	static
+LineProgress.cpp:39:6:virtual void touchgfx::LineProgress::setStart(int, int)	8	static
+LineProgress.cpp:64:6:virtual void touchgfx::LineProgress::setLineWidth(int)	8	static
+LineProgress.cpp:76:6:virtual void touchgfx::LineProgress::setLineEndingStyle(touchgfx::Line::LINE_ENDING_STYLE)	8	static
+LineProgress.cpp:81:25:virtual touchgfx::Line::LINE_ENDING_STYLE touchgfx::LineProgress::getLineEndingStyle() const	8	static
+LineProgress.cpp:96:6:virtual void touchgfx::LineProgress::setValue(int)	24	static
+LineProgress.hpp:38:7:virtual touchgfx::LineProgress::~LineProgress()	8	static
+LineProgress.cpp:27:6:virtual void touchgfx::LineProgress::setProgressIndicatorPosition(int16_t, int16_t, int16_t, int16_t)	40	static
+LineProgress.cpp:20:1:touchgfx::LineProgress::LineProgress()	24	static

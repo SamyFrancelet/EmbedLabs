@@ -1,0 +1,4 @@
+nulltransition.cpp:8:6:virtual bool XFNullTransition::deleteAfterConsume() const	0	static
+nulltransition.h:19:7:XFNullTransition::~XFNullTransition()	0	static
+nulltransition.h:19:7:virtual XFNullTransition::~XFNullTransition()	8	static
+nulltransition.cpp:3:1:XFNullTransition::XFNullTransition(interface::XFReactive*)	0	static

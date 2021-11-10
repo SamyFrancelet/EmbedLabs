@@ -1,0 +1,22 @@
+Drawable.hpp:134:23:virtual touchgfx::Drawable* touchgfx::Drawable::getFirstChild()	0	static
+Drawable.hpp:271:18:virtual void touchgfx::Drawable::setX(int16_t)	0	static
+Drawable.hpp:283:18:virtual void touchgfx::Drawable::setY(int16_t)	0	static
+Drawable.hpp:312:18:virtual void touchgfx::Drawable::setWidth(int16_t)	0	static
+Drawable.hpp:324:18:virtual void touchgfx::Drawable::setHeight(int16_t)	0	static
+Drawable.hpp:334:18:virtual void touchgfx::Drawable::childGeometryChanged()	0	static
+Drawable.hpp:356:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	0	static
+Drawable.hpp:444:18:virtual void touchgfx::Drawable::handleDragEvent(const touchgfx::DragEvent&)	0	static
+Drawable.hpp:541:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	16	static
+Drawable.hpp:656:18:virtual void touchgfx::Drawable::setupDrawChain(const touchgfx::Rect&, touchgfx::Drawable**)	0	static
+Widget.hpp:50:18:virtual void touchgfx::Widget::getLastChild(int16_t, int16_t, touchgfx::Drawable**)	0	static
+AbstractButton.hpp:75:18:virtual void touchgfx::AbstractButton::executeAction()	8	static
+AbstractButton.hpp:88:18:virtual bool touchgfx::AbstractButton::getPressedState() const	0	static
+RepeatButton.cpp:25:6:virtual void touchgfx::RepeatButton::setDelay(int)	0	static
+RepeatButton.cpp:30:5:virtual int touchgfx::RepeatButton::getDelay()	0	static
+RepeatButton.cpp:35:6:virtual void touchgfx::RepeatButton::setInterval(int)	0	static
+RepeatButton.cpp:40:5:virtual int touchgfx::RepeatButton::getInterval()	0	static
+RepeatButton.cpp:64:6:virtual void touchgfx::RepeatButton::handleTickEvent()	8	static
+RepeatButton.hpp:42:7:touchgfx::RepeatButton::~RepeatButton()	0	static
+RepeatButton.hpp:42:7:virtual touchgfx::RepeatButton::~RepeatButton()	8	static
+RepeatButton.cpp:45:6:virtual void touchgfx::RepeatButton::handleClickEvent(const touchgfx::ClickEvent&)	16	static
+RepeatButton.cpp:20:1:touchgfx::RepeatButton::RepeatButton()	0	static

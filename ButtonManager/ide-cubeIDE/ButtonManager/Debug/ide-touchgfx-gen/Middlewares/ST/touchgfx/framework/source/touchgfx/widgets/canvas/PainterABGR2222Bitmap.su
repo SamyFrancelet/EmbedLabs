@@ -1,0 +1,8 @@
+AbstractPainter.hpp:97:18:virtual void touchgfx::AbstractPainter::setAlpha(uint8_t)	0	static
+AbstractPainter.hpp:103:21:virtual uint8_t touchgfx::AbstractPainter::getAlpha() const	0	static
+PainterABGR2222Bitmap.cpp:28:6:virtual void touchgfx::PainterABGR2222Bitmap::render(uint8_t*, int, int, int, unsigned int, const uint8_t*)	32	static
+PainterABGR2222Bitmap.cpp:121:6:virtual bool touchgfx::PainterABGR2222Bitmap::renderNext(uint8_t&, uint8_t&, uint8_t&, uint8_t&)	12	static
+PainterABGR2222Bitmap.hpp:39:7:touchgfx::PainterABGR2222Bitmap::~PainterABGR2222Bitmap()	0	static
+PainterABGR2222Bitmap.cpp:89:6:virtual bool touchgfx::PainterABGR2222Bitmap::renderInit()	16	static
+PainterABGR2222Bitmap.hpp:39:7:virtual touchgfx::PainterABGR2222Bitmap::~PainterABGR2222Bitmap()	8	static
+PainterABGR2222Bitmap.cpp:20:6:void touchgfx::PainterABGR2222Bitmap::setBitmap(const touchgfx::Bitmap&)	24	static

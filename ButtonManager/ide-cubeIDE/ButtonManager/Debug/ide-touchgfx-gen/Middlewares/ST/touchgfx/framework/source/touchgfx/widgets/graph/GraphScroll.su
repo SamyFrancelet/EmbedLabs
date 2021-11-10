@@ -1,0 +1,16 @@
+Drawable.hpp:271:18:virtual void touchgfx::Drawable::setX(int16_t)	0	static
+Drawable.hpp:283:18:virtual void touchgfx::Drawable::setY(int16_t)	0	static
+Drawable.hpp:334:18:virtual void touchgfx::Drawable::childGeometryChanged()	0	static
+Drawable.hpp:356:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	0	static
+Drawable.hpp:454:18:virtual void touchgfx::Drawable::handleTickEvent()	0	static
+Drawable.hpp:541:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	16	static
+Container.hpp:154:23:virtual touchgfx::Drawable* touchgfx::Container::getFirstChild()	0	static
+GraphScroll.cpp:31:9:virtual int32_t touchgfx::DataGraphScroll::indexToGlobalIndex(int16_t) const	8	static
+GraphScroll.cpp:70:9:virtual int16_t touchgfx::DataGraphScroll::realIndex(int16_t) const	0	static
+GraphScroll.cpp:75:13:virtual touchgfx::CWRUtil::Q5 touchgfx::DataGraphScroll::indexToXQ5(int16_t) const	0	static
+GraphScroll.hpp:34:7:touchgfx::DataGraphScroll::~DataGraphScroll()	0	static
+GraphScroll.cpp:25:6:virtual void touchgfx::DataGraphScroll::clear()	8	static
+GraphScroll.cpp:40:6:virtual void touchgfx::DataGraphScroll::beforeAddValue()	8	static
+GraphScroll.cpp:48:9:virtual int16_t touchgfx::DataGraphScroll::addValue(int)	16	static
+GraphScroll.hpp:34:7:virtual touchgfx::DataGraphScroll::~DataGraphScroll()	8	static
+GraphScroll.cpp:20:1:touchgfx::DataGraphScroll::DataGraphScroll(int16_t, int*)	8	static

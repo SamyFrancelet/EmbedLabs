@@ -1,0 +1,37 @@
+Drawable.hpp:134:23:virtual touchgfx::Drawable* touchgfx::Drawable::getFirstChild()	0	static
+Drawable.hpp:271:18:virtual void touchgfx::Drawable::setX(int16_t)	0	static
+Drawable.hpp:283:18:virtual void touchgfx::Drawable::setY(int16_t)	0	static
+Drawable.hpp:312:18:virtual void touchgfx::Drawable::setWidth(int16_t)	0	static
+Drawable.hpp:324:18:virtual void touchgfx::Drawable::setHeight(int16_t)	0	static
+Drawable.hpp:334:18:virtual void touchgfx::Drawable::childGeometryChanged()	0	static
+Drawable.hpp:345:18:virtual void touchgfx::Drawable::handleClickEvent(const touchgfx::ClickEvent&)	0	static
+Drawable.hpp:356:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	0	static
+Drawable.hpp:444:18:virtual void touchgfx::Drawable::handleDragEvent(const touchgfx::DragEvent&)	0	static
+Drawable.hpp:454:18:virtual void touchgfx::Drawable::handleTickEvent()	0	static
+Drawable.hpp:541:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	16	static
+Drawable.hpp:656:18:virtual void touchgfx::Drawable::setupDrawChain(const touchgfx::Rect&, touchgfx::Drawable**)	0	static
+Widget.hpp:50:18:virtual void touchgfx::Widget::getLastChild(int16_t, int16_t, touchgfx::Drawable**)	0	static
+CanvasWidget.hpp:67:18:virtual void touchgfx::CanvasWidget::setAlpha(uint8_t)	0	static
+CanvasWidget.hpp:73:21:virtual uint8_t touchgfx::CanvasWidget::getAlpha() const	0	static
+Circle.hpp:54:7:touchgfx::Circle::~Circle()	0	static
+Circle.hpp:54:7:virtual touchgfx::Circle::~Circle()	8	static
+Circle.cpp:20:1:touchgfx::Circle::Circle()	8	static
+Circle.cpp:30:6:void touchgfx::Circle::setPrecision(int)	0	static
+Circle.cpp:43:5:int touchgfx::Circle::getPrecision() const	0	static
+Circle.cpp:48:6:void touchgfx::Circle::setCapPrecision(int)	0	static
+Circle.cpp:61:5:int touchgfx::Circle::getCapPrecision() const	0	static
+Circle.cpp:336:6:void touchgfx::Circle::moveToAR2(touchgfx::Canvas&, const touchgfx::CWRUtil::Q5&, const touchgfx::CWRUtil::Q5&) const	40	static
+Circle.cpp:346:6:void touchgfx::Circle::lineToXYAR2(touchgfx::Canvas&, const touchgfx::CWRUtil::Q5&, const touchgfx::CWRUtil::Q5&, const touchgfx::CWRUtil::Q5&, const touchgfx::CWRUtil::Q5&) const	40	static
+Circle.cpp:341:6:void touchgfx::Circle::lineToAR2(touchgfx::Canvas&, const touchgfx::CWRUtil::Q5&, const touchgfx::CWRUtil::Q5&) const	16	static
+Circle.cpp:358:6:void touchgfx::Circle::updateMinMaxXY(const touchgfx::CWRUtil::Q5&, const touchgfx::CWRUtil::Q5&, touchgfx::CWRUtil::Q5&, touchgfx::CWRUtil::Q5&, touchgfx::CWRUtil::Q5&, touchgfx::CWRUtil::Q5&) const	16	static
+Circle.cpp:351:6:void touchgfx::Circle::updateMinMaxAR(const touchgfx::CWRUtil::Q5&, const touchgfx::CWRUtil::Q5&, touchgfx::CWRUtil::Q5&, touchgfx::CWRUtil::Q5&, touchgfx::CWRUtil::Q5&, touchgfx::CWRUtil::Q5&) const	56	static
+Utils.hpp:115:3:T touchgfx::abs(T) [with T = long int]	0	static
+Utils.hpp:115:3:T touchgfx::abs(T) [with T = int]	0	static
+Circle.cpp:378:6:void touchgfx::Circle::calculateMinimalRect(touchgfx::CWRUtil::Q5, touchgfx::CWRUtil::Q5, touchgfx::CWRUtil::Q5&, touchgfx::CWRUtil::Q5&, touchgfx::CWRUtil::Q5&, touchgfx::CWRUtil::Q5&) const	128	static
+Circle.cpp:207:6:touchgfx::Rect touchgfx::Circle::getMinimalRect(touchgfx::CWRUtil::Q5, touchgfx::CWRUtil::Q5) const	48	static
+Circle.cpp:197:6:virtual touchgfx::Rect touchgfx::Circle::getMinimalRect() const	8	static
+Circle.cpp:202:6:touchgfx::Rect touchgfx::Circle::getMinimalRect(int16_t, int16_t) const	8	static
+Circle.cpp:443:6:touchgfx::Rect touchgfx::Circle::getMinimalRectForUpdatedStartAngle(const touchgfx::CWRUtil::Q5&) const	40	static
+Circle.cpp:499:6:touchgfx::Rect touchgfx::Circle::getMinimalRectForUpdatedEndAngle(const touchgfx::CWRUtil::Q5&) const	40	static
+Circle.cpp:218:6:void touchgfx::Circle::updateArc(touchgfx::CWRUtil::Q5, touchgfx::CWRUtil::Q5)	40	static
+Circle.cpp:66:6:virtual bool touchgfx::Circle::drawCanvasWidget(const touchgfx::Rect&) const	288	static

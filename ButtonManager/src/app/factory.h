@@ -9,6 +9,7 @@
 #include "config/touchgfx-config.h"
 
 // TODO: Add C++ specific includes here
+#include "app/buttoneventslogger.h"
 
 namespace app
 {
@@ -30,6 +31,7 @@ public:
 
 protected:
     // TODO: Add static attributes here
+    ButtonEventsLogger* btnLog;
 };
 
 } /* namespace app */

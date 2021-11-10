@@ -1,0 +1,9 @@
+AbstractPainter.hpp:97:18:virtual void touchgfx::AbstractPainter::setAlpha(uint8_t)	0	static
+AbstractPainter.hpp:103:21:virtual uint8_t touchgfx::AbstractPainter::getAlpha() const	0	static
+PainterBWBitmap.hpp:40:7:touchgfx::PainterBWBitmap::~PainterBWBitmap()	0	static
+PainterBWBitmap.hpp:40:7:virtual touchgfx::PainterBWBitmap::~PainterBWBitmap()	8	static
+LCD1bpp.hpp:281:14:void touchgfx::LCD1bpp::bwRLEdata::getNextLength()	8	static
+PainterBWBitmap.cpp:31:6:virtual void touchgfx::PainterBWBitmap::render(uint8_t*, int, int, int, unsigned int, const uint8_t*)	48	static
+PainterBWBitmap.cpp:191:6:virtual bool touchgfx::PainterBWBitmap::renderNext(uint8_t&)	16	static
+PainterBWBitmap.cpp:151:6:virtual bool touchgfx::PainterBWBitmap::renderInit()	32	static
+PainterBWBitmap.cpp:20:6:void touchgfx::PainterBWBitmap::setBitmap(const touchgfx::Bitmap&)	24	static

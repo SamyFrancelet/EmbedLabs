@@ -1,0 +1,7 @@
+mutex-default.cpp:20:1:XFMutexDefault::~XFMutexDefault()	0	static
+mutex-default.cpp:35:6:virtual bool XFMutexDefault::tryLock(int32_t)	0	static
+mutex-default.cpp:20:1:virtual XFMutexDefault::~XFMutexDefault()	8	static
+mutex-default.cpp:24:6:virtual void XFMutexDefault::lock()	8	static
+mutex-default.cpp:30:6:virtual void XFMutexDefault::unlock()	8	static
+mutex-default.cpp:16:1:XFMutexDefault::XFMutexDefault()	0	static
+mutex-default.cpp:11:22:static interface::XFMutex* interface::XFMutex::create()	8	static

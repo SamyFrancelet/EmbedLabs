@@ -1,0 +1,7 @@
+AbstractPainter.hpp:97:18:virtual void touchgfx::AbstractPainter::setAlpha(uint8_t)	0	static
+AbstractPainter.hpp:103:21:virtual uint8_t touchgfx::AbstractPainter::getAlpha() const	0	static
+AbstractPainterBW.hpp:53:18:virtual bool touchgfx::AbstractPainterBW::renderInit()	0	static
+PainterBW.cpp:20:6:virtual void touchgfx::PainterBW::render(uint8_t*, int, int, int, unsigned int, const uint8_t*)	16	static
+PainterBW.cpp:76:6:virtual bool touchgfx::PainterBW::renderNext(uint8_t&)	0	static
+PainterBW.hpp:35:7:touchgfx::PainterBW::~PainterBW()	0	static
+PainterBW.hpp:35:7:virtual touchgfx::PainterBW::~PainterBW()	8	static
