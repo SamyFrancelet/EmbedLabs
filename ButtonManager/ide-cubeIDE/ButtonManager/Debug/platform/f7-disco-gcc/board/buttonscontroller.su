@@ -1,0 +1,5 @@
+buttonscontroller.cpp:15:1:ButtonsController::~ButtonsController()	0	static
+buttonscontroller.cpp:25:6:virtual void ButtonsController::onIrq()	0	static
+buttonscontroller.cpp:15:1:virtual ButtonsController::~ButtonsController()	8	static
+buttonscontroller.cpp:19:6:virtual bool ButtonsController::registerCallback(interface::ButtonsControllerCallbackProvider*, interface::ButtonsControllerCallbackProvider::CallbackMethod)	8	static
+buttonscontroller.cpp:10:1:ButtonsController::ButtonsController()	0	static

@@ -5,6 +5,8 @@
 namespace app
 {
 
+ButtonEventsLogger* Factory::btnEvLog(nullptr);
+
 Factory::Factory()
 {
 
@@ -16,6 +18,7 @@ void Factory::initialize()
     Trace::initialize();
 
     // TODO: Initialize factory attributes here
+    btnEvLog = new ButtonEventsLogger();
 
 #if defined(TOUCHGFX_ENABLED) && (TOUCHGFX_ENABLED != 0)
     getTouchGfxTask().initialize(_buttonEventsHandler);
@@ -28,7 +31,7 @@ void Factory::build()
 //    Trace::out("Factory: Creating app components...");
 
     // Start state machine(s)
-	
+	btnEvLog->startBehavior();
     // TODO: Start state-machines here
 
 #if defined(TOUCHGFX_ENABLED) && (TOUCHGFX_ENABLED != 0)

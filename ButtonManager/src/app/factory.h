@@ -31,7 +31,7 @@ public:
 
 protected:
     // TODO: Add static attributes here
-    ButtonEventsLogger* btnLog;
+    static ButtonEventsLogger* btnEvLog;
 };
 
 } /* namespace app */

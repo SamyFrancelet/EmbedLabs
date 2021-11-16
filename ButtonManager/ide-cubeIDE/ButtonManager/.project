@@ -30,7 +30,7 @@
 		<link>
 			<name>app</name>
 			<type>2</type>
-			<location>C:/work/EmbedLabs/ButtonManager/src/app</location>
+			<locationURI>PARENT-2-PROJECT_LOC/src/app</locationURI>
 		</link>
 		<link>
 			<name>event</name>
@@ -50,12 +50,12 @@
 		<link>
 			<name>mdw</name>
 			<type>2</type>
-			<location>C:/work/EmbedLabs/ButtonManager/src/mdw</location>
+			<locationURI>PARENT-2-PROJECT_LOC/src/mdw</locationURI>
 		</link>
 		<link>
 			<name>platform</name>
 			<type>2</type>
-			<location>C:/work/EmbedLabs/ButtonManager/src/platform</location>
+			<locationURI>PARENT-2-PROJECT_LOC/src/platform</locationURI>
 		</link>
 		<link>
 			<name>xf</name>

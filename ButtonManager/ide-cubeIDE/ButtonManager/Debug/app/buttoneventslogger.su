@@ -1,5 +1,8 @@
-buttoneventslogger.cpp:18:1:app::ButtonEventsLogger::~ButtonEventsLogger()	0	static
-buttoneventslogger.cpp:22:6:virtual void app::ButtonEventsLogger::onButtonShortPressed(interface::ButtonEventsHandlerObserver::ButtonIndex)	0	static
-buttoneventslogger.cpp:25:6:virtual void app::ButtonEventsLogger::onButtonLongPressed(interface::ButtonEventsHandlerObserver::ButtonIndex)	0	static
-buttoneventslogger.cpp:18:1:virtual app::ButtonEventsLogger::~ButtonEventsLogger()	8	static
-buttoneventslogger.cpp:13:1:app::ButtonEventsLogger::ButtonEventsLogger()	0	static
+buttoneventslogger.cpp:19:1:app::ButtonEventsLogger::~ButtonEventsLogger()	8	static
+buttoneventslogger.cpp:19:1:virtual app::ButtonEventsLogger::~ButtonEventsLogger()	8	static
+buttoneventslogger.cpp:27:15:virtual XFEventStatus app::ButtonEventsLogger::processEvent()	16	static
+buttoneventslogger.cpp:14:1:app::ButtonEventsLogger::ButtonEventsLogger()	8	static
+basic_string.tcc:206:7:void std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::_M_construct(_InIterator, _InIterator, std::forward_iterator_tag) [with _FwdIterator = char*; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]	24	static
+string_conversions.h:99:5:) [with _String = std::__cxx11::basic_string<char>; _CharT = char]	28	dynamic
+buttoneventslogger.cpp:23:6:virtual void app::ButtonEventsLogger::onButtonShortPressed(interface::ButtonEventsHandlerObserver::ButtonIndex)	96	static
+buttoneventslogger.cpp:55:6:virtual void app::ButtonEventsLogger::onButtonLongPressed(interface::ButtonEventsHandlerObserver::ButtonIndex)	96	static

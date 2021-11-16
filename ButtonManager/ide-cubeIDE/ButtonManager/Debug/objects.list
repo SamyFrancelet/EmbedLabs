@@ -166,6 +166,7 @@
 "./ide-touchgfx-gen/TouchGFX/target/generated/TouchGFXConfiguration.o"
 "./ide-touchgfx-gen/TouchGFX/target/generated/TouchGFXGeneratedHAL.o"
 "./mdw/trace/examples/trace-example01.o"
+"./platform/f7-disco-gcc/board/buttonscontroller.o"
 "./platform/f7-disco-gcc/board/ledcontroller.o"
 "./platform/f7-disco-gcc/board/trace.o"
 "./platform/f7-disco-gcc/ext-26pin/ext_26pin.o"
