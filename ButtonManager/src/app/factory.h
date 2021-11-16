@@ -10,6 +10,7 @@
 
 // TODO: Add C++ specific includes here
 #include "app/buttoneventslogger.h"
+#include "board/buttonscontroller.h"
 
 namespace app
 {
@@ -32,6 +33,7 @@ public:
 protected:
     // TODO: Add static attributes here
     static ButtonEventsLogger* btnEvLog;
+    static ButtonsController* btnCtrl;
 };
 
 } /* namespace app */

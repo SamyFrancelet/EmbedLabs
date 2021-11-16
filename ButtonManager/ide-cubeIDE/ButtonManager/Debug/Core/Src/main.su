@@ -1,5 +1,5 @@
 main.c:584:13:MX_GPIO_Init	104	static
-main.c:963:6:Error_Handler	0	static,ignoring_inline_asm
+main.c:957:6:Error_Handler	0	static,ignoring_inline_asm
 main.c:447:13:MX_USART1_UART_Init	8	static
 main.c:407:13:MX_SPI2_Init	8	static
 main.c:299:13:MX_I2C3_Init	8	static
