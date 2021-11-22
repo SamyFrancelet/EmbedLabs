@@ -49,6 +49,9 @@ private:
 	ButtonsController();
 
 	void doCheckButtons();
+
+	interface::ButtonsControllerCallbackProvider* _callbackProvider;
+	interface::ButtonsControllerCallbackProvider::CallbackMethod _callbackMethod;
 };
 
 #endif /* F7_DISCO_GCC_BOARD_BUTTONSCONTROLLER_H_ */

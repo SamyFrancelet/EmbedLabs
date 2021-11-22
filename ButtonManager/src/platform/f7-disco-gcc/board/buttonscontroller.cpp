@@ -20,6 +20,8 @@ ButtonsController* ButtonsController::getInstance() {
 ButtonsController::ButtonsController() {
 	// TODO Auto-generated constructor stub
 	currentState = STATE_INITIAL;
+	_callbackProvider = nullptr;
+	_callbackMethod = nullptr;
 }
 
 ButtonsController::~ButtonsController() {
@@ -29,6 +31,13 @@ ButtonsController::~ButtonsController() {
 bool ButtonsController::registerCallback(
 		interface::ButtonsControllerCallbackProvider *callbackProvider,
 		interface::ButtonsControllerCallbackProvider::CallbackMethod callbackMethod) {
+
+	if(callbackProvider != nullptr && callbackMethod != nullptr) {
+		_callbackProvider = callbackProvider;
+		_callbackMethod = callbackMethod;
+		return true;
+	}
+
 	return false;
 }
 
@@ -38,8 +47,11 @@ void ButtonsController::onIrq() {
 }
 
 XFEventStatus ButtonsController::processEvent() {
-	XFEventStatus eventStatus = XFEventStatus::Unknown;
+	XFEventStatus eventStatus = XFEventStatus::NotConsumed;
 
+	eState oldState = currentState;
+
+	// Switch conditions
 	switch(currentState) {
 	case STATE_INITIAL:
 		if(getCurrentEvent()->getEventType() == XFEvent::Initial) {
@@ -52,17 +64,13 @@ XFEventStatus ButtonsController::processEvent() {
 		if(getCurrentEvent()->getEventType() == XFEvent::Event
 				&& getCurrentEvent()->getId() == EventIds::evButtonIrqId) {
 			currentState = STATE_DEBOUNCE;
-			Trace::out("Waiting for debounce");
-			scheduleTimeout(TIMEOUT_DEBOUNCE, DEBOUNCE_TIME);
 			eventStatus = XFEventStatus::Consumed;
 		}
 		break;
 	case STATE_DEBOUNCE:
 		if (getCurrentEvent()->getEventType() == XFEvent::Timeout
-					&& getCurrentEvent()->getId() == TIMEOUT_DEBOUNCE) {
+				&& getCurrentEvent()->getId() == TIMEOUT_DEBOUNCE) {
 			currentState = STATE_CHECK_BUTTONS;
-			Trace::out("Checking buttons...");
-			doCheckButtons();
 			eventStatus = XFEventStatus::Consumed;
 		}
 		break;
@@ -70,31 +78,56 @@ XFEventStatus ButtonsController::processEvent() {
 		break;
 	}
 
+
+
+	if(oldState != currentState) {
+		// onExit actions
+		switch(oldState) {
+		default:
+			break;
+		}
+
+		// onEntry actions
+		switch(currentState) {
+		case STATE_CHECK_BUTTONS:
+			if(oldState == STATE_DEBOUNCE) {
+				Trace::out("Buttons states :");
+				doCheckButtons();
+			}
+			break;
+
+		case STATE_DEBOUNCE:
+			Trace::out("Waiting for debounce...");
+			scheduleTimeout(TIMEOUT_DEBOUNCE, DEBOUNCE_TIME);
+			break;
+
+		default:
+			break;
+		}
+	}
+
+
 	return eventStatus;
 }
 
 void ButtonsController::doCheckButtons() {
-	if(!HAL_GPIO_ReadPin(GPIOI, BUTTON0_Pin)) {
-		Trace::out("Button 0 pressed");
-	} else {
-		Trace::out("Button 0 not pressed");
-	}
+	static bool btnState[4] = {false, false, false, false};
 
-	if(!HAL_GPIO_ReadPin(GPIOI, BUTTON1_Pin)) {
-		Trace::out("Button 1 pressed");
-	} else {
-		Trace::out("Button 1 not pressed");
-	}
+	bool newBtnState[4];
 
-	if(!HAL_GPIO_ReadPin(GPIOG, BUTTON2_Pin)) {
-		Trace::out("Button 2 pressed");
-	} else {
-		Trace::out("Button 2 not pressed");
-	}
+	newBtnState[0] = !HAL_GPIO_ReadPin(BUTTON0_GPIO_Port, BUTTON0_Pin);
+	newBtnState[1] = !HAL_GPIO_ReadPin(BUTTON1_GPIO_Port, BUTTON1_Pin);
+	newBtnState[2] = !HAL_GPIO_ReadPin(BUTTON2_GPIO_Port, BUTTON2_Pin);
+	newBtnState[3] = !HAL_GPIO_ReadPin(BUTTON3_GPIO_Port, BUTTON3_Pin);
 
-	if(!HAL_GPIO_ReadPin(GPIOG, BUTTON3_Pin)) {
-		Trace::out("Button 3 pressed");
-	} else {
-		Trace::out("Button 3 not pressed");
+	uint16_t i = 0;
+	for(i = 0; i < 4; i++) {
+		if(btnState[i] != newBtnState[i]) {
+			btnState[i] = newBtnState[i];
+			if(_callbackProvider != nullptr) {
+				(_callbackProvider->*_callbackMethod)(i, btnState[i]);
+			}
+			Trace::out("Button %d %s", i, btnState[i]?"pressed":"released");
+		}
 	}
 }
