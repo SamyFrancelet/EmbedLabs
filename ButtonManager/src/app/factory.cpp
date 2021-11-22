@@ -7,6 +7,7 @@ namespace app
 
 ButtonEventsLogger* Factory::btnEvLog(nullptr);
 ButtonsController* Factory::btnCtrl(nullptr);
+ButtonEventsHandler* Factory::btnEvHand(nullptr);
 
 Factory::Factory()
 {
@@ -20,6 +21,8 @@ void Factory::initialize()
 
     // TODO: Initialize factory attributes here
     btnEvLog = new ButtonEventsLogger();
+    btnEvHand = new ButtonEventsHandler();
+    btnEvHand->subscribe(btnEvLog);
     btnCtrl = ButtonsController::getInstance();
 
 #if defined(TOUCHGFX_ENABLED) && (TOUCHGFX_ENABLED != 0)
@@ -33,6 +36,7 @@ void Factory::build()
 //    Trace::out("Factory: Creating app components...");
 
     // Start state machine(s)
+	btnEvHand->startButtonsBehavior();
 	btnCtrl->startBehavior();
     // TODO: Start state-machines here
 

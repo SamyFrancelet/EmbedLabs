@@ -1,0 +1,5 @@
+buttonstatesm.cpp:21:1:ButtonStateSm::~ButtonStateSm()	8	static
+buttonstatesm.cpp:21:1:virtual ButtonStateSm::~ButtonStateSm()	8	static
+buttonstatesm.cpp:33:15:virtual XFEventStatus ButtonStateSm::processEvent()	24	static
+buttonstatesm.cpp:14:1:ButtonStateSm::ButtonStateSm(ButtonStateSm::ButtonIndex, ButtonEventsHandler*)	16	static
+buttonstatesm.cpp:25:6:void ButtonStateSm::onChanged(bool)	16	static

@@ -1,0 +1,13 @@
+buttoneventshandler.cpp:51:6:virtual void ButtonEventsHandler::notifyButtonShortPressed(interface::ButtonEventsHandlerSubject::ButtonIndex)	16	static
+buttoneventshandler.cpp:57:6:virtual void ButtonEventsHandler::notifyButtonLongPressed(interface::ButtonEventsHandlerSubject::ButtonIndex)	16	static
+buttoneventshandler.cpp:35:6:void ButtonEventsHandler::onButtonChanged(interface::ButtonEventsHandlerSubject::ButtonIndex, bool)	8	static
+buttoneventshandler.cpp:39:6:virtual bool ButtonEventsHandler::subscribe(interface::ButtonEventsHandlerObserver*)	16	static
+buttoneventshandler.cpp:29:6:void ButtonEventsHandler::startButtonsBehavior()	16	static
+list.tcc:331:5:std::__cxx11::list<_Tp, _Alloc>::__remove_return_type std::__cxx11::list<_Tp, _Alloc>::remove(const value_type&) [with _Tp = interface::ButtonEventsHandlerObserver*; _Alloc = std::allocator<interface::ButtonEventsHandlerObserver*>]	32	static
+buttoneventshandler.cpp:47:6:virtual void ButtonEventsHandler::unsubscribe(interface::ButtonEventsHandlerObserver*)	16	static
+list.tcc:66:5:void std::__cxx11::_List_base<_Tp, _Alloc>::_M_clear() [with _Tp = interface::ButtonEventsHandlerObserver*; _Alloc = std::allocator<interface::ButtonEventsHandlerObserver*>]	16	static
+buttoneventshandler.cpp:22:1:ButtonEventsHandler::~ButtonEventsHandler()	16	static
+buttoneventshandler.cpp:22:1:virtual ButtonEventsHandler::~ButtonEventsHandler()	8	static
+vector.tcc:426:7:) [with _Args = {ButtonStateSm*}; _Tp = ButtonStateSm*; _Alloc = std::allocator<ButtonStateSm*>]	48	static
+vector.tcc:109:7:) [with _Args = {ButtonStateSm*}; _Tp = ButtonStateSm*; _Alloc = std::allocator<ButtonStateSm*>]	8	static
+buttoneventshandler.cpp:12:1:ButtonEventsHandler::ButtonEventsHandler()	40	static

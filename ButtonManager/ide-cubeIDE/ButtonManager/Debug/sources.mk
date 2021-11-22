@@ -54,6 +54,7 @@ ide-touchgfx-gen/TouchGFX/gui/src/model \
 ide-touchgfx-gen/TouchGFX/gui/src/terminal_screen \
 ide-touchgfx-gen/TouchGFX/target \
 ide-touchgfx-gen/TouchGFX/target/generated \
+mdw/button \
 mdw/trace/examples \
 platform/f7-disco-gcc/board \
 platform/f7-disco-gcc/ext-26pin \

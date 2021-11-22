@@ -21,7 +21,6 @@ public:
 	void onIrq();	///< @brief Called by the ISR.
 	virtual ~ButtonsController();
 
-protected :
     /**
      * @brief Registers a callback method with its called pointer (callback provider).
      *
@@ -29,6 +28,8 @@ protected :
      */
     bool registerCallback(interface::ButtonsControllerCallbackProvider * callbackProvider,
                                   interface::ButtonsControllerCallbackProvider::CallbackMethod callbackMethod);
+
+protected :
 
 	typedef enum{
 		TIMEOUT_DEBOUNCE = 1

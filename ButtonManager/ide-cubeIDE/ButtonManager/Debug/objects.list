@@ -165,6 +165,8 @@
 "./ide-touchgfx-gen/TouchGFX/target/generated/STM32DMA.o"
 "./ide-touchgfx-gen/TouchGFX/target/generated/TouchGFXConfiguration.o"
 "./ide-touchgfx-gen/TouchGFX/target/generated/TouchGFXGeneratedHAL.o"
+"./mdw/button/buttoneventshandler.o"
+"./mdw/button/buttonstatesm.o"
 "./mdw/trace/examples/trace-example01.o"
 "./platform/f7-disco-gcc/board/buttonscontroller.o"
 "./platform/f7-disco-gcc/board/ledcontroller.o"
