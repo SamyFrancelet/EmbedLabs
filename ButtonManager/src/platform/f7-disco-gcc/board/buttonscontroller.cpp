@@ -55,7 +55,7 @@ XFEventStatus ButtonsController::processEvent() {
 	switch(currentState) {
 	case STATE_INITIAL:
 		if(getCurrentEvent()->getEventType() == XFEvent::Initial) {
-			Trace::out("ButtonsController SM started");
+			//Trace::out("ButtonsController SM started");
 			currentState = STATE_CHECK_BUTTONS;
 			eventStatus = XFEventStatus::Consumed;
 		}
@@ -91,13 +91,13 @@ XFEventStatus ButtonsController::processEvent() {
 		switch(currentState) {
 		case STATE_CHECK_BUTTONS:
 			if(oldState == STATE_DEBOUNCE) {
-				Trace::out("Buttons states :");
+				//Trace::out("Buttons states :");
 				doCheckButtons();
 			}
 			break;
 
 		case STATE_DEBOUNCE:
-			Trace::out("Waiting for debounce...");
+			//Trace::out("Waiting for debounce...");
 			scheduleTimeout(TIMEOUT_DEBOUNCE, DEBOUNCE_TIME);
 			break;
 
@@ -127,7 +127,7 @@ void ButtonsController::doCheckButtons() {
 			if(_callbackProvider != nullptr) {
 				(_callbackProvider->*_callbackMethod)(i, btnState[i]);
 			}
-			Trace::out("Button %d %s", i, btnState[i]?"pressed":"released");
+			//Trace::out("Button %d %s", i, btnState[i]?"pressed":"released");
 		}
 	}
 }

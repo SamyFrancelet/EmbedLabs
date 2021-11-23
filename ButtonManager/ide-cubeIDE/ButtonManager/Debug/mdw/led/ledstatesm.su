@@ -1,0 +1,6 @@
+ledstatesm.cpp:21:1:LedStateSm::~LedStateSm()	8	static
+ledstatesm.cpp:21:1:virtual LedStateSm::~LedStateSm()	8	static
+ledstatesm.cpp:25:15:virtual XFEventStatus LedStateSm::processEvent()	24	static
+ledstatesm.cpp:14:1:LedStateSm::LedStateSm(int, ButtonEventsLedFlasher*)	16	static
+ledstatesm.cpp:102:6:void LedStateSm::onShortPress()	16	static
+ledstatesm.cpp:106:6:void LedStateSm::onLongPress()	16	static

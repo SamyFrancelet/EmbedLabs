@@ -12,6 +12,7 @@
 #include "app/buttoneventslogger.h"
 #include "board/buttonscontroller.h"
 #include "button/buttoneventshandler.h"
+#include "app/buttoneventsledflasher.h"
 
 namespace app
 {
@@ -34,6 +35,7 @@ public:
 protected:
     // TODO: Add static attributes here
     static ButtonEventsLogger* btnEvLog;
+    static ButtonEventsLedFlasher* ledFlash;
     static ButtonsController* btnCtrl;
     static ButtonEventsHandler* btnEvHand;
 };

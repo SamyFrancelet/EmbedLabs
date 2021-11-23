@@ -9,9 +9,14 @@
 #include <app/buttoneventslogger.h>
 #include <board/buttonscontroller.h>
 
+ButtonEventsHandler* ButtonEventsHandler::getInstance() {
+	static ButtonEventsHandler beh;
+	return &beh;
+}
+
 ButtonEventsHandler::ButtonEventsHandler() {
 	// TODO Auto-generated constructor stub
-	for(int i = 1; i <= 4; i++) {
+	for(int i = 0; i < 4; i++) {
 		buttons.push_back(new ButtonStateSm(i, this));
 	}
 

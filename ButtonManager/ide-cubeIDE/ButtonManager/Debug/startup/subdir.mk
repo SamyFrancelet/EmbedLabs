@@ -16,5 +16,5 @@ OBJS += \
 
 # Each subdirectory must supply rules for building sources it contributes
 startup/%.o: ../startup/%.s startup/subdir.mk
-	arm-none-eabi-gcc -mcpu=cortex-m7 -g3 -c -I"D:/work/EmbedLabs/ButtonManager/ide-touchgfx-gen/Drivers/BSP" -x assembler-with-cpp -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "$@" "$<"
+	arm-none-eabi-gcc -mcpu=cortex-m7 -g3 -c -I"C:/work/EmbedLabs/ButtonManager/ide-touchgfx-gen/Drivers/BSP" -x assembler-with-cpp -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "$@" "$<"
 

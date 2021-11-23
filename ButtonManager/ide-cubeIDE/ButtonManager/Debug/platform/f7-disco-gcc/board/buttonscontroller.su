@@ -5,5 +5,5 @@ buttonscontroller.cpp:27:1:virtual ButtonsController::~ButtonsController()	8	sta
 buttonscontroller.cpp:44:6:virtual void ButtonsController::onIrq()	16	static
 buttonscontroller.cpp:20:1:ButtonsController::ButtonsController()	8	static
 buttonscontroller.cpp:15:20:static ButtonsController* ButtonsController::getInstance()	8	static
-buttonscontroller.cpp:113:6:void ButtonsController::doCheckButtons()	32	static
+buttonscontroller.cpp:113:6:void ButtonsController::doCheckButtons()	24	static
 buttonscontroller.cpp:49:15:virtual XFEventStatus ButtonsController::processEvent()	24	static

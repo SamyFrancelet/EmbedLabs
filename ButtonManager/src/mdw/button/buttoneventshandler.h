@@ -19,7 +19,7 @@ class ButtonEventsHandler: public interface::ButtonsControllerCallbackProvider,
 
 	friend class ButtonStateSm;
 public:
-	ButtonEventsHandler();
+	static ButtonEventsHandler* getInstance();
 	virtual ~ButtonEventsHandler();
 
 	void startButtonsBehavior();
@@ -35,6 +35,8 @@ protected:
     void notifyButtonLongPressed(ButtonIndex buttonIndex);              ///< @brief Notifies observers about a button long pressed.
 
 private:
+    ButtonEventsHandler();
+
     std::list<interface::ButtonEventsHandlerObserver*> observers;
     std::vector<ButtonStateSm*> buttons;
 };
