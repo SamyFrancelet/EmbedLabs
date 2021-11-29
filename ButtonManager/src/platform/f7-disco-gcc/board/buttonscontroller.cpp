@@ -22,6 +22,7 @@ ButtonsController::ButtonsController() {
 	currentState = STATE_INITIAL;
 	_callbackProvider = nullptr;
 	_callbackMethod = nullptr;
+	btnInterrupt = new evButtonIrq();
 }
 
 ButtonsController::~ButtonsController() {
@@ -43,7 +44,7 @@ bool ButtonsController::registerCallback(
 
 void ButtonsController::onIrq() {
 	//GEN(evButtonIrq::evButtonIrq(EVENT_IRQ));
-	pushEvent(new evButtonIrq(), true);
+	pushEvent(btnInterrupt, true);
 }
 
 XFEventStatus ButtonsController::processEvent() {

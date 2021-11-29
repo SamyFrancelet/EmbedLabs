@@ -31,6 +31,7 @@
 "./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.o"
 "./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart_ex.o"
 "./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_fmc.o"
+"./app/buttoneventsfilelogger.o"
 "./app/buttoneventsledflasher.o"
 "./app/buttoneventslogger.o"
 "./app/factory.o"

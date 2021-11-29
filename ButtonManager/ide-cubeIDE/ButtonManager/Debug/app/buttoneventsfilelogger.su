@@ -1,0 +1,7 @@
+buttoneventsfilelogger.cpp:11:32:void __tcf_0()	0	static
+buttoneventsfilelogger.cpp:15:6:virtual void ButtonEventsFileLogger::onButtonShortPressed(interface::ButtonEventsHandlerObserver::ButtonIndex)	0	static
+buttoneventsfilelogger.cpp:18:6:virtual void ButtonEventsFileLogger::onButtonLongPressed(interface::ButtonEventsHandlerObserver::ButtonIndex)	0	static
+buttoneventsfilelogger.h:13:7:ButtonEventsFileLogger::~ButtonEventsFileLogger()	0	static
+buttoneventsfilelogger.h:13:7:virtual ButtonEventsFileLogger::~ButtonEventsFileLogger()	8	static
+buttoneventsfilelogger.cpp:21:1:ButtonEventsFileLogger::ButtonEventsFileLogger()	0	static
+buttoneventsfilelogger.cpp:10:25:static ButtonEventsFileLogger* ButtonEventsFileLogger::getInstance()	8	static

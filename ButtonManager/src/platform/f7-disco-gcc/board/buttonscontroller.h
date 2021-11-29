@@ -15,6 +15,8 @@
 
 #define DEBOUNCE_TIME 100
 
+class evButtonIrq;
+
 class ButtonsController : public interface::ButtonIrq, public interface::ButtonsControllerCallbackCaller, public XFBehavior{
 public:
 	static ButtonsController* getInstance();
@@ -53,6 +55,8 @@ private:
 
 	interface::ButtonsControllerCallbackProvider* _callbackProvider;
 	interface::ButtonsControllerCallbackProvider::CallbackMethod _callbackMethod;
+
+	evButtonIrq* btnInterrupt;
 };
 
 #endif /* F7_DISCO_GCC_BOARD_BUTTONSCONTROLLER_H_ */
