@@ -12,7 +12,10 @@
 class evButtonShortPress : public XFCustomEvent
 {
 public:
-    evButtonShortPress();
+	evButtonShortPress();
+    evButtonShortPress(int buttonId);
+
+    int buttonId;
 };
 
 #endif // EVBUTTONSHORTPRESS_H

@@ -40,6 +40,7 @@ void Factory::build()
 
     // Start state machine(s)
 	btnEvHand->startButtonsBehavior();
+	btnEvLog->startBehavior();
 	ledFlash->startLedsBehavior();
 	btnCtrl->startBehavior();
     // TODO: Start state-machines here

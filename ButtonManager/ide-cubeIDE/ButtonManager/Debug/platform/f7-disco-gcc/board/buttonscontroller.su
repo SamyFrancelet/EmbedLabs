@@ -5,5 +5,5 @@ buttonscontroller.cpp:16:27:void __tcf_0()	8	static
 buttonscontroller.cpp:28:1:virtual ButtonsController::~ButtonsController()	8	static
 buttonscontroller.cpp:20:1:ButtonsController::ButtonsController()	16	static
 buttonscontroller.cpp:15:20:static ButtonsController* ButtonsController::getInstance()	8	static
-buttonscontroller.cpp:114:6:void ButtonsController::doCheckButtons()	24	static
-buttonscontroller.cpp:50:15:virtual XFEventStatus ButtonsController::processEvent()	24	static
+buttonscontroller.cpp:110:6:void ButtonsController::doCheckButtons()	24	static
+buttonscontroller.cpp:49:15:virtual XFEventStatus ButtonsController::processEvent()	24	static

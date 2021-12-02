@@ -12,7 +12,10 @@
 class evButtonLongPress : public XFCustomEvent
 {
 public:
-    evButtonLongPress();
+	evButtonLongPress();
+    evButtonLongPress(int buttonId);
+
+    int buttonId;
 };
 
 #endif // EVBUTTONLONGPRESS_H

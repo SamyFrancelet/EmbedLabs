@@ -43,7 +43,7 @@ void ButtonEventsHandler::onButtonChanged(ButtonIndex buttonIndex, bool pressed)
 
 bool ButtonEventsHandler::subscribe(interface::ButtonEventsHandlerObserver *observer) {
 	if(observer != nullptr) {
-		observers.push_front(observer);
+		observers.push_back(observer);
 		return true;
 	}
 	return false;

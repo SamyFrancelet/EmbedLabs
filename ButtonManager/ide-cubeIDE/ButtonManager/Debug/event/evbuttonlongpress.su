@@ -1,4 +1,5 @@
 customevent.h:37:10:virtual bool XFCustomEvent::deleteAfterConsume() const	0	static
 evbuttonlongpress.h:12:7:evButtonLongPress::~evButtonLongPress()	0	static
 evbuttonlongpress.h:12:7:virtual evButtonLongPress::~evButtonLongPress()	8	static
-evbuttonlongpress.cpp:4:1:evButtonLongPress::evButtonLongPress()	8	static
+evbuttonlongpress.cpp:4:1:evButtonLongPress::evButtonLongPress(int)	16	static
+evbuttonlongpress.cpp:10:1:evButtonLongPress::evButtonLongPress()	8	static

@@ -2,3 +2,4 @@ customevent.h:37:10:virtual bool XFCustomEvent::deleteAfterConsume() const	0	sta
 evbuttonshortpress.h:12:7:evButtonShortPress::~evButtonShortPress()	0	static
 evbuttonshortpress.h:12:7:virtual evButtonShortPress::~evButtonShortPress()	8	static
 evbuttonshortpress.cpp:4:1:evButtonShortPress::evButtonShortPress()	8	static
+evbuttonshortpress.cpp:10:1:evButtonShortPress::evButtonShortPress(int)	16	static
