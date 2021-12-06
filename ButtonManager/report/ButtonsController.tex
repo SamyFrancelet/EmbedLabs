@@ -1,0 +1,46 @@
+\documentclass[11pt,titlepage]{report}
+\usepackage{Preamble}
+\addbibresource{ref.bib}
+
+\begin{document}
+
+\begin{titlepage}
+	\newgeometry{margin=3cm}
+	\centering
+    \includegraphics[width=0.75\linewidth]{hes/hei}\\[1cm] 	% University Logo
+    \textsc{\LARGE Haute école d'ingénieur du Valais}\\ \vspace{\fill}
+    \textbf{\textsc{\fontsize{35}{35}\selectfont Labo - ButtonsController}}\\ \vspace{\fill}
+	\textsc{\LARGE Real Time Programming}\\[0.4cm]
+	\rule{\linewidth}{0.2 mm}\\[0.5cm]
+	Samy Francelet \\
+	\today
+\end{titlepage}
+\restoregeometry
+
+\tableofcontents
+
+\chapter{Introduction}
+\input{1-Introduction}
+
+\chapter{Conception}
+\input{2-Methods}
+
+\chapter{Résultats et tests}
+\input{3-Results}
+
+%\chapter{Discussions}
+%\input{4-Discussion}
+
+\chapter{Conclusion}
+\input{5-Conclusion}
+
+\appendix
+\chapter{Diagrammes de classe}
+\begin{figure}[H]
+	\centering
+	\includegraphics[angle=90, height=0.75\textheight]{Images/buttons/full_uml.PNG}
+\end{figure}
+
+\printbibliography[heading=bibintoc]
+
+\end{document}

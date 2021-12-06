@@ -1,0 +1,35 @@
+@startuml
+
+skinparam shadowing false
+'skinparam linetype polyline
+
+skinparam Arrow {
+    Color black
+}
+
+'for choice state
+skinparam activity {
+    BackgroundColor white
+    BorderColor black
+}
+
+skinparam state {
+    BackgroundColor white
+    BorderColor black
+}
+
+[*] --> ST_WAIT_PRESS
+ST_WAIT_PRESS --> ST_SHORT_PRESS : evButtonShortPress
+ST_WAIT_PRESS --> ST_LONG_PRESS : evButtonLongPress
+ST_SHORT_PRESS --> ST_ON
+ST_SHORT_PRESS : entry / nBlink = 2
+ST_LONG_PRESS --> ST_ON
+ST_LONG_PRESS : entry / nBlink = 4
+ST_ON ---> ST_OFF : after(blink_time)
+ST_ON : setLed(on)
+ST_OFF ---> ST_ON : after(blink_time)
+ST_OFF : setLed(off)
+ST_OFF : nBlink -= 1
+ST_OFF --> ST_WAIT_PRESS : nBlink = 0
+
+@enduml

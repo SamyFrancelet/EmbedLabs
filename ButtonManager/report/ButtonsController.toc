@@ -1,0 +1,42 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {french}{}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{2}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Contexte}{2}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Objectifs}{3}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Conception}{4}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Board Layer}{4}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Middleware Layer}{5}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.1}Liaison avec la Board Layer}{5}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.2}ButtonEventsHandler}{6}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Application Layer}{7}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.1}Liaison avec le Middleware}{7}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.2}Découplage complet du ButtonEventsLogger}{7}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.3}ButtonEventsLedFlasher}{8}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Résultats et tests}{9}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Résultats}{9}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Conclusion}{10}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Bilan}{10}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Conclusion personnelle}{10}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Signature}{10}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Diagrammes de classe}{11}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliographie}{13}{}%
