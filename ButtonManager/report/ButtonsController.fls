@@ -1196,10 +1196,13 @@ INPUT 3-Results.tex
 INPUT .\3-Results.tex
 INPUT .\3-Results.tex
 INPUT 3-Results.tex
-INPUT .\Images\buttons\ButtonEventsLogger.png
-INPUT .\Images\buttons\ButtonEventsLogger.png
-INPUT Images\buttons\ButtonEventsLogger.png
-INPUT .\Images\buttons\ButtonEventsLogger.png
+INPUT .\Images\buttons\results.png
+INPUT .\Images\buttons\results.png
+INPUT Images\buttons\results.png
+INPUT .\Images\buttons\results.png
+INPUT .\Images\buttons\results.png
+INPUT .\Images\buttons\results.png
+INPUT .\Images\buttons\results.png
 INPUT .\5-Conclusion.tex
 INPUT .\5-Conclusion.tex
 INPUT .\5-Conclusion.tex
