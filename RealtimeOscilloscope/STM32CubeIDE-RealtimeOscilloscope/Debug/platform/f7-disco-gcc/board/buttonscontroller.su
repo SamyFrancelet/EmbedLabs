@@ -1,0 +1,29 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+buttonirq.h:18:13:interface::ButtonIrq::~ButtonIrq()	16	static
+buttonirq.h:18:13:virtual interface::ButtonIrq::~ButtonIrq()	16	static
+buttonirq.h:23:2:interface::ButtonIrq::ButtonIrq()	16	static
+event.h:43:13:XFEvent::~XFEvent()	16	static
+event.h:43:13:virtual XFEvent::~XFEvent()	16	static
+event.h:49:24:XFEvent::XFEventType XFEvent::getEventType() const	16	static
+event.h:62:16:int XFEvent::getId() const	16	static
+event.h:64:18:virtual bool XFEvent::deleteAfterConsume() const	16	static
+eventstatus.h:37:5:XFEventStatus::XFEventStatus(XFEventStatus::eEventStatus)	16	static
+behavior.h:71:17:void XFBehavior::scheduleTimeout(int, int)	32	static
+buttonscontrollercallbackcaller.h:15:13:interface::ButtonsControllerCallbackCaller::~ButtonsControllerCallbackCaller()	16	static
+buttonscontrollercallbackcaller.h:15:13:virtual interface::ButtonsControllerCallbackCaller::~ButtonsControllerCallbackCaller()	16	static
+buttonscontrollercallbackcaller.h:26:5:interface::ButtonsControllerCallbackCaller::ButtonsControllerCallbackCaller()	16	static
+customevent.h:37:10:virtual bool XFCustomEvent::deleteAfterConsume() const	16	static
+buttonscontroller.cpp:13:1:ButtonsController::ButtonsController()	16	static
+buttonscontroller.cpp:26:1:ButtonsController::~ButtonsController()	16	static
+buttonscontroller.cpp:26:1:virtual ButtonsController::~ButtonsController()	16	static
+buttonscontroller.cpp:33:24:void __tcf_0()	8	static
+buttonscontroller.cpp:31:6:virtual void ButtonsController::onIrq()	16	static
+buttonscontroller.cpp:38:6:virtual bool ButtonsController::registerCallback(interface::ButtonsControllerCallbackProvider*, interface::ButtonsControllerCallbackProvider::CallbackMethod)	32	static
+buttonscontroller.cpp:58:34:ButtonsController::tButtonsValue ButtonsController::readButtonsValue()	24	static
+buttonscontroller.cpp:77:15:virtual XFEventStatus ButtonsController::processEvent()	40	static
+buttonscontroller.cpp:140:6:void ButtonsController::doCheckButtons()	32	static
+buttonscontroller.cpp:161:6:void ButtonsController::notifyButtonChange(uint16_t, bool)	32	static
+customevent.h:22:7:XFCustomEvent::~XFCustomEvent()	16	static
+customevent.h:22:7:virtual XFCustomEvent::~XFCustomEvent()	16	static
+evbuttonirq.h:7:7:evButtonIrq::~evButtonIrq()	16	static
+evbuttonirq.h:7:7:virtual evButtonIrq::~evButtonIrq()	16	static

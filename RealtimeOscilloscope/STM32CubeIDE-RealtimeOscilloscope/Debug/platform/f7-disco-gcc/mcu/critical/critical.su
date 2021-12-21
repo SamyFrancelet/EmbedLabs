@@ -1,0 +1,4 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+critical.cpp:7:5:int inISR()	4	static
+critical.cpp:14:6:void enterCritical()	8	static,ignoring_inline_asm
+critical.cpp:28:6:void exitCritical()	8	static,ignoring_inline_asm
