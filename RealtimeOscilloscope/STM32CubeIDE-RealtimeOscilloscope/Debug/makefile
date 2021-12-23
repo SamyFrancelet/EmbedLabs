@@ -24,8 +24,22 @@ RM := rm -rf
 -include platform/f7-disco-gcc/board/subdir.mk
 -include mdw/trace/examples/subdir.mk
 -include mdw/ext-freqgen/subdir.mk
+-include event/subdir.mk
 -include app/interface/subdir.mk
 -include app/subdir.mk
+-include TouchGFX/target/generated/subdir.mk
+-include TouchGFX/target/subdir.mk
+-include TouchGFX/gui/src/model/subdir.mk
+-include TouchGFX/gui/src/mainview_screen/subdir.mk
+-include TouchGFX/gui/src/common/subdir.mk
+-include TouchGFX/generated/texts/src/subdir.mk
+-include TouchGFX/generated/images/src/__designer/subdir.mk
+-include TouchGFX/generated/images/src/subdir.mk
+-include TouchGFX/generated/gui_generated/src/mainview_screen/subdir.mk
+-include TouchGFX/generated/gui_generated/src/common/subdir.mk
+-include TouchGFX/generated/fonts/src/subdir.mk
+-include TouchGFX/Drivers/Components/ft5336/subdir.mk
+-include TouchGFX/App/subdir.mk
 -include Drivers/STM32F7xx_HAL_Driver/Src/subdir.mk
 -include Core/Startup/subdir.mk
 -include Core/Src/subdir.mk
@@ -94,7 +108,7 @@ main-build: STM32CubeIDE-RealtimeOscilloscope.elf secondary-outputs
 
 # Tool invocations
 STM32CubeIDE-RealtimeOscilloscope.elf: $(OBJS) $(USER_OBJS) C:\work\EmbedLabs\RealtimeOscilloscope\STM32CubeIDE-RealtimeOscilloscope\STM32F746NGHX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-g++ -o "STM32CubeIDE-RealtimeOscilloscope.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"C:\work\EmbedLabs\RealtimeOscilloscope\STM32CubeIDE-RealtimeOscilloscope\STM32F746NGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32CubeIDE-RealtimeOscilloscope.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+	arm-none-eabi-g++ -o "STM32CubeIDE-RealtimeOscilloscope.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"C:\work\EmbedLabs\RealtimeOscilloscope\STM32CubeIDE-RealtimeOscilloscope\STM32F746NGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32CubeIDE-RealtimeOscilloscope.map" -Wl,--gc-sections -static -L"C:/work/EmbedLabs/RealtimeOscilloscope/STM32CubeIDE-RealtimeOscilloscope/../ide-touchgfx-gen/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

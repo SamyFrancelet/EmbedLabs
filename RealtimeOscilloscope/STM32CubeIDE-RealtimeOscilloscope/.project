@@ -32,9 +32,19 @@
 	</natures>
 	<linkedResources>
 		<link>
+			<name>TouchGFX</name>
+			<type>2</type>
+			<location>C:/work/EmbedLabs/RealtimeOscilloscope/ide-touchgfx-gen/TouchGFX</location>
+		</link>
+		<link>
 			<name>app</name>
 			<type>2</type>
 			<location>C:/work/EmbedLabs/RealtimeOscilloscope/src/app</location>
+		</link>
+		<link>
+			<name>event</name>
+			<type>2</type>
+			<location>C:/work/EmbedLabs/RealtimeOscilloscope/src/event</location>
 		</link>
 		<link>
 			<name>mdw</name>
@@ -50,6 +60,11 @@
 			<name>xf</name>
 			<type>2</type>
 			<location>C:/work/EmbedLabs/RealtimeOscilloscope/src/xf</location>
+		</link>
+		<link>
+			<name>TouchGFX/Drivers</name>
+			<type>2</type>
+			<location>C:/work/EmbedLabs/RealtimeOscilloscope/ide-touchgfx-gen/Drivers</location>
 		</link>
 	</linkedResources>
 </projectDescription>
