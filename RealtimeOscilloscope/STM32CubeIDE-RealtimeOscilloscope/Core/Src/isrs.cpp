@@ -9,6 +9,8 @@
 #include "main.h"
 #include "board/buttonscontroller.h"
 
+extern "C" uint16_t adcValuesBuffer[ADC_VALUES_BUFFER_SIZE];// Defined in main.c
+
 extern "C" void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin) {
 	switch(GPIO_Pin) {
 	case BUTTON0_Pin:
@@ -23,7 +25,13 @@ extern "C" void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin) {
 }
 
 extern "C" void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc) {
-	//volatile uint32_t value = HAL_ADC_GetValue(hadc);
+	volatile uint32_t value = HAL_ADC_GetValue(hadc);
+	static uint8_t i = 0;
+	adcValuesBuffer[i] = value;
+	i++;
+	if(i == ADC_VALUES_BUFFER_SIZE)
+		i = 0;
+
 }
 
 extern "C" void HAL_TIM_OC_DelayElapsedCallback(TIM_HandleTypeDef *htim) {

@@ -1,0 +1,12 @@
+thread.h:56:5:constexpr interface::XFThread::XFThread()	16	static
+thread.h:43:13:interface::XFThread::~XFThread()	16	static
+thread.h:43:13:virtual interface::XFThread::~XFThread()	16	static
+thread-default.cpp:36:1:XFThreadDefault::XFThreadDefault(interface::XFThreadEntryPointProvider*, interface::XFThread::EntryMethodBody, const char*, uint32_t)	32	static
+thread-default.cpp:70:6:static void XFThreadDefault::threadEntryPoint(void*)	24	static
+thread-default.cpp:77:6:virtual void XFThreadDefault::start()	16	static
+thread-default.cpp:83:6:virtual void XFThreadDefault::stop()	16	static
+thread-default.cpp:88:6:virtual void XFThreadDefault::setPriority(XFThreadPriority)	24	static
+thread-default.cpp:106:18:virtual XFThreadPriority XFThreadDefault::getPriority() const	24	static
+thread-default.cpp:129:6:virtual void XFThreadDefault::delay(uint32_t)	16	static
+thread-default.h:12:7:XFThreadDefault::~XFThreadDefault()	16	static
+thread-default.h:12:7:virtual XFThreadDefault::~XFThreadDefault()	16	static

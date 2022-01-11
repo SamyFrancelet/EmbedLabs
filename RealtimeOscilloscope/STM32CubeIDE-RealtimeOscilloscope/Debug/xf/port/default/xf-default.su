@@ -1,7 +1,0 @@
-xf-default.cpp:17:6:void XF_initialize(int)	16	static
-xf-default.cpp:22:6:void XF_exec()	8	static
-xf-default.cpp:27:6:void XF_execOnce()	8	static
-xf-default.cpp:32:6:static void XF::initialize(int, int, char**)	24	static
-xf-default.cpp:43:5:static int XF::exec()	8	static
-xf-default.cpp:62:5:static int XF::execOnce()	8	static
-xf-default.cpp:86:6:static bool XF::isRunning()	4	static

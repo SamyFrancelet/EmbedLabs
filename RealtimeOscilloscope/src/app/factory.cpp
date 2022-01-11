@@ -6,6 +6,8 @@
 extern "C" TIM_HandleTypeDef htim1;         // Defined in main.c
 extern "C" ADC_HandleTypeDef hadc3;         // Defined in main.c
 
+extern "C" uint16_t adcValuesBuffer[ADC_VALUES_BUFFER_SIZE];// Defined in main.c
+
 oscilloscope::Controller Factory::_oscilloscopeController;
 oscilloscope::Gui Factory::_gui;
 external::FrequencyGenerator Factory::_fgen;
@@ -32,7 +34,7 @@ Factory::Factory()
 void Factory::initialize()
 {
     // TODO: Initialze OscilloscopeController
-//    getOscilloscopeController().initialize(getGui(), adcValuesBuffer, ADC_VALUES_BUFFER_SIZE);
+    getOscilloscopeController().initialize(getGui(), adcValuesBuffer, ADC_VALUES_BUFFER_SIZE);
     getFrequencyGenerator().initialize();
     getFreqGenController().initialize(getGui());
 #if (TOUCHGFX_BAREMETAL != 0)

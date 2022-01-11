@@ -125,7 +125,7 @@ XFEventStatus ButtonsController::processEvent()
 
             break;
         case STATE_DEBOUNCE:
-            scheduleTimeout(Timeout_DEBOUNCE_id, 100);
+            scheduleTimeout(Timeout_DEBOUNCE_id, 50);
             break;
         default:
             break;

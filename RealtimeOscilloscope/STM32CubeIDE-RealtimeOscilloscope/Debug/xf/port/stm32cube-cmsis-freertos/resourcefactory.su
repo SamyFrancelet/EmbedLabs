@@ -1,0 +1,13 @@
+resourcefactory.h:72:5:constexpr interface::XFResourceFactory::XFResourceFactory()	16	static
+resourcefactory.h:69:13:interface::XFResourceFactory::~XFResourceFactory()	16	static
+resourcefactory.h:69:13:virtual interface::XFResourceFactory::~XFResourceFactory()	16	static
+resourcefactory.h:15:5:XFResourceFactoryPort::XFResourceFactoryPort()	16	static
+resourcefactory.cpp:15:34:void __tcf_0()	8	static
+resourcefactory.cpp:13:32:static interface::XFResourceFactory* interface::XFResourceFactory::getInstance()	8	static
+resourcefactory.cpp:21:35:void __tcf_1()	8	static
+resourcefactory.cpp:19:27:virtual interface::XFDispatcher* XFResourceFactoryPort::getDefaultDispatcher()	16	static
+resourcefactory.cpp:25:27:virtual interface::XFDispatcher* XFResourceFactoryPort::createDispatcher()	24	static
+resourcefactory.cpp:30:23:virtual interface::XFThread* XFResourceFactoryPort::createThread(interface::XFThreadEntryPointProvider*, interface::XFThread::EntryMethodBody, const char*, uint32_t)	40	static
+resourcefactory.cpp:38:22:virtual interface::XFMutex* XFResourceFactoryPort::createMutex()	16	static
+resourcefactory.h:12:7:XFResourceFactoryPort::~XFResourceFactoryPort()	16	static
+resourcefactory.h:12:7:virtual XFResourceFactoryPort::~XFResourceFactoryPort()	16	static

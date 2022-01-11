@@ -1,0 +1,22 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+event.h:49:24:XFEvent::XFEventType XFEvent::getEventType() const	16	static
+event.h:55:36:interface::XFReactive* XFEvent::getBehavior() const	16	static
+dispatcher.h:67:35:virtual interface::XFThread* interface::XFDispatcher::getThread() const	16	static
+dispatcher-active.h:34:10:virtual bool XFDispatcherActiveDefault::isActive() const	16	static
+thread.h:25:5:constexpr interface::XFThreadEntryPointProvider::XFThreadEntryPointProvider()	16	static
+thread.h:23:13:interface::XFThreadEntryPointProvider::~XFThreadEntryPointProvider()	16	static
+thread.h:23:13:virtual interface::XFThreadEntryPointProvider::~XFThreadEntryPointProvider()	16	static
+dispatcher.h:59:5:constexpr interface::XFDispatcher::XFDispatcher()	16	static
+dispatcher.h:34:13:interface::XFDispatcher::~XFDispatcher()	16	static
+dispatcher.h:34:13:virtual interface::XFDispatcher::~XFDispatcher()	16	static
+dispatcher-active.cpp:20:1:XFDispatcherActiveDefault::XFDispatcherActiveDefault()	48	static
+dispatcher-active.cpp:31:1:XFDispatcherActiveDefault::~XFDispatcherActiveDefault()	16	static
+dispatcher-active.cpp:31:1:virtual XFDispatcherActiveDefault::~XFDispatcherActiveDefault()	16	static
+dispatcher-active.cpp:42:6:virtual void XFDispatcherActiveDefault::start()	16	static
+dispatcher-active.cpp:49:6:virtual void XFDispatcherActiveDefault::stop()	16	static
+dispatcher-active.cpp:55:6:virtual void XFDispatcherActiveDefault::pushEvent(XFEvent*, bool)	24	static
+dispatcher-active.cpp:63:6:virtual void XFDispatcherActiveDefault::scheduleTimeout(int, int, interface::XFReactive*)	32	static
+dispatcher-active.cpp:69:6:virtual void XFDispatcherActiveDefault::unscheduleTimeout(int, interface::XFReactive*)	32	static
+dispatcher-active.cpp:75:5:virtual int XFDispatcherActiveDefault::execute(const void*)	16	static
+dispatcher-active.cpp:92:5:virtual int XFDispatcherActiveDefault::executeOnce()	24	static
+dispatcher-active.cpp:126:6:virtual void XFDispatcherActiveDefault::dispatchEvent(const XFEvent*) const	24	static

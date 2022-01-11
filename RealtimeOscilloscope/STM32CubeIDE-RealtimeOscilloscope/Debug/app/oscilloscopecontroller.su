@@ -22,10 +22,10 @@ oscilloscopecontroller.cpp:49:15:virtual XFEventStatus oscilloscope::Controller:
 oscilloscopecontroller.cpp:84:6:virtual void oscilloscope::Controller::onButtonTimePlusPressed()	32	static
 oscilloscopecontroller.cpp:91:6:virtual void oscilloscope::Controller::onButtonTimeMinusPressed()	32	static
 oscilloscopecontroller.cpp:98:6:void oscilloscope::Controller::doShowAnalogSignal()	16	static
-oscilloscopecontroller.cpp:103:6:void oscilloscope::Controller::doButtonTimePlusPressed()	48	static
-oscilloscopecontroller.cpp:113:6:void oscilloscope::Controller::doButtonTimeMinusPressed()	48	static
-oscilloscopecontroller.cpp:123:13:std::string oscilloscope::Controller::getText(oscilloscope::TDivValue)	40	static
+oscilloscopecontroller.cpp:104:6:void oscilloscope::Controller::doButtonTimePlusPressed()	48	static
+oscilloscopecontroller.cpp:114:6:void oscilloscope::Controller::doButtonTimeMinusPressed()	48	static
+oscilloscopecontroller.cpp:124:13:std::string oscilloscope::Controller::getText(oscilloscope::TDivValue)	40	static
 oscilloscopecontroller.h:27:3:oscilloscope::TDivOption::~TDivOption()	16	static
-oscilloscopecontroller.cpp:137:1:void __static_initialization_and_destruction_0(int, int)	48	static
-oscilloscopecontroller.cpp:137:1:cpp)	8	static
-oscilloscopecontroller.cpp:137:1:cpp)	8	static
+oscilloscopecontroller.cpp:138:1:void __static_initialization_and_destruction_0(int, int)	48	static
+oscilloscopecontroller.cpp:138:1:cpp)	8	static
+oscilloscopecontroller.cpp:138:1:cpp)	8	static

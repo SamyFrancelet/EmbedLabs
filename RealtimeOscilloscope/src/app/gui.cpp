@@ -90,7 +90,7 @@ void Gui::setFreqGenFrequencyText(std::string text)
 XFEventStatus Gui::processEvent()
 {
 #if (PORT_IDF_STM32CUBE != 0)
-    GEN(XFNullTransition);
+    //GEN(XFNullTransition);
 #endif
     return XFEventStatus::Consumed;
 }

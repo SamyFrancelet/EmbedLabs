@@ -6,24 +6,20 @@ oscilloscopecontroller.h:41:10:virtual oscilloscope::Controller::~Controller()	1
 buttonscontrollercallbackprovider.h:14:13:interface::ButtonsControllerCallbackProvider::~ButtonsControllerCallbackProvider()	16	static
 buttonscontrollercallbackprovider.h:14:13:virtual interface::ButtonsControllerCallbackProvider::~ButtonsControllerCallbackProvider()	16	static
 buttonscontroller.h:27:17:void ButtonsController::start()	16	static
-factory.cpp:15:6:void Factory_initialize()	8	static
-factory.cpp:21:6:void Factory_build()	8	static
-factory.cpp:26:1:Factory::Factory()	16	static
-factory.cpp:32:6:static void Factory::initialize()	16	static
-factory.cpp:44:6:static void Factory::build()	24	static
-factory.cpp:61:28:static oscilloscope::Controller& Factory::getOscilloscopeController()	8	static
-factory.cpp:67:21:static oscilloscope::Gui& Factory::getGui()	4	static
-factory.cpp:73:20:static ButtonsController& Factory::getButtonsController()	4	static
-factory.cpp:78:34:static oscilloscope::FreqGenController& Factory::getFreqGenController()	4	static
-factory.cpp:87:25:void __tcf_0()	8	static
-factory.cpp:85:16:static TouchGfxTask& Factory::getTouchGfxTask()	8	static
-factory.cpp:92:21:static external::FrequencyGenerator& Factory::getFrequencyGenerator()	4	static
+factory.cpp:17:6:void Factory_initialize()	8	static
+factory.cpp:23:6:void Factory_build()	8	static
+factory.cpp:28:1:Factory::Factory()	16	static
+factory.cpp:34:6:static void Factory::initialize()	16	static
+factory.cpp:46:6:static void Factory::build()	24	static
+factory.cpp:63:28:static oscilloscope::Controller& Factory::getOscilloscopeController()	8	static
+factory.cpp:69:21:static oscilloscope::Gui& Factory::getGui()	4	static
+factory.cpp:75:20:static ButtonsController& Factory::getButtonsController()	4	static
+factory.cpp:80:34:static oscilloscope::FreqGenController& Factory::getFreqGenController()	4	static
+factory.cpp:94:21:static external::FrequencyGenerator& Factory::getFrequencyGenerator()	4	static
 freqgencontroller.h:32:7:oscilloscope::FreqGenController::~FreqGenController()	16	static
 freqgencontroller.h:32:7:virtual oscilloscope::FreqGenController::~FreqGenController()	16	static
 gui.h:16:7:oscilloscope::Gui::~Gui()	16	static
 gui.h:16:7:virtual oscilloscope::Gui::~Gui()	16	static
-factory.cpp:94:1:void __static_initialization_and_destruction_0(int, int)	16	static
-touchgfxtask.h:9:7:TouchGfxTask::~TouchGfxTask()	16	static
-touchgfxtask.h:9:7:virtual TouchGfxTask::~TouchGfxTask()	16	static
-factory.cpp:94:1:cpp)	8	static
-factory.cpp:94:1:cpp)	8	static
+factory.cpp:96:1:void __static_initialization_and_destruction_0(int, int)	16	static
+factory.cpp:96:1:cpp)	8	static
+factory.cpp:96:1:cpp)	8	static

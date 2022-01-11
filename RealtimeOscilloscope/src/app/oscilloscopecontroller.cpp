@@ -97,6 +97,7 @@ void Controller::onButtonTimeMinusPressed()
 
 void Controller::doShowAnalogSignal()
 {
+	gui().drawGraphPoints(_adcValuesBuffer, ADC_VALUES_BUFFER_SIZE);
     // TODO: Call gui().drawGraphPoints() with the appropriate data.
 }
 

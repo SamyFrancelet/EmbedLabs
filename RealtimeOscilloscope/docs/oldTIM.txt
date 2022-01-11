@@ -1,0 +1,5 @@
+TIM2	: Channel 1 PWM
+TIM3	: Channel 1 PWM
+TIM5 	: Channel 4 PWM
+TIM8 	: None
+TIM12	: Channel 1 PWM

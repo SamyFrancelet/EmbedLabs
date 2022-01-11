@@ -1,0 +1,11 @@
+eventqueue.h:23:5:constexpr interface::XFEventQueue::XFEventQueue()	16	static
+eventqueue.h:14:13:interface::XFEventQueue::~XFEventQueue()	16	static
+eventqueue.h:14:13:virtual interface::XFEventQueue::~XFEventQueue()	16	static
+eventqueue.cpp:10:1:XFEventQueuePort::XFEventQueuePort(uint32_t)	16	static
+eventqueue.cpp:18:1:XFEventQueuePort::~XFEventQueuePort()	16	static
+eventqueue.cpp:18:1:virtual XFEventQueuePort::~XFEventQueuePort()	16	static
+eventqueue.cpp:23:6:virtual bool XFEventQueuePort::empty() const	16	static
+eventqueue.cpp:28:6:virtual bool XFEventQueuePort::push(const XFEvent*, bool)	40	static
+eventqueue.cpp:41:11:virtual XFEvent* XFEventQueuePort::front()	24	static
+eventqueue.cpp:53:6:virtual void XFEventQueuePort::pop()	24	static
+eventqueue.cpp:65:6:virtual bool XFEventQueuePort::pend()	24	static
