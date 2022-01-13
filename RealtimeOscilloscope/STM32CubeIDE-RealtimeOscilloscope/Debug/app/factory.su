@@ -15,11 +15,15 @@ factory.cpp:63:28:static oscilloscope::Controller& Factory::getOscilloscopeContr
 factory.cpp:69:21:static oscilloscope::Gui& Factory::getGui()	4	static
 factory.cpp:75:20:static ButtonsController& Factory::getButtonsController()	4	static
 factory.cpp:80:34:static oscilloscope::FreqGenController& Factory::getFreqGenController()	4	static
+factory.cpp:89:25:void __tcf_0()	8	static
+factory.cpp:87:16:static TouchGfxTask& Factory::getTouchGfxTask()	8	static
 factory.cpp:94:21:static external::FrequencyGenerator& Factory::getFrequencyGenerator()	4	static
 freqgencontroller.h:32:7:oscilloscope::FreqGenController::~FreqGenController()	16	static
 freqgencontroller.h:32:7:virtual oscilloscope::FreqGenController::~FreqGenController()	16	static
 gui.h:16:7:oscilloscope::Gui::~Gui()	16	static
 gui.h:16:7:virtual oscilloscope::Gui::~Gui()	16	static
 factory.cpp:96:1:void __static_initialization_and_destruction_0(int, int)	16	static
+touchgfxtask.h:9:7:TouchGfxTask::~TouchGfxTask()	16	static
+touchgfxtask.h:9:7:virtual TouchGfxTask::~TouchGfxTask()	16	static
 factory.cpp:96:1:cpp)	8	static
 factory.cpp:96:1:cpp)	8	static

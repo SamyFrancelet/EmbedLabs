@@ -1,8 +1,8 @@
 gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
 Model.cpp:6:1:Model::Model()	16	static
 Model.cpp:16:8:static Model* Model::getInstance()	4	static
-Model.cpp:20:6:void Model::tick()	104	static
-Model.cpp:70:6:void Model::setGraphPoints(uint16_t*, uint16_t, float)	32	static
-Model.cpp:84:6:void Model::setDivTimLabel(std::string)	24	static
-Model.cpp:95:6:void Model::setModeSignal(std::string)	24	static
-Model.cpp:106:6:void Model::setFreqSignal(std::string)	24	static
+Model.cpp:20:6:void Model::tick()	96	static
+Model.cpp:70:6:void Model::setGraphPoints(uint16_t*, uint16_t, float)	24	static
+Model.cpp:84:6:void Model::setDivTimLabel(std::string)	16	static
+Model.cpp:95:6:void Model::setModeSignal(std::string)	16	static
+Model.cpp:106:6:void Model::setFreqSignal(std::string)	16	static
