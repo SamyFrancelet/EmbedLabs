@@ -28,30 +28,11 @@ extern "C" void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin) {
 extern "C" void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc) {
 	volatile uint32_t value = HAL_ADC_GetValue(hadc);
 	static uint32_t i = 0;
-	static bool start = false;
 
-	if (oscilloscope::Controller::getInstance().triggerOn()) {
-		if (value >= 2000 && value <= 2100) { // Bigger than 2^11
-			start = true;
-		}
-	} else {
-		start = true;
-	}
-
-	if (start) {
-		adcValuesBuffer[i] = value;
-		i++;
-		if(i == ADC_VALUES_BUFFER_SIZE) {
-			i = 0;
-			start = false;
-		}
-	}
-
-
-	/*adcValuesBuffer[i] = value;
+	adcValuesBuffer[i] = value;
 	i++;
 	if(i >= ADC_VALUES_BUFFER_SIZE)
-		i = 0;*/
+		i = 0;
 }
 
 extern "C" void HAL_TIM_OC_DelayElapsedCallback(TIM_HandleTypeDef *htim) {

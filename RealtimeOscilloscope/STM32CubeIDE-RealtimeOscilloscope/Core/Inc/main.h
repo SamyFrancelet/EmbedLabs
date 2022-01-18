@@ -60,7 +60,7 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define ADC_VALUES_BUFFER_SIZE 256
+#define ADC_VALUES_BUFFER_SIZE 8000
 #define LCD_B0_Pin GPIO_PIN_4
 #define LCD_B0_GPIO_Port GPIOE
 #define OTG_HS_OverCurrent_Pin GPIO_PIN_3

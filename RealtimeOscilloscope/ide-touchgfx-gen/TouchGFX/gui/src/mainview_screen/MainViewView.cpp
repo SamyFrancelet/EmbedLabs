@@ -8,6 +8,7 @@ MainViewView::MainViewView()
 {
 	if(_instance==nullptr){
 	    _instance = this;
+	    chart.setGraphRangeX(0, 400-1);
 	}
 }
 
@@ -60,7 +61,7 @@ void MainViewView::drawGraph(uint16_t* values, uint16_t count){
 		numberOfPoints=400;
 		intervalBetweenPoints=(count+1)/numberOfPoints;
 	}
-	chart.setGraphRangeX(0, numberOfPoints-1);
+	//chart.setGraphRangeX(0, numberOfPoints-1);
 	chartMajorXAxisGrid.setInterval(numberOfPoints/8);
 	for(int i=0;i<count;){
 		chart.addDataPoint(values[i]);

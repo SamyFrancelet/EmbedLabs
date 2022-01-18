@@ -80,7 +80,7 @@ protected:
 	bool _trig;
 
 	const int TIMEOUT_ID = 0;
-	const int TIMEOUT_INTERVAL = 20;
+	const int TIMEOUT_INTERVAL = 40;
 
 	const int BTN_PLUS_ID = 0;
 	const int BTN_MINUS_ID = 1;

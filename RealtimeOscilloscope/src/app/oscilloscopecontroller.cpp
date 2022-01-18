@@ -113,7 +113,7 @@ void Controller::doShowAnalogSignal()
 {
 	// Trying to add the trigger here is horrible and cause suffering all around the world
 	/*if(triggerOn()) {
-		uint32_t shift;
+		uint32_t shift = 0;
 		for(int i = 0; i < ADC_VALUES_BUFFER_SIZE; i++) {
 			if(_adcValuesBuffer[i] >= 2000 && _adcValuesBuffer[i] <= 2100) { // Around than 2^11, which is ~middle
 				shift = i;

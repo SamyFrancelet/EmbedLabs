@@ -47,6 +47,11 @@
 			<location>C:/work/EmbedLabs/RealtimeOscilloscope/src/event</location>
 		</link>
 		<link>
+			<name>ide-touchgfx-gen</name>
+			<type>2</type>
+			<location>C:/work/EmbedLabs/RealtimeOscilloscope/ide-touchgfx-gen</location>
+		</link>
+		<link>
 			<name>mdw</name>
 			<type>2</type>
 			<location>C:/work/EmbedLabs/RealtimeOscilloscope/src/mdw</location>
