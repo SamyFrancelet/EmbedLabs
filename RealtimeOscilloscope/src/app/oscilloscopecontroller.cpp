@@ -19,6 +19,7 @@ Controller::Controller() :
     _pGui(nullptr),
     _adcValuesBuffer(nullptr),
 	_adcValuesBufferSize(0),
+	_trig(false),
 	_tdivValue(TDIV_1ms)
 {
     assert(!_pInstance);    // Only one instance of this class allowed!
@@ -78,6 +79,12 @@ XFEventStatus Controller::processEvent()
 		doButtonTimeMinusPressed();
 	}
 
+	if (getCurrentEvent()->getEventType() == XFEvent::Event &&
+		getCurrentEvent()->getId() == BTN_TRIG_ID)
+	{
+		doButtonTriggerPressed();
+	}
+
 	return XFEventStatus::Consumed;
 }
 
@@ -95,8 +102,29 @@ void Controller::onButtonTimeMinusPressed()
 	pushEvent(evButtonMinus);
 }
 
+void Controller::onButtonTriggerPressed()
+{
+	XFEvent* evButtonTrig = new XFEvent(XFEvent::Event, BTN_TRIG_ID, this);
+
+	pushEvent(evButtonTrig);
+}
+
 void Controller::doShowAnalogSignal()
 {
+	// Trying to add the trigger here is horrible and cause suffering all around the world
+	/*if(triggerOn()) {
+		uint32_t shift;
+		for(int i = 0; i < ADC_VALUES_BUFFER_SIZE; i++) {
+			if(_adcValuesBuffer[i] >= 2000 && _adcValuesBuffer[i] <= 2100) { // Around than 2^11, which is ~middle
+				shift = i;
+				break;
+			}
+		}
+		gui().drawGraphPoints(_adcValuesBuffer+shift, ADC_VALUES_BUFFER_SIZE-shift);
+	} else {
+		gui().drawGraphPoints(_adcValuesBuffer, ADC_VALUES_BUFFER_SIZE);
+	}*/
+
 	gui().drawGraphPoints(_adcValuesBuffer, ADC_VALUES_BUFFER_SIZE);
     // TODO: Call gui().drawGraphPoints() with the appropriate data.
 }
@@ -119,6 +147,11 @@ void Controller::doButtonTimeMinusPressed()
 
         gui().setTimeDivisionText(getText(_tdivValue));
     }
+}
+
+void Controller::doButtonTriggerPressed()
+{
+	_trig = !_trig;
 }
 
 std::string Controller::getText(TDivValue tdivValue)

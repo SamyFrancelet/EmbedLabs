@@ -1,5 +1,0 @@
-gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
-buttonscontroller.h:25:32:static ButtonsController& ButtonsController::getInstance()	8	static
-isrs.cpp:14:17:void HAL_GPIO_EXTI_Callback(uint16_t)	16	static
-isrs.cpp:27:17:void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef*)	24	static
-isrs.cpp:37:17:void HAL_TIM_OC_DelayElapsedCallback(TIM_HandleTypeDef*)	16	static

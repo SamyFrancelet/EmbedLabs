@@ -1,3 +1,0 @@
-ext_26pin.c:9:9:Ext_Debug_Init	32	static
-ext_26pin.c:25:9:Ext_FreqGen_Init	48	static
-ext_26pin.c:89:6:Ext_FreqGen_Set	32	static

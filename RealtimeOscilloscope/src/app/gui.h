@@ -38,6 +38,7 @@ public:
 
     void onButtonTimePlusPressed();
     void onButtonTimeMinusPressed();
+    void onButtonTriggerPressed();
 
     // XFBehavior interface
 protected:

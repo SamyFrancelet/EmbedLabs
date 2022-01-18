@@ -16,6 +16,7 @@ public:
     static MainViewView* getInstance();
     virtual void onBtnPlusPressed();
     virtual void onBtnMinusPressed();
+    virtual void onBtnTriggerPressed();
     void setModeSignal(const std::string str);
     void setFreqSignal(const std::string str);
     void setLabelDivTime(const std::string str);

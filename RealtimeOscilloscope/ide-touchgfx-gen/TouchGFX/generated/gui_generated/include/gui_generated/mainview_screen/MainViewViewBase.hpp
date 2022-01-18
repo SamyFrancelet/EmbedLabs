@@ -36,6 +36,11 @@ public:
         // Override and implement this function in MainView
     }
 
+    virtual void onBtnTriggerPressed()
+    {
+    	// Override and implement this function in MainView
+    }
+
 protected:
     FrontendApplication& application() {
         return *static_cast<FrontendApplication*>(touchgfx::Application::getInstance());

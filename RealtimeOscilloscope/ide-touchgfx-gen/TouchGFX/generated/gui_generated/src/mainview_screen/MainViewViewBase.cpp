@@ -546,6 +546,7 @@ void MainViewViewBase::buttonCallbackHandler(const touchgfx::AbstractButton& src
         //onTriggerPush
         //When btnTrigger clicked execute C++ code
         //Execute C++ code
+    	onBtnTriggerPressed();
         //When btnTrigger clicked toggle redLedDisable
         if(redLedDisable.isVisible()){
         	redLedDisable.setVisible(false);

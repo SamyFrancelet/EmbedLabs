@@ -176,7 +176,7 @@ int main(void)
   /* USER CODE BEGIN 2 */
   // TouchGFX init
   MX_TouchGFX_Init();
-  XF_initialize(20); // 20ms timeInterval
+  XF_initialize(10); // 10ms timeInterval
   Factory_initialize();
   Factory_build();
 
@@ -1383,7 +1383,7 @@ static void MX_GPIO_Init(void)
 void StartDefaultTask(void *argument)
 {
   /* USER CODE BEGIN 5 */
-  MX_TouchGFX_Process();
+	MX_TouchGFX_Process();
   /* Infinite loop */
   for(;;)
   {

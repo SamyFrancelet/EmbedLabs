@@ -48,6 +48,8 @@ public:
 
 	inline TDivValue getTDivValue() const { return _tdivValue; }
 
+	bool triggerOn() const { return _trig; }
+
 	// XFReactive interface implementation
 protected:
 	XFEventStatus processEvent() override;
@@ -56,12 +58,14 @@ protected:
 protected:
     void onButtonTimePlusPressed() override;
     void onButtonTimeMinusPressed() override;
+    void onButtonTriggerPressed() override;
     uint32_t getTDivCount() const override { return 8; };
 
 protected:
 	void doShowAnalogSignal();
 	void doButtonTimePlusPressed();
 	void doButtonTimeMinusPressed();
+	void doButtonTriggerPressed();
 	inline Gui & gui() const { assert(_pGui); return *_pGui; }
 
 	std::string getText(TDivValue tdivValue);
@@ -73,11 +77,14 @@ protected:
 	uint16_t * _adcValuesBuffer;
 	uint32_t _adcValuesBufferSize;
 
+	bool _trig;
+
 	const int TIMEOUT_ID = 0;
 	const int TIMEOUT_INTERVAL = 20;
 
 	const int BTN_PLUS_ID = 0;
 	const int BTN_MINUS_ID = 1;
+	const int BTN_TRIG_ID = 2;
 
 	TDivValue _tdivValue;
 

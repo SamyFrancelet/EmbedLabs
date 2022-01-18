@@ -33,6 +33,10 @@ void MainViewView::onBtnMinusPressed(){
 	oscilloscope::Gui::getInstance()->onButtonTimeMinusPressed();
 }
 
+void MainViewView::onBtnTriggerPressed(){
+	oscilloscope::Gui::getInstance()->onButtonTriggerPressed();
+}
+
 void MainViewView::setModeSignal(const std::string str){
 	Unicode::fromUTF8((const unsigned char *)str.c_str(),labelSignalBuffer1,LABELSIGNALBUFFER1_SIZE);
 	labelSignal.invalidate();

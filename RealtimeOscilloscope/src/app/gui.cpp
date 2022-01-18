@@ -105,4 +105,9 @@ void Gui::onButtonTimeMinusPressed()
     _pGuiObserver->onButtonTimeMinusPressed();
 }
 
+void Gui::onButtonTriggerPressed()
+{
+	_pGuiObserver->onButtonTriggerPressed();
+}
+
 }   // namespace oscilloscope
