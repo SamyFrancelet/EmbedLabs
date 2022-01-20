@@ -68,7 +68,7 @@
     <stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="Debug/STM32CubeIDE-RealtimeOscilloscope.elf"/>
     <stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="STM32CubeIDE-RealtimeOscilloscope"/>
     <booleanAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_AUTO_ATTR" value="false"/>
-    <stringAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_ID_ATTR" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1009247845"/>
+    <stringAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_ID_ATTR" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1667986837"/>
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
         <listEntry value="/STM32CubeIDE-RealtimeOscilloscope"/>
     </listAttribute>

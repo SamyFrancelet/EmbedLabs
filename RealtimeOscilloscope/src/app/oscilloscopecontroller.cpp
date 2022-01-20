@@ -112,7 +112,7 @@ void Controller::onButtonTriggerPressed()
 void Controller::doShowAnalogSignal()
 {
 	// Trying to add the trigger here is horrible and cause suffering all around the world
-	/*if(triggerOn()) {
+	if(triggerOn()) {
 		uint32_t shift = 0;
 		for(int i = 0; i < ADC_VALUES_BUFFER_SIZE; i++) {
 			if(_adcValuesBuffer[i] >= 2000 && _adcValuesBuffer[i] <= 2100) { // Around than 2^11, which is ~middle
@@ -123,9 +123,9 @@ void Controller::doShowAnalogSignal()
 		gui().drawGraphPoints(_adcValuesBuffer+shift, ADC_VALUES_BUFFER_SIZE-shift);
 	} else {
 		gui().drawGraphPoints(_adcValuesBuffer, ADC_VALUES_BUFFER_SIZE);
-	}*/
+	}
 
-	gui().drawGraphPoints(_adcValuesBuffer, ADC_VALUES_BUFFER_SIZE);
+	//gui().drawGraphPoints(_adcValuesBuffer, ADC_VALUES_BUFFER_SIZE);
     // TODO: Call gui().drawGraphPoints() with the appropriate data.
 }
 

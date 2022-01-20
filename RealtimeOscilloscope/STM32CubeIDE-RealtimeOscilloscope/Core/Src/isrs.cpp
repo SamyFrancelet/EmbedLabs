@@ -31,8 +31,7 @@ extern "C" void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc) {
 
 	adcValuesBuffer[i] = value;
 	i++;
-	if(i >= ADC_VALUES_BUFFER_SIZE)
-		i = 0;
+	i %= ADC_VALUES_BUFFER_SIZE;
 }
 
 extern "C" void HAL_TIM_OC_DelayElapsedCallback(TIM_HandleTypeDef *htim) {
