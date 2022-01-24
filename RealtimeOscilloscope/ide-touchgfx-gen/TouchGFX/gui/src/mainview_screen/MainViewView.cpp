@@ -1,5 +1,7 @@
 #include <gui/mainview_screen/MainViewView.hpp>
 
+#include "stm32f7xx_hal.h"
+
 #include "app/gui.h"
 
 MainViewView* MainViewView::_instance = nullptr;
@@ -8,6 +10,8 @@ MainViewView::MainViewView()
 {
 	if(_instance==nullptr){
 	    _instance = this;
+	    chart.setGraphRangeX(0, 399);
+	    chartMajorXAxisGrid.setInterval(400/8);
 	}
 }
 
@@ -60,11 +64,13 @@ void MainViewView::drawGraph(uint16_t* values, uint16_t count){
 		numberOfPoints=400;
 		intervalBetweenPoints=(count+1)/numberOfPoints;
 	}
-	chart.setGraphRangeX(0, numberOfPoints-1);
-	chartMajorXAxisGrid.setInterval(numberOfPoints/8);
+	//chart.setGraphRangeX(0, numberOfPoints-1);
+	//chartMajorXAxisGrid.setInterval(numberOfPoints/8);
 	for(int i=0;i<count;){
 		chart.addDataPoint(values[i]);
 		i += intervalBetweenPoints;
 	}
+	//SCB_InvalidateDCache();
+	//SCB_CleanDCache();
 	chart.invalidate();
 }

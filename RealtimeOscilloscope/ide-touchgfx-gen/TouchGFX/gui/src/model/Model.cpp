@@ -69,7 +69,7 @@ void Model::tick()
 
 void Model::setGraphPoints(uint16_t * values, uint16_t count, float xScale){
 	this->values=values;
-	this->count=count;
+	this->count=count/xScale;
 #if (TOUCHGFX_BAREMETAL != 0)
 	this->flagGraph=true;
 #endif // TOUCHGFX_BAREMETAL

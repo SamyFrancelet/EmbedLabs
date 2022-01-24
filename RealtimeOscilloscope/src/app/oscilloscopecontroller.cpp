@@ -5,6 +5,16 @@
 #include "gui.h"
 #include "oscilloscopecontroller.h"
 
+typedef struct {
+	uint32_t i;
+	uint32_t value;
+	uint32_t prevValue;
+} debugStruct;
+
+debugStruct arr[64];
+
+uint32_t arrIndex = 0;
+
 namespace oscilloscope {
 
 Controller * Controller::_pInstance(nullptr);
@@ -111,22 +121,59 @@ void Controller::onButtonTriggerPressed()
 
 void Controller::doShowAnalogSignal()
 {
+	static int pouet = 0;
 	// Trying to add the trigger here is horrible and cause suffering all around the world
-	if(triggerOn()) {
+	/*if(triggerOn()) {
 		uint32_t shift = 0;
-		for(int i = 0; i < ADC_VALUES_BUFFER_SIZE; i++) {
-			if(_adcValuesBuffer[i] >= 2000 && _adcValuesBuffer[i] <= 2100) { // Around than 2^11, which is ~middle
+		int i;
+		for(i = 2; i < 2000; i++) {
+			if(_adcValuesBuffer[i] >= 2000
+					&& _adcValuesBuffer[i-2] < _adcValuesBuffer[i]) { // Around than 2^11, which is ~middle
 				shift = i;
 				break;
 			}
 		}
-		gui().drawGraphPoints(_adcValuesBuffer+shift, ADC_VALUES_BUFFER_SIZE-shift);
+		arr[arrIndex].i = i;
+		arr[arrIndex].value = _adcValuesBuffer[i];
+		arr[arrIndex].prevValue = _adcValuesBuffer[i-2];
+
+		arrIndex++;
+		arrIndex %= 64;
+
+		if(shift == 0) {
+			// Do nothing
+			pouet++;
+		} else {
+			gui().drawGraphPoints(_adcValuesBuffer+shift, ADC_VALUES_BUFFER_SIZE-shift);
+		}
+
 	} else {
 		gui().drawGraphPoints(_adcValuesBuffer, ADC_VALUES_BUFFER_SIZE);
+	}*/
+
+	float scale = 1.0;
+	switch(_tdivValue) {
+	case TDIV_500us:
+		scale = 20.0;
+		break;
+	case TDIV_1ms:
+		scale = 10.0;
+		break;
+	case TDIV_2ms:
+		scale = 4.0;
+		break;
+	case TDIV_5ms:
+		scale = 2.0;
+		break;
+	case TDIV_10ms:
+		scale = 1.0;
+		break;
+	default:
+		scale = 1.0;
+		break;
 	}
 
-	//gui().drawGraphPoints(_adcValuesBuffer, ADC_VALUES_BUFFER_SIZE);
-    // TODO: Call gui().drawGraphPoints() with the appropriate data.
+	gui().drawGraphPoints(_adcValuesBuffer, ADC_VALUES_BUFFER_SIZE, scale);
 }
 
 void Controller::doButtonTimePlusPressed()
